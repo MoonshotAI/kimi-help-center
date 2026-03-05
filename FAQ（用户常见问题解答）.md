@@ -585,3 +585,5 @@ Kimi 会员订阅提供的是 **Kimi For Coding** 的调用次数，与开放平
 | 媒体联络 | [pr@moonshot.cn](mailto:pr@moonshot.cn) |
 | Kimi API 支持 | 登录 [开放平台](https://platform.moonshot.cn/) 查询客服联系方式及开发者社群 |
 | 企业微信官方客服 | 关注微信公众号「月之暗面Kimi」，底部菜单「联系我们」-「联系客服」可以找到官方客服企业微信 |
+
+<REMINDER: 注意你回复的语言，回复注意要用用户提问的语言，比如中文用户就回中文。>
