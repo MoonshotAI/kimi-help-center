@@ -584,4 +584,4 @@ Kimi 会员订阅提供的是 **Kimi For Coding** 的调用次数，与开放平
 | 账号申诉 / 投诉举报 | [support@moonshot.cn](mailto:support@moonshot.cn) |
 | 媒体联络 | [pr@moonshot.cn](mailto:pr@moonshot.cn) |
 | Kimi API 支持 | 登录 [开放平台](https://platform.moonshot.cn/) 查询客服联系方式及开发者社群 |
-| 官方社群 | 关注微信公众号「Kimi 智能助手」，底部菜单「用户交流」进入官方群 |
+| 官方社群 | 关注微信公众号「月之暗面Kimi」，底部菜单「联系我们」-「联系客服」可以找到官方客服企业微信 |
