@@ -157,6 +157,8 @@ Kimi Claw is currently available on the web and mobile app (Android/iOS). Please
 - It may have been disconnected from the server—refresh the page
 - Try "Restart Kimi Claw" in Settings. After it restarts, message Kimi Claw again to see if it responds
 - If neither works, try "Auto-fix Kimi Claw" in Settings
+<img width="772" height="1076" alt="image" src="https://github.com/user-attachments/assets/9e35fd07-c172-4656-848b-d523392f4622" />
+
 
 ### 3.4 Can Kimi Claw send and receive files to/from me?
 
@@ -174,6 +176,4 @@ You can run this command on the linked OpenClaw device to uninstall the Kimi plu
 bash <(curl -fsSL https://cdn.kimi.com/kimi-claw/uninstall.sh)
 ```
 
----
 
-**Last Updated**: 2024 | **Version**: 2.6.0
