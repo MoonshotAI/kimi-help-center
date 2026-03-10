@@ -119,9 +119,10 @@ Kimi Claw内置Skill会帮助你配置不同的机器人，你可以和它说：
   请在网页端右上角打开【终端】把：openclaw pairing approve feishu xxxxx 发到终端，再和Kimi Claw对话就可以回复了。
 <img width="1280" height="540" alt="image" src="https://github.com/user-attachments/assets/39a55205-988e-4995-af32-9e3422a326f1" />
 
-## 配置企业微信机器人
-目前企业微信内企业管理员、成员均可以创建智能机器人，并支持单聊、内部群聊内主动向用户推送消息。您可以根据下面的步骤完成基于 Kimi Claw 的企业微信机器人配置，或参考官方文档 以长连接方式接入OpenClaw。
+## 配置企业微信机器人：Kimi Claw支持部署到企业微信
+Kimi Claw 目前支持部署到企业微信。操作指南：目前企业微信内企业管理员、成员均可以创建智能机器人，并支持单聊、内部群聊内主动向用户推送消息。您可以根据下面的步骤完成基于 Kimi Claw 的企业微信机器人配置，或参考官方文档 以长连接方式接入OpenClaw。
 
+**创建步骤**
 1. 创建企业微信机器人
   - 前往 企业微信官网https://work.weixin.qq.com/  并登录；在【安全与管理工具】> 【管理工具】内选择 【智能机器人】
 <img width="1280" height="672" alt="image" src="https://github.com/user-attachments/assets/16f5612d-c0b3-463d-af10-8d7c8f35d585" />
