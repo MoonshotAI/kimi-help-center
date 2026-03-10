@@ -129,7 +129,7 @@
 
 **Q：如何开发票？**
 
-开票方式
+开票方式（C端会员的自助开票入口）
 1. 点击用户主页，选择“设置”-点击“管理”-订阅，在账单找到“开发票”；
    <img width="1512" height="1462" alt="image" src="https://github.com/user-attachments/assets/cacb28db-165a-4074-a9b7-938c3733e4b1" />
 
