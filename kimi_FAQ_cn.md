@@ -129,19 +129,34 @@
 
 **Q：如何开发票？**
 
-**微信支付渠道**：支持开具增值税普通发票或专用发票，请提供以下信息发至客服邮箱：
+开票方式
+1. 点击用户主页，选择“设置”-点击“管理”-订阅，在账单找到“开发票”；
+   <img width="1512" height="1462" alt="image" src="https://github.com/user-attachments/assets/cacb28db-165a-4074-a9b7-938c3733e4b1" />
 
-1. 微信充值订单号
-2. 发票类型（增值税普通发票 / 增值税专用发票）
-3. 发票抬头
-4. 企业税号
-5. 手机号
-6. 邮箱地址
+3. 点击“开发票”
+   <img width="1608" height="1796" alt="image" src="https://github.com/user-attachments/assets/028978a8-a11b-4eca-9517-f08067a5d245" />
 
-收到完整信息后将在 1-3 个工作日内开具，请注意查收短信或邮件。
+5. 填写发票信息
+   <img width="1286" height="1032" alt="image" src="https://github.com/user-attachments/assets/c99216bd-11c9-4495-99a8-9e94f9d6de1f" />
+<img width="848" height="1136" alt="image" src="https://github.com/user-attachments/assets/0f8a29d9-0e66-46ca-b9e1-64455bc9687e" />
 
-**苹果支付渠道**：由于渠道特殊性，仅提供付费收据。请在邮件中搜索「Apple」，找到 Kimi 订阅相关邮件收据作为凭证。
+4.按开票类型，有不同的必填字段
+普通-个人：抬头、邮箱
+普通-企业：抬头、邮箱、税号
+专用发票：抬头、邮箱、税号、银行名称、银行账号、地址、电话
+您需要开具的发票类型：增普通发票/专用发票
+普通发票下选择：企业/个人
+发票抬头、银行名称、银行账号、地址、电话
+格式校验：不能为空
 
+已开票如何重新发送
+<img width="1090" height="372" alt="image" src="https://github.com/user-attachments/assets/c9e7b31e-adf5-490f-9e47-57eb4bd7ab72" />
+
+账单页对应订单显示【已开票】，点击进入发票弹窗
+<img width="862" height="774" alt="image" src="https://github.com/user-attachments/assets/e8e09607-b67d-48ae-aab3-f936ded178ac" />
+
+显示已填信息，但仅邮箱支持修改，按钮为重新发送和取消
+提示如需重新开票，请联系客服邮箱，同时原票将失效 如需重新开票，请联系客服邮箱 membership@moonshot.cn，同时原发票将失效
 ---
 
 ## 联系客服
