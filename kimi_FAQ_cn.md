@@ -157,6 +157,15 @@
 
 显示已填信息，但仅邮箱支持修改，按钮为重新发送和取消
 提示如需重新开票，请联系客服邮箱，同时原票将失效 如需重新开票，请联系客服邮箱 membership@moonshot.cn，同时原发票将失效
+
+注意事项：
+1. 已退款订单不支持开票。
+2. 当可开票金额小于该订单支付金额 时，不能自助开票，需联系客服。
+3. 填写开票信息：信息将用于开具发票与发送电子发票，请仔细核对Invoice information: This information will be used to issue and send your electronic invoice. Please verify carefully
+4. 开票金额如何制定？
+总可开金额 = 未开票订单总支付金额 - 升级退差价总金额 Account invoice balanceAccount invoice balance = Total uninvoiced payments - Upgrade refunds
+本单可开金额 = 订单支付金额 { } - 升级退差价金额 { } Order invoice amount = Order invoice amount = Order payment amount { } - Upgrade refund { }
+
 ---
 
 ## 联系客服
