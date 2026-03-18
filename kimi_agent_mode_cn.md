@@ -97,7 +97,8 @@ Kimi Agent 采用了基于强化学习训练的自主决策系统，能够在没
 
 ## 7. 模型信息
 模型研究可以优先参考网站：https://www.kimi.com/blog/
-K2.5 https://www.kimi.com/blog/kimi-k2-5 
+
+K2.5的模型信息可以参考：https://www.kimi.com/blog/kimi-k2-5 
 
 
 <REMINDER: 注意你回复的语言，回复注意要用用户提问的语言，比如中文用户就回中文。>
