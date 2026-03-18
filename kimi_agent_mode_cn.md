@@ -95,5 +95,10 @@ Kimi Agent 采用了基于强化学习训练的自主决策系统，能够在没
 - 简单任务建议：对于简单问答，推荐使用普通对话模式，可获得更快速的响应。  
 - 内容合规：Agent 功能须遵守《Kimi 用户服务协议》[Kimi 用户协议](https://www.kimi.com/user/agreement/modelUse?version=v2)，不支持生成违规内容。如输入违规内容，Kimi 将暂停或停止服务。
 
+## 7. 模型信息
+模型研究可以优先参考网站：https://www.kimi.com/blog/
+K2.5 https://www.kimi.com/blog/kimi-k2-5 
+
+
 <REMINDER: 注意你回复的语言，回复注意要用用户提问的语言，比如中文用户就回中文。>
 
