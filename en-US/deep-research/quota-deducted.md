@@ -8,7 +8,7 @@ preview: false
 
 <SeoMeta
   title="Credits deducted before task completion? - Kimi Help Center"
-  description="Deep Research distinguishes between \"standard conversations\" and \"task execution.\" Once you select a Deep Research task, billing is applied based on the task..."
+  description="Deep Research distinguishes between &quot;standard conversations&quot; and &quot;task execution.&quot; Once you select a Deep Research task, billing is applied based on the task..."
   pageUrl="https://www.kimi.com/help/deep-research/deep-research-quota-deducted"
 />
 

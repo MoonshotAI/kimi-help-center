@@ -8,7 +8,7 @@ preview: false
 
 <SeoMeta
   title="Search or reasoning direction went wrong? - Kimi Help Center"
-  description="If Deep Research's search direction or reasoning has significantly deviated from expectations, click the \"👎\" button at the bottom of the page and briefly des..."
+  description="If Deep Research's search direction or reasoning has significantly deviated from expectations, click the &quot;👎&quot; button at the bottom of the page and briefly des..."
   pageUrl="https://www.kimi.com/help/deep-research/deep-research-wrong-direction"
 />
 

@@ -8,7 +8,7 @@ preview: false
 
 <SeoMeta
   title="K2.5 Agent Swarm [Beta] - Kimi Help Center"
-  description="K2.5 Agent Swarm Beta is a \"horizontal scaling\" architecture that coordinates up to 100 sub-agents working in parallel — no predefined roles or hand-crafted..."
+  description="K2.5 Agent Swarm Beta is a &quot;horizontal scaling&quot; architecture that coordinates up to 100 sub-agents working in parallel — no predefined roles or hand-crafted..."
   pageUrl="https://www.kimi.com/help/agent/agent-swarm"
 />
 
