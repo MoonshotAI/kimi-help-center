@@ -1,0 +1,7 @@
+{
+  "title": "Others",
+  "description": "Account security, feedback, privacy policy, and other settings",
+  "icon": "others",
+  "order": 11,
+  "note": "extract_headings in each md front matter controls whether ## headings appear as expandable items on the list page"
+}

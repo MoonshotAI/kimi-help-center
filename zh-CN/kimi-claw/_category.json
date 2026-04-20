@@ -1,0 +1,7 @@
+{
+  "title": "Kimi Claw",
+  "description": "产品介绍、接入飞书、使用技巧、注意事项",
+  "icon": "kimi-claw",
+  "order": 7,
+  "note": "每篇 md 的 front matter 中 extract_headings: true/false 控制是否在列表页展开 ## 标题"
+}

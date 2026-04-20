@@ -1,0 +1,12 @@
+# macOS / Windows filesystem noise
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Editor settings
+.idea/
+.vscode/
+
+# Vim swap files
+*.swp
+*.swo

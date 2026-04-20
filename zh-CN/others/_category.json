@@ -1,0 +1,7 @@
+{
+  "title": "其他",
+  "description": "账号安全、隐私条款、个人设置",
+  "icon": "others",
+  "order": 11,
+  "note": "每篇 md 的 front matter 中 extract_headings: true/false 控制是否在列表页展开 ## 标题"
+}

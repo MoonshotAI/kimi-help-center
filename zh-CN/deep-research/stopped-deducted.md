@@ -1,0 +1,25 @@
+---
+title: "我主动停止了任务，却被扣除了额度？"
+slug: "deep-research-stopped-deducted"
+order: 7
+extract_headings: false
+preview: true
+preview_content: "主动停止深度研究任务后的额度扣除规则与建议。"
+---
+<SeoMeta
+  title="深度研究中途停止为什么还扣了额度？ - Kimi 帮助中心"
+  description="解答深度研究中断后仍扣除额度的原因。任务启动后模型已开始推理和搜索，即使手动停止，已消耗的计算资源仍会计入额度。"
+  pageUrl="https://www.kimi.com/help/deep-research/deep-research-stopped-deducted"
+/>
+
+# 主动停止任务后的额度扣除
+
+## 主动终止会扣除额度
+
+深度研究一旦启动，系统即调用算力进行检索、验证与推理，资源已被锁定，因此主动点击「停止」或关闭页面均视为已消耗额度。
+
+## 建议
+
+若页面长时间无更新，建议先刷新浏览器或稍后再查看，避免因误判「卡住」而中断任务。
+
+深度研究通常需要 10–25 分钟，执行期间可离开页面，任务将在后台异步运行，完成后将发送通知。

@@ -1,0 +1,7 @@
+{
+  "title": "网站",
+  "description": "使用Agent搭建网页、部署与分享、多轮修改",
+  "icon": "websites",
+  "order": 3,
+  "note": "每篇 md 的 front matter 中 extract_headings: true/false 控制是否在列表页展开 ## 标题"
+}

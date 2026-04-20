@@ -1,0 +1,13 @@
+{
+  "title": "Kimi Help Center",
+  "description": "Find everything you need to know about Kimi — guides, features, API docs, and more",
+  "hot_questions": ["Membership plans", "Kimi Claw", "Slides download", "API errors"],
+  "search_placeholder": "Can't download PPT/Word/Excel from chat?",
+  "field_definitions": {
+    "extract_headings": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether to extract ## headings to the article list page as expandable sub-items. true = FAQ articles; false = guide articles"
+    }
+  }
+}

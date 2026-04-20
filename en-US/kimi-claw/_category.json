@@ -1,0 +1,7 @@
+{
+  "title": "Kimi Claw",
+  "description": "Your personal AI assistant — setup, chat platforms, memory, troubleshooting",
+  "icon": "kimi-claw",
+  "order": 7,
+  "note": "extract_headings: true/false in each md front matter controls whether ## headings are shown as sub-items on list pages"
+}

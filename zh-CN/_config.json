@@ -1,0 +1,18 @@
+{
+  "title": "Kimi 帮助中心",
+  "description": "在这里你可以找到关于 Kimi 的所有帮助信息",
+  "hot_questions": [
+    "会员权益",
+    "Kimi Claw",
+    "PPT下载",
+    "调用API报错"
+  ],
+  "search_placeholder": "会话中的 PPT/Word/Excel 怎么无法下载?",
+  "field_definitions": {
+    "extract_headings": {
+      "type": "boolean",
+      "default": false,
+      "description": "是否抽取文章中的 ## 标题到二级文章列表页作为可展开子项。true=FAQ类文章，## 标题在列表页外显为子项；false=介绍类文章，## 标题仅在详情页右侧目录显示"
+    }
+  }
+}

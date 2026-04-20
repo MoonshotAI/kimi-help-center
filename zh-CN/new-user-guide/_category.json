@@ -1,0 +1,7 @@
+{
+  "title": "新手入门",
+  "description": "Agentic会话、搜索功能、记忆空间、联系与建议",
+  "icon": "getting-started",
+  "order": 1,
+  "note": "每篇 md 的 front matter 中 extract_headings: true/false 控制是否在列表页展开 ## 标题"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "表格和文档",
+  "description": "产品介绍、使用案例、提示词库",
+  "icon": "docs-sheets",
+  "order": 5,
+  "note": "每篇 md 的 front matter 中 extract_headings: true/false 控制是否在列表页展开 ## 标题"
+}

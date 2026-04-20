@@ -1,0 +1,7 @@
+{
+  "title": "Kimi Code",
+  "description": "权益说明、Kimi Code CLI 使用指南、第三方使用",
+  "icon": "kimi-code",
+  "order": 9,
+  "note": "每篇 md 的 front matter 中 extract_headings: true/false 控制是否在列表页展开 ## 标题"
+}
