@@ -26,9 +26,12 @@ Agent Swarm 的诞生源于一个真实场景：
 2025年6月，一位团队成员尝试让Kimi自动收集每日股票信息——检查宏观趋势新闻、查询历史涨停数据、条件匹配后深入分析。当她写到第100行if-else代码时突然意识到：“我在手写一个多智能体系统。” 如果模型能使用工具、处理长程任务，为什么它们不能自我架构——决定何时并行化、雇佣谁、如何委派？“
 
 Agent Swarm 是一个自我设计的组织结构——包含老板、员工和分工，但这个组织不是由人类设计，而是由AI自己设计。主Agent（主智能体）学会自主指挥一个最多包含 100 个子 Agent（sub-agent） 群体，执行最多 1,500 步的并行工作流，而主Agent（主智能体）则负责监督 15 个步骤。
-//Frames
-![image](images/swarm/swarm-01.png)
-//
+
+<Frames
+  src="./images/swarm/swarm-01.png"
+  alt="image"
+/>
+
 Kimi Agent Swarm（智能体集群）通过PARL（Parallel-Agent Reinforcement Learning）训练方法，将 Kimi K2.5 的功能从单任务执行扩展到协同的多智能体协作。与单 Agent 方案相比，Agent Swarm 在大规模搜索场景中将完成目标所需的最少关键步骤减少了 3× 至 4.5×，折算为实际执行时间最高缩短 4.5 倍。
 
 用一个实际案例来解释Agent Swarm 的运作机制：
@@ -37,9 +40,11 @@ Kimi Agent Swarm（智能体集群）通过PARL（Parallel-Agent Reinforcement L
 ## 如何使用
 
 **Kimi Agent Swarm产品入口**
-//Frames
-![image](images/swarm/swarm-02.png)
-//
+
+<Frames
+  src="./images/swarm/swarm-02.png"
+  alt="image"
+/>
 
 - 网页版：https://www.kimi.com/agent-swarm
 - 手机/平板：打开 Kimi App → 选择切换模式 → 切换至 K2.5 Agent 集群模式
@@ -49,9 +54,12 @@ Kimi Agent Swarm（智能体集群）通过PARL（Parallel-Agent Reinforcement L
 ### 操作步骤
 
 1. 向Kimi Agent Swarm 清晰地描述你的任务需求并发送。例如：“收集200+篇Paul Graham 文章”、“进行100个细分领域Top 3创作者挖掘”等。系统进入自动执行阶段，实时查看任务执行进展
-//Frames
-![image](images/swarm/swarm-03-01.png)
-//
+
+<Frames
+  src="./images/swarm/swarm-03-01.png"
+  alt="image"
+/>
+
 2. 系统将在后台自动执行任务，你可以实时看到：
    - 创建任务清单，创建子代理并行执行任务
    - 推理和决策的逻辑链路
@@ -59,9 +67,12 @@ Kimi Agent Swarm（智能体集群）通过PARL（Parallel-Agent Reinforcement L
    - 访问的网址和信息来源
    - 代码生成或分析的中间过程
    - Agent集群中每位代理的任务进展与结果
-//Frames
-![image](images/swarm/swarm-04.png)
-//
+
+<Frames
+  src="./images/swarm/swarm-04.png"
+  alt="image"
+/>
+
 3. 任务完成后，获取专业级别的交付成果
 4. 根据任务类型，Kimi Agent Swarm 会生成相应的输出，包含多个文件：
    - 代码项目：完整可运行的网站代码、应用程序等（包含 HTML、CSS、JavaScript）
@@ -76,34 +87,40 @@ Kimi Agent Swarm（智能体集群）通过PARL（Parallel-Agent Reinforcement L
 ### 规模化探索
 案例1：100个细分领域Top 3创作者挖掘
 任务要求找出100个YouTube细分领域各自的Top 3创作者。K2.5 Agent Swarm首先研究并定义每个领域，然后自主创建100个子智能体进行并行搜索，最终生成包含频道名称、订阅数、描述的结构化表格和可视化图表。
-//Frames
-![image](images/swarm/swarm-04.png)
-//
-//
+
+<Frames
+  src="./images/swarm/swarm-04.png"
+  alt="image"
+/>
+
 任务执行结果：100 位子智能体（sub-agent）正在寻找创作者
-Chat 19c40eea-b272-8ef2-8000-0000af5e0baa
-//
+
+<Chat title="查看结果" src="https://www.kimi.com/share/19c40eea-b272-8ef2-8000-0000af5e0baa?hide_sidebar=1&disable_auto_preview=1" />
 
 案例2：收集200+篇Paul Graham 文章
 Paul Graham 的文章分散在个人网站、旧博客、转录演讲中。Agent Swarm指派专门的子智能体搜索、下载、分类、总结，最终将超过200篇原始文章整理进主题文件夹，并生成综合总结报告。
-//Frames
-![image](images/swarm/swarm-05.png)
-//
-//
+
+<Frames
+  src="./images/swarm/swarm-05.png"
+  alt="image"
+/>
+
 任务执行结果：收集200+篇Paul Graham 文章
-Chat 19cc436e-73c2-89bd-8000-000078b7d71e
-//
+
+<Chat title="查看结果" src="https://www.kimi.com/share/19cc436e-73c2-89bd-8000-000078b7d71e?hide_sidebar=1&disable_auto_preview=1" />
 
 ### 规模化输出
 案例：从40篇PDF生成100页文献综述
 K2.5 Agent Swarm 将任务分解到文档集合，部署多个写作专用子智能体，每个负责特定章节。最终输出一份100页、双栏的学术文档，包含完整格式化的引用和参考文献，以及方法分布饼图、引用网络分析图等可视化内容。
-//Frames
-![image](images/swarm/swarm-06.png)
-//
-//
+
+<Frames
+  src="./images/swarm/swarm-06.png"
+  alt="image"
+/>
+
 任务执行结果：Generate 100-Page Literature Review from 40 PDFs
-Chat 19c4106b-89b2-8361-8000-0000d07b8235
-//
+
+<Chat title="查看结果" src="https://www.kimi.com/share/19c4106b-89b2-8361-8000-0000d07b8235?hide_sidebar=1&disable_auto_preview=1" />
 
 ### 多视角分析
 Agent Swarm 可以从结构上避免群体思维（Group think），创造条件让独立智能体得出不同结论，然后强制进行调和。
@@ -112,23 +129,27 @@ Agent Swarm 可以从结构上避免群体思维（Group think），创造条件
 - 资深产品经理：担忧技术债务
 - 怀疑型投资人：质疑单位经济模型
 - 客户成功负责人：捍卫边缘案例
-//Frames
-![image](images/swarm/swarm-07.png)
-//
-//
+
+<Frames
+  src="./images/swarm/swarm-07.png"
+  alt="image"
+/>
+
 任务执行结果：Get your product plan reviewed by a team of experts
-Chat 19c40bc9-31a2-8533-8000-0000bad59b7a
-//
+
+<Chat title="查看结果" src="https://www.kimi.com/share/19c40bc9-31a2-8533-8000-0000bad59b7a?hide_sidebar=1&disable_auto_preview=1" />
 
 案例：《三体》20种文学风格续写
 Agent Swarm创建了20位不同文学风格的“作家”子智能体——从弗吉尼亚·伍尔夫式的内心独白，到博尔赫斯式的思想迷宫，再到卡夫卡式的荒诞世界。每位“作家”独立创作，最终呈现出同一故事内核的多元叙事可能。
-//Frames
-![image](images/swarm/swarm-08.png)
-//
-//
+
+<Frames
+  src="./images/swarm/swarm-08.png"
+  alt="image"
+/>
+
 任务执行结果：Let 20 writers create alternative endings for The Three-Body Problem
-Chat 19c409c8-8692-821a-8000-0000070ad369
-//
+
+<Chat title="查看结果" src="https://www.kimi.com/share/19c409c8-8692-821a-8000-0000070ad369?hide_sidebar=1&disable_auto_preview=1" />
 
 ## 技术解析
 ### AI 可以团队协作

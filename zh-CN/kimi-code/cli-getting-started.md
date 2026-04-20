@@ -33,40 +33,69 @@ Kimi Code CLI 是一个运行在终端中的 AI Agent，帮助你完成软件开
 
 在终端中运行以下命令安装 Kimi Code CLI：
 
-//
-curl -LsSf https://code.kimi.com/install.sh | bash CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "curl -LsSf https://code.kimi.com/install.sh | bash",
+    },
+  ]}
+/>
 
 安装完成后，验证安装是否成功：
 
-//
-kimi --version CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi --version",
+    },
+  ]}
+/>
 
-//
+<Callout type="tip">
 如果 `kimi` 命令未找到，请尝试重新打开终端或执行 `source ~/.bashrc`（或 `~/.zshrc`）。
-Callout 提示
-//
+</Callout>
 
 ## 首次运行
 
 1. 进入你的项目目录：
 
-//
-   cd /path/to/your/project CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "cd /path/to/your/project",
+    },
+  ]}
+/>
 
 2. 启动 Kimi Code CLI：
 
-//
-   kimi CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi",
+    },
+  ]}
+/>
 
 3. 执行 `/login` 命令完成登录授权：
 
-//
-   /login CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "prompt.txt",
+      language: "text",
+      content: "/login",
+    },
+  ]}
+/>
 
    系统会提示你选择登录平台，按提示完成授权即可。
 
@@ -76,8 +105,14 @@ Callout 提示
 
 在项目目录下执行 `/init` 命令，Kimi Code CLI 会自动扫描项目结构并生成 `AGENTS.md` 文件：
 
-//
-/init CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "prompt.txt",
+      language: "text",
+      content: "/init",
+    },
+  ]}
+/>
 
 `AGENTS.md` 用于向 AI 提供项目的背景信息、构建步骤、代码规范等上下文，帮助 AI 更准确地理解你的项目。

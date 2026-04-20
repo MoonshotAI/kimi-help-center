@@ -53,9 +53,12 @@ Kimi Agent 致力于在调研、编程、办公等实际专业场景中提供强
 
 ## Agent 如何工作？
 Kimi Agent 采用了基于强化学习训练的自主决策系统，能够在没有预设工作流的情况下动态处理复杂任务。
-//Frames
-![Agent产品入口](images/agent-overview/overview-00.png)
-//
+
+<Frames
+  src="./images/agent-overview/overview-00.png"
+  alt="Agent产品入口"
+/>
+
 当你向 Agent 提交一个需求时，通用 Agent经历以下步骤：
 - 任务规划：接收用户指令后，识别关键信息，自动拆解为多个子任务，生成清晰的执行计划，并实时动态展示；
 - 工具调用：内置 20 多种工具，涵盖代码编写、终端操作、网页浏览、图片生成、音频生成、专业财经数据接入、网站部署等，按需灵活调用；
@@ -64,31 +67,42 @@ Kimi Agent 采用了基于强化学习训练的自主决策系统，能够在没
 - 成果交付：任务完成后，输出高质量的产出物，例如，可以直接下载、编辑的Excel、Word、PPT的办公文件，部署好的在线网页和可交互的APP，可复制保存为PDF/Word的万字报告等。
 
 ## 产品入口
-//Frames
-![Agent产品入口](images/agent-overview/overview-01.png)
-//
+
+<Frames
+  src="./images/agent-overview/overview-01.png"
+  alt="Agent产品入口"
+/>
 
 - 网页版：[https://www.kimi.com/agent](https://www.kimi.com/agent)
 - 手机/平板：打开 Kimi App → 工具栏（Taskbar）→ 切换至 Agent 模式
 
 ## 操作步骤
 1. 向 Agent 清晰地描述你的任务需求并发送。例如：“帮我创建一个在线投票工具的网站代码”、“分析 2025 年 AI 芯片行业的竞争格局”等。系统进入自动执行阶段，实时查看任务执行进展
-//Frames
-![Agent用户任务输入](images/agent-overview/overview-02.png)
-//
+
+<Frames
+  src="./images/agent-overview/overview-02.png"
+  alt="Agent用户任务输入"
+/>
+
 2. 系统将在后台自动执行任务，你可以实时看到：
    - 推理和决策的逻辑链路
    - 调用的工具类型和执行步骤
    - 访问的网址和信息来源
    - 代码生成或分析的中间过程
-//Frames
-![Agent任务过程](images/agent-overview/overview-03.png)
-//
+
+<Frames
+  src="./images/agent-overview/overview-03.png"
+  alt="Agent任务过程"
+/>
+
 3. 任务完成后，获取专业级别的交付成果
 4. 根据任务类型，Agent 会生成相应的输出：
-//Frames
-![Agent产出物示意](images/agent-overview/overview-04.png)
-//
+
+<Frames
+  src="./images/agent-overview/overview-04.png"
+  alt="Agent产出物示意"
+/>
+
    - 代码项目：完整可运行的网站代码、应用程序等（包含 HTML、CSS、JavaScript）
    - 文件夹：任务执行过程中的所有过程文件
    - 数据分析：图表、趋势分析、关键指标的表格
@@ -96,9 +110,12 @@ Kimi Agent 采用了基于强化学习训练的自主决策系统，能够在没
 5. 预览、下载或分享产出成果
 
 ## 适用场景
-//Frames
-![Agent适用场景](images/agent-overview/overview-06.png)
-//
+
+<Frames
+  src="./images/agent-overview/overview-06.png"
+  alt="Agent适用场景"
+/>
+
 - 网站开发：零代码基础，也可以做出一个多功能的网站原型。通用 Agent 会深入理解业务需求，规划结构与流程，逐步实现 Web 应用原型，并支持直接部署到云端，生成可分享的链接。
 - 内容生成：编写儿童故事并配套绘本与音频均可支持。通用 Agent 能自动搜索素材、整理内容、遵循视觉规范，产出物可编辑，支持多种格式。
 - 文档处理：多版合同比对： 快速识别 100 页合同条款差异，精准标注风险点；超长文档翻译：将 50 页英文 PDF 翻译，并转为中文或中英双语 PDF
@@ -106,10 +123,31 @@ Kimi Agent 采用了基于强化学习训练的自主决策系统，能够在没
 - PPT生成：智能模版、内容生成，制作高品质 PPT
 - 文档互转：PDF/Word速转PPT：从 3 万字学术论文中提炼核心论点，生成 20 页逻辑严密的答辩 PPT
 
-//
-[网站生成](websites-overview) 零代码基础，也可以做出一个多功能的网站原型并部署上线
-[PPT 制作](ppt-overview) 智能模版、内容生成，从框架到内容一站式生成高品质 PPT
-[文档与表格](docs-and-sheets-overview) 智能文档编辑、数据分析，支持 Word、Excel、PDF 等多种格式
-[深度研究](deep-research-overview) 通过复杂搜索、多步推理，生成万字高质量研究报告
-ColumnsContent
-//
+<ColumnsContent
+  columns={[
+    {
+      title: "网站生成",
+      description: "零代码基础，也可以做出一个多功能的网站原型并部署上线。",
+      pageUrl: "/help/websites/websites-overview",
+      type: "browser",
+    },
+    {
+      title: "PPT 制作",
+      description: "智能模版、内容生成，从框架到内容一站式生成高品质 PPT。",
+      pageUrl: "/help/ppt/ppt-overview",
+      type: "ppt",
+    },
+    {
+      title: "文档与表格",
+      description: "智能文档编辑、数据分析，支持 Word、Excel、PDF 等多种格式。",
+      pageUrl: "/help/docs-and-sheets/docs-and-sheets-overview",
+      type: "document",
+    },
+    {
+      title: "深度研究",
+      description: "通过复杂搜索、多步推理，生成万字高质量研究报告。",
+      pageUrl: "/help/deep-research/deep-research-overview",
+      type: "microscope",
+    },
+  ]}
+/>

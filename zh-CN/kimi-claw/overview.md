@@ -17,9 +17,10 @@ OpenClaw 是一个具备独特个性与长期记忆能力的 AI 助手。在 Kim
 
 ## 一键部署 OpenClaw
 
-//Frames
-![一键部署 OpenClaw](images/kimi-claw/overview-01.png)
-//
+<Frames
+  src="./images/kimi-claw/overview-01.png"
+  alt="一键部署 OpenClaw"
+/>
 
 如果你还没有自己的 OpenClaw，可以前往 [kimi.com/bot](https://kimi.com/bot) 创建专属的 OpenClaw。Kimi 将为你把 OpenClaw 一键部署到云端，无需额外购买服务器或命令行配置。
 
@@ -28,15 +29,21 @@ OpenClaw 是一个具备独特个性与长期记忆能力的 AI 助手。在 Kim
 - Kimi Claw 支持直接部署到飞书、企业微信、微博等平台。
 
 ## 创建流程
-//Frames
-![创建完成](images/kimi-claw/overview-02.png)
-//
+
+<Frames
+  src="./images/kimi-claw/overview-02.png"
+  alt="创建完成"
+/>
+
 1. 登录 [kimi.com/bot](https://kimi.com/bot)。
 2. 点击 **创建** Kimi Claw。
 3. 等待系统自动完成配置（通常需要几分钟）。
-//Frames
-![聊天频道配置](images/kimi-claw/overview-03.gif)
-//
+
+<Frames
+  src="./images/kimi-claw/overview-03.gif"
+  alt="聊天频道配置"
+/>
+
 4. 修改 Kimi Claw 的昵称，设置个性化名称。
 5. 在 **设置 → 聊天频道** 中配置你需要的聊天平台（微信、飞书、企业微信等）。
 
@@ -48,6 +55,7 @@ OpenClaw 是一个具备独特个性与长期记忆能力的 AI 助手。在 Kim
 2. 跟随指引在运行 OpenClaw 的设备上安装插件。
 3. 安装完成后，即可在 Kimi 里与你的 OpenClaw 对话。
 
-//Frames
-![聊天频道配置](images/kimi-claw/overview-05.png)
-//
+<Frames
+  src="./images/kimi-claw/overview-05.png"
+  alt="聊天频道配置"
+/>

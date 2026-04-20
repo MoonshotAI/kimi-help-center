@@ -42,12 +42,15 @@ Kimi Claw 支持部署到钉钉。按照以下 5 个步骤完成配置。
 
 将钉钉应用的凭证发送给 Kimi Claw：
 
-//
-ClientID: xxxxxxxxxx
-ClientSecret: xxxxxxxxxx
-这是我的钉钉机器人凭证，帮我配置一下
-CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "prompt.txt",
+      language: "text",
+      content: "ClientID: xxxxxxxxxx\nClientSecret: xxxxxxxxxx\n这是我的钉钉机器人凭证，帮我配置一下",
+    },
+  ]}
+/>
 
 Kimi Claw 会自动完成配置，配置完成后需要重启生效。
 

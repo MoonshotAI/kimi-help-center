@@ -45,9 +45,15 @@ Kimi API 内置内容安全审查机制：
 
 通过文件接口上传的文件可以随时删除：
 
-//
-DELETE https://api.moonshot.cn/v1/files/{file_id} CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "DELETE https://api.moonshot.cn/v1/files/{file_id}",
+    },
+  ]}
+/>
 
 在请求头中携带 API Key，传入文件 ID 即可删除。删除后文件将无法再被引用，相关数据会从服务器中清除。
 

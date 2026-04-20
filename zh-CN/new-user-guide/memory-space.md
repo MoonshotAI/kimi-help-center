@@ -26,14 +26,14 @@ Kimi单独训练了一个模型，让Kimi有针对性地记住能为你提供价
 - 面前的这位用户是谁？
 - 这位用户在意什么、偏好什么、雷点是什么？
 
-//Frames
-![image](images/memory-space/memory-space-01.png)
-//
+<Frames
+  src="./images/memory-space/memory-space-01.png"
+  alt="image"
+/>
 
-//
+<Callout type="info">
 注意：Kimi不会去记未经授权的隐私信息（如健康，密码，地址），除非用户主动要求。
-Callout 
-//
+</Callout>
 
 ## 如何触发记忆
 记忆已经成为kimi内化的一个能力项，自然对话即可触发记忆能力。
@@ -48,15 +48,16 @@ Callout
 | 修改记忆 | “更正一下，我搬到上海了”<br>“更新：我现在是高级工程师” | Kimi会替换旧记忆 |
 | 删除记忆 | “忘掉我喜欢咖啡”<br>“删除关于我工号的记忆”<br>“清空所有记忆” | Kimi会移除指定或全部记忆 |
 
-//
+<Callout type="info">
 注意：记忆功能完全由你控制，不会用于模型训练，随时可以关闭或清空。
-Callout 注意
-//
+</Callout>
 
 （2）设置中管理（界面操作）
-//Frames
-![image](images/memory-space/memory-space-03.gif)
-//
+
+<Frames
+  src="./images/memory-space/memory-space-03.gif"
+  alt="image"
+/>
 
 根据系统提示，你也可以在设置中自行管理：
 - 网页版/手机 App: 设置 → 个性化 → 记忆空间
@@ -71,9 +72,10 @@ Callout 注意
 “我一般都用c++ code”
 “以后说话不要说重复的车轱辘话，不要带标点符号”
 
-//Frames
-![image](images/memory-space/memory-space-02.png)
-//
+<Frames
+  src="./images/memory-space/memory-space-02.png"
+  alt="image"
+/>
 
 如果有什么特别想让kimi记住的，可以单独强调一下：
 “记住.....”
@@ -84,23 +86,26 @@ Callout 注意
 可以在对话中新增记忆后，删除不需要的单条记忆
 可以在用户主页-设置-个性化-记忆空间，点击删除单条记忆
 
-//Frames
-![image](images/memory-space/memory-space-04.png)
-//
+<Frames
+  src="./images/memory-space/memory-space-04.png"
+  alt="image"
+/>
 
 ### 删除（忘记）记忆
 可以在用户主页-设置-个性化-记忆空间，点击删除单条记忆
-//Frames
-![image](images/memory-space/memory-space-05.gif)
-//
+
+<Frames
+  src="./images/memory-space/memory-space-05.gif"
+  alt="image"
+/>
 
 ### 查看记忆
 直接问：
 “你当前都记住了我什么？”
-//frames
+
 💬 **用户**：你当前都记住了我什么？
-Chat 19d8b2b9-ebf2-862f-8000-00006be28d4e
-//
+
+<Chat title="查看结果" src="https://www.kimi.com/share/19d8b2b9-ebf2-862f-8000-00006be28d4e?hide_sidebar=1&disable_auto_preview=1" />
 
 ## 记忆限制
 记忆空间存在以下限制：

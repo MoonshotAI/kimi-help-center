@@ -17,51 +17,43 @@ preview_content: "Kimi Sheets 表格处理的使用案例与提示词模板。"
 
 📊 像金融分析师一样，帮你搜集真实财务数据，搭建 DCF 估值模型，对企业进行模拟估值。
 
-//Frames
-![image](images/sheets-cases/sheets-cases-01.png)
-//
+<Frames
+  src="./images/sheets-cases/sheets-cases-01.png"
+  alt="image"
+/>
 
 **提示词参考**：
-//
-提示词参考：用 DCF 法对XX医疗进行估值。将全部估值流程和数据放入excel表格
-中，并给出数据出处，对于市场规模、增长率、市场份额等需要估计的数字给出估
-计的逻辑，对于大环境背景也融入分析中。
-CodePreview
-//
+
+<CodePreview
+  files={[
+    {
+      name: "prompt.txt",
+      language: "text",
+      content: "提示词参考：用 DCF 法对XX医疗进行估值。将全部估值流程和数据放入excel表格\n中，并给出数据出处，对于市场规模、增长率、市场份额等需要估计的数字给出估\n计的逻辑，对于大环境背景也融入分析中。",
+    },
+  ]}
+/>
 
 ## 分镜创作
 
 🎥 像分镜师一样帮你制作 Excel 格式的视频分镜脚本，包括时长、画面描述、旁白、音效和分镜头参考图。
 
-//Frames
-![image](images/sheets-cases/sheets-cases-02.png)
-//
+<Frames
+  src="./images/sheets-cases/sheets-cases-02.png"
+  alt="image"
+/>
 
 **提示词参考**：
-//
-提示词参考：帮我做一个Kimi AI产品——OK Computer新升级，支持生成、编辑
-Office 文档（例如用Word做长篇论文排版，用Excel做数据建模和分析，自动做PPT
-）的3D动画宣传片分镜头脚本 的 excel 。
 
-excel里要包含A列：序号（1-20）。
-
-B列：累计时长（秒）。
-
-C列：分镜时长（秒）。
-
-D列：画面描述（3D / 运镜）。
-
-E列：旁白/文字（使用不同背景色区分旁白和屏幕文字）。
-
-F列：音效/BGM (使用不同字体颜色区分)。
-
-G列：分镜头脚本图（每一个画面分镜都需要生图且必须保持一致性 用分镜师最常用
-的黑白线绘草稿风格）
-
-请自行设计创意大纲、脚本、分镜并最终生图完成这个脚本，以一个美观的excel呈
-现
-CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "prompt.txt",
+      language: "text",
+      content: "提示词参考：帮我做一个Kimi AI产品——OK Computer新升级，支持生成、编辑\nOffice 文档（例如用Word做长篇论文排版，用Excel做数据建模和分析，自动做PPT\n）的3D动画宣传片分镜头脚本 的 excel 。\n\nexcel里要包含A列：序号（1-20）。\n\nB列：累计时长（秒）。\n\nC列：分镜时长（秒）。\n\nD列：画面描述（3D / 运镜）。\n\nE列：旁白/文字（使用不同背景色区分旁白和屏幕文字）。\n\nF列：音效/BGM (使用不同字体颜色区分)。\n\nG列：分镜头脚本图（每一个画面分镜都需要生图且必须保持一致性 用分镜师最常用\n的黑白线绘草稿风格）\n\n请自行设计创意大纲、脚本、分镜并最终生图完成这个脚本，以一个美观的excel呈\n现",
+    },
+  ]}
+/>
 
 ## 更多场景和提示词参考
 

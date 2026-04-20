@@ -18,9 +18,12 @@ preview_content: "PPT 模板获取方式与模式选择说明。"
 - **智能布局**：由 Kimi 智能设计布局和样式，约需 5-10 分钟。
 - **经典模板**：从现成模板中选择，适合快速制作，约需 3-5 分钟。
 
-//Frames
-![image](images/templates/templates-01.png)
-//
-//Frames
-![image](images/templates/templates-02.png)
-//
+<Frames
+  src="./images/templates/templates-01.png"
+  alt="image"
+/>
+
+<Frames
+  src="./images/templates/templates-02.png"
+  alt="image"
+/>

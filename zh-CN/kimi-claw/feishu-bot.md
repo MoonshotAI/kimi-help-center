@@ -21,9 +21,10 @@ preview_content: "将 Kimi Claw 接入飞书机器人的配置方法与常见问
 3. 进入 **聊天频道**。
 4. 按照页面指引完成飞书扫码连接。
 
-//Frames
-![飞书配置流程](images/kimi-claw/feishu-bot-01.gif)
-//
+<Frames
+  src="./images/kimi-claw/feishu-bot-01.gif"
+  alt="飞书配置流程"
+/>
 
 ## 手动配置飞书机器人
 

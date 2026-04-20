@@ -21,15 +21,27 @@ Kimi Code CLI 支持多会话管理和上下文持久化，让你可以随时中
 
 - **继续最近会话**：使用 `--continue`（或 `-c`）参数继续上一次对话：
 
-//
-  kimi --continue CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi --continue",
+    },
+  ]}
+/>
 
 - **指定会话 ID**：使用 `--session` 参数恢复特定会话：
 
-//
-  kimi --session <session-id> CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi --session <session-id>",
+    },
+  ]}
+/>
 
 - **列表切换**：在 CLI 中输入 `/sessions`（或 `/resume`）命令，查看会话列表并选择要恢复的会话。
 
@@ -55,23 +67,41 @@ Kimi Code CLI 会在需要的时候自动对上下文进行压缩，确保对话
 
 输入 `/clear`（或 `/reset`）可以清空当前会话的所有上下文，重新开始对话：
 
-//
-/clear CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "prompt.txt",
+      language: "text",
+      content: "/clear",
+    },
+  ]}
+/>
 
 ### 压缩上下文
 
 输入 `/compact` 可以压缩上下文，保留关键信息的同时减少 token 占用：
 
-//
-/compact CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "prompt.txt",
+      language: "text",
+      content: "/compact",
+    },
+  ]}
+/>
 
 你也可以在压缩时附带说明，告诉 AI 哪些信息需要重点保留：
 
-//
-/compact 保留数据库迁移相关的讨论 CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "prompt.txt",
+      language: "text",
+      content: "/compact 保留数据库迁移相关的讨论",
+    },
+  ]}
+/>
 
 ### 上下文状态
 

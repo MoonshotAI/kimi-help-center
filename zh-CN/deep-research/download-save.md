@@ -16,9 +16,12 @@ preview_content: "深度研究报告无法下载或保存的解决方法。"
 深度研究生成两种报告形式，均可保存：
 
 ## 文字研究报告
-//Frames
-![下载入口](images/deep-research/download-save-01.png)
-//
+
+<Frames
+  src="./images/deep-research/download-save-01.png"
+  alt="下载入口"
+/>
+
 点击右上角「下载」或「复制」按钮，支持本地保存或粘贴使用。报告支持导出为 PDF、Word 格式。
 
 ## 可视化报告

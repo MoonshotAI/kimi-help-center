@@ -20,12 +20,15 @@ preview_content: "将 Kimi Claw 接入微博龙虾助手的安装与配置说明
 - **2025 年 3 月 9 日之后**新创建的 Kimi Claw 已内置插件，可跳过此步。
 - 之前创建的 Kimi Claw 需要手动安装，在对话中发送以下内容：
 
-//
-- 先下载微博龙虾插件（git clone https://gitee.com/wecode-ai/openclaw-weibo.git）
-- 后进入对应目录并安装插件（openclaw plugins install .）
-- 最后重启 openclaw gateway
-CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "prompt.txt",
+      language: "text",
+      content: "- 先下载微博龙虾插件（git clone https://gitee.com/wecode-ai/openclaw-weibo.git）\n- 后进入对应目录并安装插件（openclaw plugins install .）\n- 最后重启 openclaw gateway",
+    },
+  ]}
+/>
 
 ## 第二步：配置微博龙虾
 
@@ -35,13 +38,15 @@ CodePreview
 4. Kimi Claw 完成配置后，前往 **设置** 并点击 **重启 Kimi Claw**。
 5. 重启后，微博龙虾助手内可以看到"你的龙虾已上线"提示，即可在微博内与龙虾对话。
 
-//Frames
-![连接龙虾](images/kimi-claw/weibo-bot-01.png)
-//
+<Frames
+  src="./images/kimi-claw/weibo-bot-01.png"
+  alt="连接龙虾"
+/>
 
-//Frames
-![连接成功](images/kimi-claw/weibo-bot-02.png)
-//
+<Frames
+  src="./images/kimi-claw/weibo-bot-02.png"
+  alt="连接成功"
+/>
 
 ## 限制说明
 

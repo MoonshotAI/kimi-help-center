@@ -26,14 +26,16 @@ Kimi PPT 提供两种生成模式，可根据需求选择：
 
 让 Kimi 智能设计布局和样式，AI 会根据你的内容自动匹配配色、字体、图标、图表样式，支持多种风格切换（商务、学术、科技、简约等）。适合追求独特视觉效果和个性化呈现的场景。
 
-//Frames
-![image](images/ppt/overview-01.png)
-//
+<Frames
+  src="./images/ppt/overview-01.png"
+  alt="image"
+/>
 
 ## 经典模板模式
 
 从现成模板库中选择心仪的模板样式，非常适合快速制作演示文稿。模板覆盖商务、教育、科技等多个类别，选好模板后 Kimi 会自动将内容填入模板，快速生成成品。
 
-//Frames
-![image](images/ppt/overview-02.png)
-//
+<Frames
+  src="./images/ppt/overview-02.png"
+  alt="image"
+/>

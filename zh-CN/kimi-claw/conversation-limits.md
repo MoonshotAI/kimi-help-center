@@ -18,9 +18,10 @@ preview_content: "Kimi Claw 对话 Token 限制与 API 限频的处理方法。"
 
 当对话上下文过长，超过模型的 token 限制时，Kimi Claw 可能无法正常回复。
 
-//Frames
-![发送 /new 新建对话](images/kimi-claw/conversation-limits-01.png)
-//
+<Frames
+  src="./images/kimi-claw/conversation-limits-01.png"
+  alt="发送 /new 新建对话"
+/>
 
 **解决办法**：
 

@@ -22,10 +22,9 @@ Agent 模式使用 Kimi 统一额度进行计费。所有会员功能（Agent、
 - **额度刷新**：额度按月刷新，与订阅周期一致
 - **使用优先级**：优先消耗获赠额度（如试用赠送、活动奖励），其次消耗套餐额度
 
-//
+<Callout type="tip">
 举例：以 Moderato 套餐为例，生成一份简单 PPT 可能消耗约 1-2% 额度，进行一次深度研究可能消耗约 5-10% 额度。
-Callout 提示
-//
+</Callout>
 
 ## 额度用完了怎么办？
 
@@ -39,23 +38,28 @@ Callout 提示
 
 ## 如何查看额度使用情况？
 ### 会员权益额度
-//Frames
-![额度查看入口](images/quota-and-billing/quota-and-billing-01.png)
-//
+
+<Frames
+  src="./images/quota-and-billing/quota-and-billing-01.png"
+  alt="额度查看入口"
+/>
+
 - **网页版**：我的 → 设置 → 订阅 
 - **APP 端**：我的 → 会员计划 → 订阅 
-//Frames
-![额度查看入口](images/quota-and-billing/quota-and-billing-02.png)
-//
+
+<Frames
+  src="./images/quota-and-billing/quota-and-billing-02.png"
+  alt="额度查看入口"
+/>
+
 可查看内容：
 1. 当前额度余额（百分比形式）
 2. 下次刷新时间
 3. 最近 10 条使用明细（使用时间、使用功能、消耗比例）
 
-//
+<Callout type="info">
 使用明细数据可能存在短暂延迟，请以实际额度显示为准。
-Callout 信息
-//
+</Callout>
 
 ## 任务失败会扣额度吗？
 

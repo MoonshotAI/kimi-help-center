@@ -13,18 +13,23 @@ preview_content: "如何安全卸载 Kimi Claw 中的插件。"
 />
 # 卸载 Kimi 插件
 
-//
+<Callout type="warning">
 **此操作仅适用于关联 OpenClaw 的设备**。请确认你是在自己部署的 OpenClaw 设备上执行卸载操作。
-Callout 警告
-//
+</Callout>
 
 ## 卸载命令
 
 在关联 OpenClaw 的设备上运行以下命令即可卸载 Kimi 插件：
 
-//
-bash <(curl -fsSL https://cdn.kimi.com/kimi-claw/uninstall.sh) CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "prompt.txt",
+      language: "text",
+      content: "bash <(curl -fsSL https://cdn.kimi.com/kimi-claw/uninstall.sh)",
+    },
+  ]}
+/>
 
 ## 严重警告
 

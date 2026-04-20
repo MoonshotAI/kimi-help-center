@@ -26,7 +26,6 @@ preview_content: "生成 PPT 时卡住不动的常见原因与恢复操作。"
 3. 重新输入你的 PPT 生成需求；
 4. 等待系统完成生成。
 
-//
+<Callout type="info">
 如需进一步帮助，可通过产品内「👎」反馈通道联系工作人员，或发送邮件至 [support@moonshot.cn](mailto:support@moonshot.cn)。
-Callout 信息
-//
+</Callout>

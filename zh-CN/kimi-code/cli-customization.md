@@ -23,10 +23,9 @@ Kimi Code CLI 使用 `~/.kimi/config.toml` 作为全局配置文件，支持 TOM
 - **默认模型**：指定默认使用的模型。
 - **运行参数**：调整超时、并发、输出格式等运行时参数。
 
-//
+<Callout type="tip">
 使用 `/config` 命令可以快速打开配置文件进行编辑。
-Callout 提示
-//
+</Callout>
 
 ## AGENTS.md 项目配置
 

@@ -29,16 +29,22 @@ preview_content: "查看 Kimi 的官方联系方式与意见反馈渠道。"
 
 ### 产品问题反馈
 官网左下角「账号 → 用户反馈 → 帮助与反馈
-//Frames
-![image](images/contact-feedback/contact-feedback-01.png)
-//
+
+<Frames
+  src="./images/contact-feedback/contact-feedback-01.png"
+  alt="image"
+/>
 
 ### 企业微信官方客服
-//Frames
-![image](images/contact-feedback/contact-feedback-02.png)
-//
+
+<Frames
+  src="./images/contact-feedback/contact-feedback-02.png"
+  alt="image"
+/>
 
 ### 常见问题客服渠道
-//Frames
-![image](images/contact-feedback/contact-feedback-03.png)
-//
+
+<Frames
+  src="./images/contact-feedback/contact-feedback-03.png"
+  alt="image"
+/>

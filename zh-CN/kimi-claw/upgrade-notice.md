@@ -18,10 +18,9 @@ preview_content: "Kimi Claw 升级注意事项：不要手动升级 OpenClaw 和
 
 OpenClaw 目前不支持更新到 3.22 日期之后的版本。如果手动升级或开启了自动更新，会导致 Kimi 插件失效，其他已安装的插件（微信、飞书、企微、微博等）也可能不可用。
 
-//
+<Callout type="warning">
 **请勿手动升级或开启自动更新**，等待官方升级推送即可。
-Callout 警告
-//
+</Callout>
 
 **误升级后的恢复方法：**
 
@@ -36,10 +35,9 @@ Callout 警告
 
 飞书插件升级时会同时升级 OpenClaw 版本，这会导致与当前环境不兼容。
 
-//
+<Callout type="warning">
 **不建议手动升级飞书插件。** 目前新安装的 Kimi Claw 已经安装了适配的最新版本插件。
-Callout 警告
-//
+</Callout>
 
 升级飞书插件后，最新版本的插件可能与当前 OpenClaw 版本不兼容，导致飞书机器人无法正常使用。
 
@@ -55,10 +53,9 @@ Callout 警告
 | `/feishu doctor` | 检查配置是否正常 |
 | `/feishu auth` | 批量完成用户授权 |
 
-//
+<Callout type="tip">
 插件中内置了常见问题的解决方案，遇到问题可以先问问小龙虾。
-Callout 提示
-//
+</Callout>
 
 ### 方法二：通过 npx 命令诊断与修复
 
@@ -66,25 +63,37 @@ Callout 提示
 
 **查看问题：**
 
-//
-npx https://sf3-cn.feishucdn.com/obj/open-platform-opendoc/8ab6e7a04c17db1becfcbda8ca35f091_1rCCFRWlRV.tgz doctor
-CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "npx https://sf3-cn.feishucdn.com/obj/open-platform-opendoc/8ab6e7a04c17db1becfcbda8ca35f091_1rCCFRWlRV.tgz doctor",
+    },
+  ]}
+/>
 
-//Frames
-![飞书诊断结果](images/kimi-claw/upgrade-notice-01.png)
-//
+<Frames
+  src="./images/kimi-claw/upgrade-notice-01.png"
+  alt="飞书诊断结果"
+/>
 
 **尝试自动修复：**
 
-//
-npx https://sf3-cn.feishucdn.com/obj/open-platform-opendoc/8ab6e7a04c17db1becfcbda8ca35f091_1rCCFRWlRV.tgz doctor --fix
-CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "npx https://sf3-cn.feishucdn.com/obj/open-platform-opendoc/8ab6e7a04c17db1becfcbda8ca35f091_1rCCFRWlRV.tgz doctor --fix",
+    },
+  ]}
+/>
 
-//Frames
-![飞书自动修复](images/kimi-claw/upgrade-notice-02.png)
-//
+<Frames
+  src="./images/kimi-claw/upgrade-notice-02.png"
+  alt="飞书自动修复"
+/>
 
 ### 方法三：反馈问题
 
@@ -92,23 +101,36 @@ CodePreview
 
 **查看版本信息：**
 
-//
-npx https://sf3-cn.feishucdn.com/obj/open-platform-opendoc/8ab6e7a04c17db1becfcbda8ca35f091_1rCCFRWlRV.tgz info
-CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "npx https://sf3-cn.feishucdn.com/obj/open-platform-opendoc/8ab6e7a04c17db1becfcbda8ca35f091_1rCCFRWlRV.tgz info",
+    },
+  ]}
+/>
 
-//Frames
-![版本信息](images/kimi-claw/upgrade-notice-03.png)
-//
+<Frames
+  src="./images/kimi-claw/upgrade-notice-03.png"
+  alt="版本信息"
+/>
 
 **查看详细配置信息：**
 
-//
-npx https://sf3-cn.feishucdn.com/obj/open-platform-opendoc/8ab6e7a04c17db1becfcbda8ca35f091_1rCCFRWlRV.tgz info --all
-CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "npx https://sf3-cn.feishucdn.com/obj/open-platform-opendoc/8ab6e7a04c17db1becfcbda8ca35f091_1rCCFRWlRV.tgz info --all",
+    },
+  ]}
+/>
 
 反馈群可以飞书扫码加入
-//Frames
-![KimiClaw飞书群](images/kimi-claw/upgrade-notice-04.png)
-//
+
+<Frames
+  src="./images/kimi-claw/upgrade-notice-04.png"
+  alt="KimiClaw飞书群"
+/>

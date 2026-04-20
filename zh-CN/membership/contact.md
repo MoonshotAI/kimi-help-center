@@ -26,10 +26,9 @@ preview_content: "会员专属问题的联系方式与反馈渠道。"
 - 套餐升级/降级协助
 - 发票开具问题
 
-
-//Callout 提示
+<Callout type="tip">
 付费会员的邮件将获得优先处理。请在邮件中附上你的账号信息和问题截图，以便我们更快定位问题。
-//
+</Callout>
 
 ## 一般问题支持
 
@@ -46,9 +45,10 @@ preview_content: "会员专属问题的联系方式与反馈渠道。"
 
 你也可以直接在 Kimi 产品内提交反馈：
 
-//Frames
-![产品内反馈入口](images/contact-feedback/contact-feedback-01.png)
-//
+<Frames
+  src="./images/contact-feedback/contact-feedback-01.png"
+  alt="产品内反馈入口"
+/>
 
 - **网页版**：点击页面左下角「反馈」按钮，描述你的问题并提交。
 - **手机 App**：进入「我的 → 帮助与反馈」，点击「反馈问题」。

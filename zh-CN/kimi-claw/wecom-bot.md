@@ -15,27 +15,38 @@ preview_content: "将 Kimi Claw 接入企业微信机器人的配置步骤。"
 
 Kimi Claw 支持部署到企业微信。
 目前，企业微信内企业管理员、成员均可以创建智能机器人，并支持单聊、内部群聊内主动向用户推送消息。你可以根据下面的步骤完成基于 Kimi Claw 的企业微信机器人配置，或参考官方文档[《以长连接方式接入 OpenClaw》](https://open.work.weixin.qq.com/help2/pc/cat?doc_id=21658)。
-//
+
+<Callout type="info">
 请安装[企业微信](https://work.weixin.qq.com/)**最新版本电脑客户端**，手机版暂时无法创建智能机器人。
-Callout 注意
-//
+</Callout>
+
 ## 第一步：创建企业微信机器人
 
 1. 在电脑客户端进入「工作台」，点击「智能机器人」→「创建机器人」→「手动创建」
 2. 滑到页面底部，选择 **API 模式** 创建
 
-//Frames
-![工作台入口](images/kimi-claw/wecom-bot-01.png)
-![创建机器人](images/kimi-claw/wecom-bot-02.png)
-![API模式](images/kimi-claw/wecom-bot-03.png)
-//
+<Frames
+  src="./images/kimi-claw/wecom-bot-01.png"
+  alt="工作台入口"
+/>
+
+<Frames
+  src="./images/kimi-claw/wecom-bot-02.png"
+  alt="创建机器人"
+/>
+
+<Frames
+  src="./images/kimi-claw/wecom-bot-03.png"
+  alt="API模式"
+/>
 
 3. 选择以「长连接」方式创建，并获取 **Bot ID** 和 **Secret**
 4. 复制 Bot ID 和 Secret 后，保存智能机器人
 
-//Frames
-![长连接方式](images/kimi-claw/wecom-bot-04.png)
-//
+<Frames
+  src="./images/kimi-claw/wecom-bot-04.png"
+  alt="长连接方式"
+/>
 
 ## 第二步：安装企业微信插件
 
@@ -51,16 +62,20 @@ Callout 注意
 
 打开 Kimi Claw，将机器人的 Bot ID 和 Secret 告诉 Kimi Claw，让它帮你完成配置。命令行配置方式可参考官方文档[《以长连接方式接入 OpenClaw》](https://open.work.weixin.qq.com/help2/pc/cat?doc_id=21658)。
 
-//
-botId: xxxxxxxxxx
-secret: xxxxxxxxxx
-我的企业微信机器人信息，帮我配置一下
-CodePreview
-//
+<CodePreview
+  files={[
+    {
+      name: "prompt.txt",
+      language: "text",
+      content: "botId: xxxxxxxxxx\nsecret: xxxxxxxxxx\n我的企业微信机器人信息，帮我配置一下",
+    },
+  ]}
+/>
 
-//Frames
-![配置机器人](images/kimi-claw/wecom-bot-07.png)
-//
+<Frames
+  src="./images/kimi-claw/wecom-bot-07.png"
+  alt="配置机器人"
+/>
 
 ## 第四步：完成配对
 
@@ -68,14 +83,20 @@ CodePreview
 2. 第一次它会发给你一个**配对信息**，将这段内容发给 Kimi Claw
 3. Kimi Claw 会帮你完成配对，完成后就可以在企业微信私信/群组内正常对话了
 
-//Frames
-![配对信息](images/kimi-claw/wecom-bot-08.png)
-![发送配对](images/kimi-claw/wecom-bot-09.png)
-//
+<Frames
+  src="./images/kimi-claw/wecom-bot-08.png"
+  alt="配对信息"
+/>
 
-//Frames
-![群聊对话示例](images/kimi-claw/wecom-bot-11.png)
-//
+<Frames
+  src="./images/kimi-claw/wecom-bot-09.png"
+  alt="发送配对"
+/>
+
+<Frames
+  src="./images/kimi-claw/wecom-bot-11.png"
+  alt="群聊对话示例"
+/>
 
 ## 限制说明
 
