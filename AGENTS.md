@@ -76,6 +76,10 @@ Rules:
 - Self-closing only.
 - Use literal string props only.
 - Do not use variables or computed expressions.
+- In MDX string props, prefer literal characters where valid. If the value
+  contains embedded double quotes, escape them as HTML entities such as
+  `&quot;` instead of JS-style escapes like `\"`. Do not use Unicode escape
+  sequences such as `\u0026` for normal punctuation.
 
 ### `Callout`
 
@@ -272,6 +276,8 @@ Rules:
 - Front matter is present and complete.
 - Every custom component has blank lines around it.
 - `SeoMeta` uses literal string props only.
+- `SeoMeta` string props use correct MDX escaping for embedded quotes and
+  punctuation.
 - `Chat` Kimi share URLs include both required query params.
 - `Frames` local asset paths exist under the category `images/` tree.
 - `ColumnsContent` uses built-in `type` values where possible.
