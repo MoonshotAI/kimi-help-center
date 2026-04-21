@@ -24,7 +24,7 @@ OpenClaw 是一个具备独特个性与长期记忆能力的 AI 助手。在 Kim
 如果你还没有自己的 OpenClaw，可以前往 [kimi.com/bot](https://kimi.com/bot) 创建专属的 OpenClaw。Kimi 将为你把 OpenClaw 一键部署到云端，无需额外购买服务器或命令行配置。
 
 - 一键部署仅支持 **Allegretto 及以上**计划，详见 [Kimi 会员计划](https://kimi.com/pricing)。
-- Kimi 会自动配置 Kimi K2.5 Thinking 模型，并关联 Kimi Code 会员权益额度，无需额外配置 API。同时会自动配置 Kimi Web Search 服务，为 AI 提供联网搜索能力。
+- Kimi 会自动配置 Kimi K2.6 Thinking 模型，并关联 Kimi Code 会员权益额度，无需额外配置 API。同时会自动配置 Kimi Web Search 服务，为 AI 提供联网搜索能力。
 - Kimi Claw 支持直接部署到飞书、企业微信、微博等平台。
 
 ## 创建流程

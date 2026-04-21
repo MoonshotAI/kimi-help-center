@@ -1,20 +1,20 @@
 ---
-title: "K2.5 Agent overview"
+title: "K2.6 Agent overview"
 slug: "agent-overview"
 order: 1
 extract_headings: false
 preview: true
-preview_content: "Learn about K2.5 Agent's autonomous task execution, 20+ tools, and supported use cases."
+preview_content: "Learn about K2.6 Agent's autonomous task execution, 20+ tools, and supported use cases."
 ---
 
-# K2.5 Agent overview
+# K2.6 Agent overview
 
 <SeoMeta
-  title="K2.5 Agent Overview - Kimi Help Center"
-  description="Discover Kimi K2.5 Agent's capabilities, evolution, and use cases."
+  title="K2.6 Agent Overview - Kimi Help Center"
+  description="Discover Kimi K2.6 Agent's capabilities, evolution, and use cases."
 />
 
-Kimi K2.5 Agent is an autonomous AI assistant that handles complex tasks end-to-end. Powered by the K2.5 model (1T parameters, 32B active), it uses 20+ tools to build websites, generate documents, analyze data, and more.
+Kimi K2.6 Agent is an autonomous AI assistant that handles complex tasks end-to-end. Powered by the K2.6 model, it uses 20+ tools to build websites, generate documents, analyze data, and more.
 
 ## Product evolution
 - **September 5, 2025**: Kimi K2 released — 32B active / 1T total parameters
@@ -30,7 +30,7 @@ Kimi K2.5 Agent is an autonomous AI assistant that handles complex tasks end-to-
 | **Sheets** | Excel/CSV data analysis and visualization |
 | **Slides** | Automated PPT generation |
 | **Deep Research** | 10,000+ word research reports |
-| **K2.5 Agent Swarm** | Up to 100 sub-agents working in parallel |
+| **K2.6 Agent Swarm** | Up to 300 sub-agents working in parallel |
 | **Kimi Claw** | Cloud automation with 5,000+ skills |
 
 <Frames
@@ -73,7 +73,7 @@ Describe your task clearly, watch execution progress, then download or share res
       type: "data",
     },
     {
-      title: "K2.5 Agent Swarm",
+      title: "K2.6 Agent Swarm",
       description: "Multi-agent collaboration",
       pageUrl: "/help/agent/agent-swarm",
       type: "comment",

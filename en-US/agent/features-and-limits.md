@@ -25,7 +25,7 @@ Clearly state background information and constraints — project context, use ca
 
 **(2) During execution**
 
-Kimi Agent runs asynchronously in the background. If the web page appears frozen or stalled, **do not click "Stop"** — this will interrupt task execution. You can leave the page; the task will continue running in the background and you'll receive a notification when it completes. For tasks expected to take a long time (e.g., K2.5 Agent Swarm [Beta]), please be patient.
+Kimi Agent runs asynchronously in the background. If the web page appears frozen or stalled, **do not click "Stop"** — this will interrupt task execution. You can leave the page; the task will continue running in the background and you'll receive a notification when it completes. For tasks expected to take a long time (e.g., K2.6 Agent Swarm [Beta]), please be patient.
 
 **(3) Website scenarios**
 
@@ -39,10 +39,10 @@ Agent can generate full-stack content, including frontend interfaces, backend se
 Over multiple rounds of dialogue and revisions, the Agent may "forget" some early details. It's best to establish the task framework and key points first, then make incremental adjustments.
 
 **(5) Large task decomposition**
-For large, complex tasks, break them into 2–3 phases and submit them to Kimi in batches, or use K2.5 Agent Swarm [Beta].
+For large, complex tasks, break them into 2–3 phases and submit them to Kimi in batches, or use K2.6 Agent Swarm [Beta].
 
 **(6) File output limitations**
-In standard Agent mode, typically only one file can be output per task (e.g., a document or spreadsheet). For multiple files (e.g., both a Word doc and a PPT), use K2.5 Agent Swarm [Beta].
+In standard Agent mode, typically only one file can be output per task (e.g., a document or spreadsheet). For multiple files (e.g., both a Word doc and a PPT), use K2.6 Agent Swarm [Beta].
 
 **(7) Context limits and output balance**
 Due to the 256K character context limit of large language models (approximately 40,000–50,000 Chinese characters / ~100,000 English words), processing large volumes of files requires balancing input and output volume.
@@ -59,7 +59,7 @@ Free tier: 6 Agent tasks/month
 Paid tiers: 60–720 Agent tasks/month depending on your plan
 </Callout>
 
-- **Execution time**: In Agent mode, a single task typically takes 5–20 minutes. K2.5 Agent Swarm [Beta] tasks may take longer. You can leave the page — just don't click Stop to interrupt the task.
+- **Execution time**: In Agent mode, a single task typically takes 5–20 minutes. K2.6 Agent Swarm [Beta] tasks may take longer. You can leave the page — just don't click Stop to interrupt the task.
 - **Quota usage**: Agent tasks consume unified quota based on actual token usage. 
 - **Simple tasks**: For simple Q&A, standard chat mode is recommended for faster responses.
 

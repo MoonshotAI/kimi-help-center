@@ -15,7 +15,7 @@ preview_content: "Generate polished presentations from text or documents with Ki
 # Kimi Slides
 
 <Callout type="info">
-Kimi Slides is an AI-powered presentation generator. K2.5 supports format conversion, turning documents up to 30,000 words into polished slides with automatic layout and design optimization.
+Kimi Slides is an AI-powered presentation generator. K2.6 supports format conversion, turning documents up to 30,000 words into polished slides with automatic layout and design optimization.
 </Callout>
 
 ## Kimi Slides vs. traditional presentations

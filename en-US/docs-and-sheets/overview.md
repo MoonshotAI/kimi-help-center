@@ -71,7 +71,7 @@ Describe your needs directly, e.g., "Create an XX report for me." Or upload an e
 ### Method 2: mobile app
 The Kimi app is available on iOS and Android. Tap the Taskbar → switch to Docs Agent mode.
 #### Method 3: general Agent mode
-Switch to K2.5 Agent mode and enter a document-related task. Kimi will invoke reading and writing tools.
+Switch to K2.6 Agent mode and enter a document-related task. Kimi will invoke reading and writing tools.
 ## Kimi Sheets
 Kimi Sheets understands cell relationships, cross-sheet linkage logic, and produces .xlsx files directly in the browser.
 ### Key capabilities

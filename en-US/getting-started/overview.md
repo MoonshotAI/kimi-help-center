@@ -23,8 +23,8 @@ Visit [Kimi.com](https://www.kimi.com/) or download the Kimi app to start chatti
 | Mode | Description |
 |------|-------------|
 | **Web search (Auto/Off)** | Connect to the internet for real-time information and web search results |
-| **K2.5 Instant** | Fast responses for general questions |
-| **K2.5 Thinking** | Deeper multi-step reasoning and search — ideal for coding, logic, or analytical tasks |
+| **K2.6 Instant** | Fast responses for general questions |
+| **K2.6 Thinking** | Deeper multi-step reasoning and search — ideal for coding, logic, or analytical tasks |
 
 <Callout type="tip">
 For simple document-based Q&A, you can turn off both web search and thinking mode.
@@ -34,8 +34,8 @@ For simple document-based Q&A, you can turn off both web search and thinking mod
 Kimi is more than a chat assistant — it's an AI agent that can autonomously plan and execute tasks:
 | Agent | Description | Link |
 |-------|-------------|------|
-| **K2.5 Agent** | Automatically plans and completes tasks, including website generation, slide creation, Deep Research, document and spreadsheet processing | [kimi.com/agent](https://www.kimi.com/agent) |
-| **K2.5 Agent Swarm [Beta]** | Supports up to 1,500 parallel tool calls, coordinating 100+ sub-agents for large-scale search, long-form writing, and batch processing | [kimi.com/agent-swarm](https://www.kimi.com/agent-swarm) |
+| **K2.6 Agent** | Automatically plans and completes tasks, including website generation, slide creation, Deep Research, document and spreadsheet processing | [kimi.com/agent](https://www.kimi.com/agent) |
+| **K2.6 Agent Swarm [Beta]** | Supports up to 4,000 parallel tool calls, coordinating 300+ sub-agents for large-scale search, long-form writing, and batch processing | [kimi.com/agent-swarm](https://www.kimi.com/agent-swarm) |
 | **Kimi Code** | Developer-focused coding assistant suite, including CLI tool and VS Code extension | [kimi.com/code](https://www.kimi.com/code?from=kfc_overview_topbar) |
 | **Kimi Claw** | Zero-deployment cloud automation platform — launch a persistent AI agent in under 30 seconds with 5,000+ built-in skills (ClawHub) | [kimi.com/bot](https://www.kimi.com/bot) |
 

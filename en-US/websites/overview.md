@@ -15,7 +15,7 @@ preview_content: "Build and deploy websites from natural language descriptions, 
 # Kimi Websites
 
 <Callout type="info">
-**Kimi Websites** is a Kimi Agent product feature powered by the latest Kimi K2.5 multimodal visual agent AI model. Its core capability is **Vibe Coding** — generating websites from natural language and deploying them online.
+**Kimi Websites** is a Kimi Agent product feature powered by the latest Kimi K2.6 multimodal visual agent AI model. Its core capability is **Vibe Coding** — generating websites from natural language and deploying them online.
 </Callout>
 
 By understanding visual inputs (UI mockups, screenshots, interaction videos) and natural language instructions, Kimi translates user input into complete, runnable frontend code — covering not just static UI but also dynamic interactive behavior.
@@ -63,9 +63,9 @@ By understanding visual inputs (UI mockups, screenshots, interaction videos) and
 
 iOS, Android, and HarmonyOS all have the official Kimi app. In the input area, tap the **Taskbar** → switch to **Websites Agent mode**, which includes multimodal generation tools and Agent capabilities.
 
-### Method 3: use K2.5 Agent mode
+### Method 3: use K2.6 Agent mode
 
-Switch to K2.5 Agent mode and enter a website-building task. Kimi will invoke its visual coding capabilities and code execution tools.
+Switch to K2.6 Agent mode and enter a website-building task. Kimi will invoke its visual coding capabilities and code execution tools.
 
 ## How do Kimi Websites work?
 

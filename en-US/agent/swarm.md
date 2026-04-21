@@ -1,5 +1,5 @@
 ---
-title: "K2.5 Agent Swarm [Beta]"
+title: "K2.6 Agent Swarm [Beta]"
 slug: "agent-swarm"
 order: 2
 extract_headings: false
@@ -7,19 +7,19 @@ preview: false
 ---
 
 <SeoMeta
-  title="K2.5 Agent Swarm [Beta] - Kimi Help Center"
-  description="K2.5 Agent Swarm Beta is a &quot;horizontal scaling&quot; architecture that coordinates up to 100 sub-agents working in parallel — no predefined roles or hand-crafted..."
+  title="K2.6 Agent Swarm [Beta] - Kimi Help Center"
+  description="K2.6 Agent Swarm Beta is a &quot;horizontal scaling&quot; architecture that coordinates up to 300 sub-agents working in parallel — no predefined roles or hand-crafted..."
 />
 
-# K2.5 Agent Swarm [Beta]
+# K2.6 Agent Swarm [Beta]
 
 <Callout type="info">
-**K2.5 Agent Swarm [Beta]** is a "horizontal scaling" architecture that coordinates up to 100 sub-agents working in parallel — no predefined roles or hand-crafted workflows required. It completes tasks approximately **4.5× faster** than single-agent execution.
+**K2.6 Agent Swarm [Beta]** is a "horizontal scaling" architecture that coordinates up to 300 sub-agents working in parallel — no predefined roles or hand-crafted workflows required. It completes tasks approximately **4.5× faster** than single-agent execution.
 </Callout>
 
-On January 27, 2026, Moonshot AI released Kimi K2.5, introducing K2.5 Agent Swarm [Beta]. It delivers:
-- Up to **100 sub-agents** working simultaneously
-- Over **1,500 tool calls** per task
+On January 27, 2026, Moonshot AI released Kimi K2.5, introducing Agent Swarm [Beta]. On April 20, 2026, Moonshot AI released and open-sourced Kimi K2.6, bringing major upgrades to the Agent Swarm architecture:
+- Up to **300 sub-agents** working simultaneously
+- Over **4,000 tool calls** per task
 - **4.5× faster** than single-agent sequential execution
 
 ## The story behind
@@ -28,14 +28,14 @@ In 2025, the AI industry's dominant narrative focused on vertical scaling — bi
 
 Agent Swarm was born from a real scenario: when a team member tried to automate daily stock information collection and hit 100 lines of if-else code, she realized: "I'm hand-writing a multi-agent system." If models can use tools, why can't they self-architect?
 
-Agent Swarm is a self-designed organizational structure — designed by AI, not humans. The main Agent (orchestrator) autonomously directs up to 100 sub-agents, executing up to 1,500 parallel workflow steps.
+Agent Swarm is a self-designed organizational structure — designed by AI, not humans. The main Agent (orchestrator) autonomously directs up to 300 sub-agents, executing up to 4,000 parallel workflow steps.
 
 <Frames
   src="./images/swarm/swarm.png"
   alt="swarm"
 />
 
-K2.5 Agent Swarm [Beta] uses the PARL (Parallel-Agent Reinforcement Learning) training method. Compared to single-agent approaches, it reduces critical steps by 3×–4.5× in large-scale search scenarios.
+K2.6 Agent Swarm [Beta] uses the PARL (Parallel-Agent Reinforcement Learning) training method. Compared to single-agent approaches, it reduces critical steps by 3×–4.5× in large-scale search scenarios.
 
 ## How to use？
 
@@ -46,10 +46,10 @@ K2.5 Agent Swarm [Beta] uses the PARL (Parallel-Agent Reinforcement Learning) tr
 
 **Access Points:**
 - **Web**: [kimi.com/agent-swarm](https://www.kimi.com/agent-swarm)
-- **Mobile**: Kimi app → Switch mode → Select K2.5 Agent Swarm [Beta]
+- **Mobile**: Kimi app → Switch mode → Select K2.6 Agent Swarm [Beta]
 
 <Callout type="warning">
-**Beta Access**: K2.5 Agent Swarm [Beta] is currently available to Allegretto, Allegro, and Vivace members. Tasks consume significantly more quota than standard Agent tasks.
+**Beta Access**: K2.6 Agent Swarm [Beta] is currently available to Allegretto, Allegro, and Vivace members. Tasks consume significantly more quota than standard Agent tasks.
 </Callout>
 
 **Steps:**
@@ -57,14 +57,14 @@ K2.5 Agent Swarm [Beta] uses the PARL (Parallel-Agent Reinforcement Learning) tr
 2. Watch real-time progress: task list creation, sub-agent spawning, parallel execution
 3. Receive deliverables: code projects, file folders, data analysis, Office documents
 4. Preview, download, or share results
-5. Switch to single K2.5 Agent to continue in subsequent turns
+5. Switch to single K2.6 Agent to continue in subsequent turns
 
 ## Use cases
 
 ### Discovery at scale
 
 **Case 1: Top 3 Creators Across 100 YouTube Niches**
-K2.5 Agent Swarm [Beta] created 100 sub-agents for parallel search, generating structured tables with channel names, subscriber counts, and descriptions.
+K2.6 Agent Swarm [Beta] created 300 sub-agents for parallel search, generating structured tables with channel names, subscriber counts, and descriptions.
 
 <Frames
   src="./images/swarm/youtube.png"
@@ -81,7 +81,7 @@ Agent Swarm deployed sub-agents to search, download, categorize, and summarize 2
 ### Output at scale
 
 **Case: 100-Page Literature Review from 40 PDFs**
-K2.5 Agent Swarm [Beta] deployed multiple writing-focused sub-agents, each responsible for a chapter. Final output: a 100-page academic document with citations, methodology charts, and citation network analysis.
+K2.6 Agent Swarm [Beta] deployed multiple writing-focused sub-agents, each responsible for a chapter. Final output: a 100-page academic document with citations, methodology charts, and citation network analysis.
 
 <Frames
   src="./images/swarm/literature-review.png"
@@ -143,7 +143,7 @@ On the BrowseComp benchmark:
 
 ## Application scenarios
 
-K2.5 Agent Swarm [Beta] is especially suited for:
+K2.6 Agent Swarm [Beta] is especially suited for:
 1. **Large-scale information retrieval**: Massive internet data collection
 2. **Batch downloads**: Large-scale file and resource collection
 3. **Wide-scope reading**: Processing 100+ documents
@@ -153,4 +153,5 @@ K2.5 Agent Swarm [Beta] is especially suited for:
 
 **Further Reading:**
 - [Kimi Blog: "Kimi Agent Swarm: 100 Sub-Agents at Scale"](https://www.kimi.com/blog/agent-swarm)
-- [Kimi K2.5 Technical Report (arXiv)](https://arxiv.org/pdf/2602.02276)
+- [Kimi K2.5 Technical Report](https://www.kimi.com/blog/kimi-k2-5)
+- [Kimi K2.6 Blog Post](https://www.kimi.com/blog/kimi-k2-6)

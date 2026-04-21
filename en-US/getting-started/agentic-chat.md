@@ -25,8 +25,8 @@ Open [kimi.com](https://kimi.com) and try sending a message — say hello to Kim
   ]}
 />
 
-## Powered by K2.5
-Kimi K2.5 is an open-source model and the **most intelligent** model Kimi has released to date, achieving state-of-the-art performance across agent tasks, coding, image understanding, video understanding, and general intelligence benchmarks. K2.5 is also Kimi's **most versatile** model — its native multimodal architecture supports both visual and text input, thinking and non-thinking modes, as well as conversational and agentic tasks.
+## Powered by K2.6
+Kimi K2.6 is an open-source model that builds on K2.5 with significant upgrades, focusing on state-of-the-art coding, long-horizon execution, and agent swarm capabilities. It achieves state-of-the-art performance across agent tasks, coding, image understanding, video understanding, and general intelligence benchmarks. K2.6 is also Kimi's **most versatile** model — its native multimodal architecture supports both visual and text input, thinking and non-thinking modes, as well as conversational and agentic tasks.
 As a result, Kimi excels not only at Q&A conversations but also at autonomous task planning, tool invocation, and multi-step reasoning — supporting deep thinking and execution for complex tasks.
 ### Built-in tools
 Available out of the box, no configuration needed:
@@ -40,14 +40,14 @@ Available out of the box, no configuration needed:
 | **Memory** | Smart memory that records your personal preferences and habits |
 
 ## Visual & multimodal capabilities
-K2.5 supports full-scenario understanding of images, videos, and office documents (PDF/Word/Excel), using a **native multimodal architecture** (not bolt-on OCR). It can directly parse document content and perform intermediate-to-advanced office tasks (such as writing Excel formulas or generating PPT outlines/VBA code).
+K2.6 supports full-scenario understanding of images, videos, and office documents (PDF/Word/Excel), using a **native multimodal architecture** (not bolt-on OCR). It can directly parse document content and perform intermediate-to-advanced office tasks (such as writing Excel formulas or generating PPT outlines/VBA code).
 ### Multimodal input support
 - **Images**: PNG, JPEG, WebP, GIF, etc. (via URL, Base64, or local file upload)
 - **Video**: MP4, etc. (via video_url or image frame sequences + fps parameter)
 - **Documents**: PDF, Word, Excel, TXT, Markdown, etc.
 - **Online resources**: URLs, article links
 - **Image search**: Upload an image to search for related or similar images
-- **Video understanding**: K2.5 introduces video input capabilities — it can analyze screen recordings and replicate interaction logic
+- **Video understanding**: Supports video understanding — it can analyze screen recordings and replicate interaction logic
 - **Visual coding**: Upload screenshots or screen recordings to generate frontend code (HTML/Vue/React, etc.); can automatically reproduce web pages from design mockups
 
 ### Output formats
@@ -63,9 +63,9 @@ K2.5 supports full-scenario understanding of images, videos, and office document
 ### Important notes
 
 <Callout type="warning">
-1. **Image generation limitation**: Standard chat mode only supports image *search*, not image *generation* (image generation requires K2.5 Agent mode).
+1. **Image generation limitation**: Standard chat mode only supports image *search*, not image *generation* (image generation requires K2.6 Agent mode).
 2. **File output limitation**: Only text content is supported as output (e.g., PPT outlines, Word body text, code). Direct binary file output (`.pptx`, `.docx`, `.xlsx`, `.pdf`) is not supported.
-3. For image generation or complex editable document output, use [K2.5 Agent](https://www.kimi.com/agent) or the code execution tool.
+3. For image generation or complex editable document output, use [K2.6 Agent](https://www.kimi.com/agent) or the code execution tool.
 </Callout>
 
 ## Sessions vs. conversation turns
