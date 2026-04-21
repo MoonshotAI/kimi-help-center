@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Contact us - Kimi Help Center"
   description="Need help? Here's how to reach us."
-  pageUrl="https://www.kimi.com/help/membership/membership-contact"
 />
 
 Need help? Here's how to reach us.

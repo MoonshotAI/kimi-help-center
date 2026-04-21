@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Memory space - Kimi Help Center"
   description="Kimi has truly learned to listen — the more you talk, the better it understands you. Here's how it works:"
-  pageUrl="https://www.kimi.com/help/getting-started/memory-space"
 />
 
 ## What is memory?

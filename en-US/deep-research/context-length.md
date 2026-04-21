@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="What is the context length for Deep research? - Kimi Help Center"
   description="Deep Research uses a context length of 128K tokens approximately 200,000 words."
-  pageUrl="https://www.kimi.com/help/deep-research/deep-research-context-length"
 />
 
 # Context length for Deep research

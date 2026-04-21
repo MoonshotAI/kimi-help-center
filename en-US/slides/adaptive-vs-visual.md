@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="What is the difference between adaptive and visual? - Kimi Help Center"
   description="Kimi Slides offers two generation modes. Choose the one that best fits your needs."
-  pageUrl="https://www.kimi.com/help/slides/ppt-smart-vs-classic"
 />
 
 # Difference between adaptive and visual

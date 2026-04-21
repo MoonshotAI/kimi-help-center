@@ -9,7 +9,6 @@ preview_content: "Kimi 会员自助开具电子发票的操作步骤与注意事
 <SeoMeta
   title="如何申请 Kimi 会员发票？ - Kimi 帮助中心"
   description="了解 Kimi 会员发票的申请流程、支持的发票类型、开票信息要求和常见问题解答，方便你进行财务报销。"
-  pageUrl="https://www.kimi.com/help/membership/membership-invoice"
 />
 
 # Kimi会员自助开票

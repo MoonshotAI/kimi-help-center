@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="General troubleshooting - Kimi Help Center"
   description="This page covers common error codes and self-repair options for Kimi Claw."
-  pageUrl="https://www.kimi.com/help/kimi-claw/troubleshooting"
 />
 
 This page covers common error codes and self-repair options for Kimi Claw.

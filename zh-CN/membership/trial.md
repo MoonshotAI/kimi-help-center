@@ -9,7 +9,6 @@ preview_content: "Andante 七天免费试用的权益范围、开通方式与续
 <SeoMeta
   title="Kimi 会员免费试用说明 - Kimi 帮助中心"
   description="了解 Kimi 会员免费试用的领取方式、试用期限和包含的功能范围，零成本体验 Kimi 全部 AI 能力。"
-  pageUrl="https://www.kimi.com/help/membership/membership-trial"
 />
 # Andante 七天试用权益介绍
 

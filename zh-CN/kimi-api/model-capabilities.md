@@ -9,7 +9,6 @@ preview_content: "Kimi 模型能力问答：JSON Mode、OCR、TTS/ASR 等。"
 <SeoMeta
   title="Kimi API 模型能力详解 - Kimi 帮助中心"
   description="了解 Kimi API 各模型的能力范围，包括上下文长度、多模态支持、工具调用、代码生成等核心能力参数与适用场景对比。"
-  pageUrl="https://www.kimi.com/help/kimi-api/api-model-capabilities"
 />
 
 # 模型能力

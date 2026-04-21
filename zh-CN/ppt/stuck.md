@@ -9,7 +9,6 @@ preview_content: "生成 PPT 时卡住不动的常见原因与恢复操作。"
 <SeoMeta
   title="生成 PPT 时卡住了怎么办？ - Kimi 帮助中心"
   description="Kimi PPT 生成过程中卡住不动？关闭当前对话，新建对话重新输入需求即可解决。如问题持续，请联系我们反馈。"
-  pageUrl="https://www.kimi.com/help/ppt/ppt-stuck"
 />
 # 生成 PPT 时卡住怎么办？
 

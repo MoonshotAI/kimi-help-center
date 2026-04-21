@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Not responding or slow? - Kimi Help Center"
   description="If Kimi Claw isn't replying or is unusually slow, there are several possible causes. Follow the troubleshooting path below."
-  pageUrl="https://www.kimi.com/help/kimi-claw/slow-no-response"
 />
 
 # Not responding or slow?

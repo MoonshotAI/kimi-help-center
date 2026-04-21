@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Memory tips - Kimi Help Center"
   description="I'm name/nickname, currently based in city. Background in profession/role, with expertise in area 1 and area 2."
-  pageUrl="https://www.kimi.com/help/getting-started/memory-tips"
 />
 
 ## 1. Help Kimi understand your world

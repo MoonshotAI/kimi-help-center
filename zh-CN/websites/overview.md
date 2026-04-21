@@ -9,7 +9,6 @@ preview_content: "Kimi Websites 全栈建站产品介绍，支持对话式生成
 <SeoMeta
   title="Kimi Websites 网站生成功能介绍 - Kimi 帮助中心"
   description="了解 Kimi Websites 的全栈建站能力，用自然语言生成完整网站（前端+后端+数据库），支持一键部署、多轮修改和代码导出。"
-  pageUrl="https://www.kimi.com/help/websites/websites-overview"
 />
 
 # Kimi 网站功能介绍

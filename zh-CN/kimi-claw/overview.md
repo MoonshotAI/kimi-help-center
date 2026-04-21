@@ -9,7 +9,6 @@ preview_content: "Kimi Claw 专属 AI 助理的产品介绍、创建流程与核
 <SeoMeta
   title="Kimi Claw 是什么？AI Agent 助手产品介绍 - Kimi 帮助中心"
   description="了解 Kimi Claw 的产品定位、核心能力与支持平台。Kimi Claw 是跨平台 AI Agent 助手，可接入飞书、微信、钉钉等平台，随时随地使用 Kimi 的智能能力。"
-  pageUrl="https://www.kimi.com/help/kimi-claw/overview"
 />
 # 云端部署 OpenClaw
 

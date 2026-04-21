@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Account suspension \u0026 appeals - Kimi Help Center"
   description="If you violate applicable laws, the user agreement, or platform policies, the platform may take actions including blocking content, freezing/transferring acc..."
-  pageUrl="https://www.kimi.com/help/others/account-ban"
 />
 
 # Account suspension & appeals

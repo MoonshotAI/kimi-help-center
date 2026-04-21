@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Credit update \u0026 usage rules - Kimi Help Center"
   description="Kimi upgrades membership benefits to a unified credit system. All features share one credit pool, and credits are consumed based on actual usage."
-  pageUrl="https://www.kimi.com/help/membership/update-rules"
 />
 
 # Credit update & usage rules

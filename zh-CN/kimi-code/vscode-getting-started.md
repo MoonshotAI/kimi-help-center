@@ -9,7 +9,6 @@ preview_content: "Kimi Code VS Code 插件的安装、登录与使用入门。"
 <SeoMeta
   title="Kimi Code for VS Code 快速入门 - Kimi 帮助中心"
   description="在 VS Code 中安装和使用 Kimi Code 扩展：登录、聊天面板、@引用文件、斜杠命令、代码变更 Diff 视图和 MCP 集成全流程指南。"
-  pageUrl="https://www.kimi.com/help/kimi-code/vscode-getting-started"
 />
 # Kimi Code for VS Code 快速开始
 

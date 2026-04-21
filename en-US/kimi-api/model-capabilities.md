@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Model capabilities - Kimi Help Center"
   description="Below are frequently asked questions about Kimi API model capabilities."
-  pageUrl="https://www.kimi.com/help/kimi-api/api-model-capabilities"
 />
 
 Below are frequently asked questions about Kimi API model capabilities.

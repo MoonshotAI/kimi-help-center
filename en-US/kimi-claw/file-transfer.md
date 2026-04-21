@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="File transfer - Kimi Help Center"
   description="Kimi Claw supports sending and receiving files."
-  pageUrl="https://www.kimi.com/help/kimi-claw/file-transfer"
 />
 
 Kimi Claw supports sending and receiving files.

@@ -12,7 +12,6 @@ preview_content: "Discover how Deep Research autonomously plans, searches, and d
 <SeoMeta
   title="Deep Research Overview - Kimi Help Center"
   description="Discover how Deep Research autonomously plans, searches, and delivers 10,000+ word research reports."
-  pageUrl="https://www.kimi.com/help/deep-research/deep-research-overview"
 />
 
 <Callout type="info">

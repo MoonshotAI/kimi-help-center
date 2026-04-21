@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Pricing details - Kimi Help Center"
   description="Kimi offers five membership tiers — including a free plan — each available as a monthly or annual subscription. Annual billing saves you up to $480/year."
-  pageUrl="https://www.kimi.com/help/membership/membership-pricing"
 />
 
 Kimi offers five membership tiers — including a free plan — each available as a monthly or annual subscription. Annual billing saves you up to **$480/year**.

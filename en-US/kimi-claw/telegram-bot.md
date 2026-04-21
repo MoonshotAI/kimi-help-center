@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Set up a Telegram bot - Kimi Help Center"
   description="Connect Kimi Claw to Telegram so you can chat with it from any device — no browser required."
-  pageUrl="https://www.kimi.com/help/kimi-claw/telegram-bot"
 />
 
 Connect Kimi Claw to Telegram so you can chat with it from any device — no browser required.

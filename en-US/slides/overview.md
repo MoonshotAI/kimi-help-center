@@ -10,7 +10,6 @@ preview_content: "Generate polished presentations from text or documents with Ki
 <SeoMeta
   title="Kimi Slides overview - Kimi Help Center"
   description="Generate polished presentations from text or documents with Kimi's AI-powered Slides tool."
-  pageUrl="https://www.kimi.com/help/slides/ppt-overview"
 />
 
 # Kimi Slides

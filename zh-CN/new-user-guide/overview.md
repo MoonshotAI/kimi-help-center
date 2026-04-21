@@ -9,7 +9,6 @@ preview_content: "Kimi 是什么？了解 Kimi 的核心功能、支持平台与
 <SeoMeta
   title="Kimi 新手入门指南 - Kimi 帮助中心"
   description="从零开始使用 Kimi：了解产品核心功能、注册登录方法、对话技巧和常用功能入口，快速上手 AI 智能助手。"
-  pageUrl="https://www.kimi.com/help/new-user-guide/overview"
 />
 
 # Kimi 概述

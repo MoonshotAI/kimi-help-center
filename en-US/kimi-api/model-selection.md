@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Model selection \u0026 comparison - Kimi Help Center"
   description="Choose the right Kimi API model based on capability, speed, and pricing."
-  pageUrl="https://www.kimi.com/help/kimi-api/api-model-selection"
 />
 
 # Model selection & comparison

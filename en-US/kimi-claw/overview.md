@@ -10,7 +10,6 @@ preview_content: "Deploy and manage your own Kimi Claw AI assistant in the cloud
 <SeoMeta
   title="Kimi Claw overview - Kimi Help Center"
   description="Deploy and manage your own Kimi Claw AI assistant in the cloud with one-click setup."
-  pageUrl="https://www.kimi.com/help/kimi-claw/overview"
 />
 
 # Product overview

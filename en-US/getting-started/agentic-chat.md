@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Getting started with Kimi - Kimi Help Center"
   description="You can type questions in the chat box, upload files, or switch between models depending on your needs."
-  pageUrl="https://www.kimi.com/help/getting-started/agentic-chat"
 />
 
 You can type questions in the chat box, upload files, or switch between models depending on your needs.

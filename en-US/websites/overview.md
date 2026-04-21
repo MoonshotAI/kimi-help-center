@@ -10,7 +10,6 @@ preview_content: "Build and deploy websites from natural language descriptions, 
 <SeoMeta
   title="Kimi Websites overview - Kimi Help Center"
   description="Build and deploy websites from natural language descriptions, design mockups, or templates."
-  pageUrl="https://www.kimi.com/help/websites/Websites-overview"
 />
 
 # Kimi Websites

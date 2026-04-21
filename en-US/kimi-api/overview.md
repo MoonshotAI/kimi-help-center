@@ -10,7 +10,6 @@ preview_content: "Get started with the Kimi API platform for text generation, co
 <SeoMeta
   title="Kimi API overview - Kimi Help Center"
   description="Get started with the Kimi API platform for text generation, conversations, file parsing, and web search."
-  pageUrl="https://www.kimi.com/help/kimi-api/api-overview"
 />
 
 The Kimi API platform provides developers with powerful large language model capabilities, helping you quickly integrate AI into your products and services.

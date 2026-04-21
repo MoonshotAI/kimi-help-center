@@ -9,7 +9,6 @@ preview_content: "Kimi Claw 使用技巧：人设配置、工作空间、Skills 
 <SeoMeta
   title="Kimi Claw 使用技巧与最佳实践 - Kimi 帮助中心"
   description="掌握 Kimi Claw 的高效使用技巧，包括提示词优化、多轮对话策略、文件处理方法等，充分发挥 AI Agent 助手的能力。"
-  pageUrl="https://www.kimi.com/help/kimi-claw/usage-tips"
 />
 #  Kimi Claw 使用技巧
 

@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Payment issues - Kimi Help Center"
   description="Running into trouble with billing? Here are the most common scenarios and how to resolve them."
-  pageUrl="https://www.kimi.com/help/membership/membership-payment-issues"
 />
 
 Running into trouble with billing? Here are the most common scenarios and how to resolve them.

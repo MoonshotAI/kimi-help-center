@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Cancel subscription - Kimi Help Center"
   description="You can cancel auto-renewal at any time. After cancellation, your membership benefits remain active until the end of the current billing cycle."
-  pageUrl="https://www.kimi.com/help/membership/membership-cancel-subscription"
 />
 
 You can cancel auto-renewal at any time. After cancellation, your membership benefits remain active until the end of the current billing cycle.

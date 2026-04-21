@@ -9,7 +9,6 @@ preview_content: "记忆功能的使用技巧与优化建议。"
 <SeoMeta
   title="Kimi 记忆功能使用技巧 - Kimi 帮助中心"
   description="掌握 Kimi 记忆功能的高效使用方法，包括如何添加、管理和优化记忆内容，让 AI 更懂你的需求和工作习惯。"
-  pageUrl="https://www.kimi.com/help/new-user-guide/memory-tips"
 />
 
 # 记忆功能使用技巧

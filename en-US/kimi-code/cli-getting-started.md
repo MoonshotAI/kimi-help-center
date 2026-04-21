@@ -10,7 +10,6 @@ preview_content: "Set up Kimi Code with CLI, VS Code, or third-party agents usin
 <SeoMeta
   title="Kimi Code overview - Kimi Help Center"
   description="Set up Kimi Code with CLI, VS Code, or third-party agents using your membership benefits."
-  pageUrl="https://www.kimi.com/help/kimi-code/cli-getting-started"
 />
 
 Kimi Code CLI is a terminal-based AI agent that helps you with software development tasks and terminal operations. It can read and edit code, execute shell commands, search and fetch web pages, and autonomously plan and adjust its approach during execution.

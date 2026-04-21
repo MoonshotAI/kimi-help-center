@@ -9,7 +9,6 @@ preview_content: "飞书群里 @机器人没反应的解决方案与常见配置
 <SeoMeta
   title="飞书中 Kimi Claw 不回复怎么办？ - Kimi 帮助中心"
   description="飞书机器人收不到 Kimi Claw 的回复？本文针对飞书平台的特定问题提供排查步骤，包括权限设置、插件状态检查等方法。"
-  pageUrl="https://www.kimi.com/help/kimi-claw/feishu-no-response"
 />
 # 飞书机器人常见问题
 

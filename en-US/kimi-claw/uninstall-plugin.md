@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Uninstall the Kimi plugin - Kimi Help Center"
   description="This only applies to self-hosted OpenClaw devices that you linked to Kimi. Make sure you're running this on your own machine."
-  pageUrl="https://www.kimi.com/help/kimi-claw/uninstall-plugin"
 />
 
 # Uninstall the Kimi plugin

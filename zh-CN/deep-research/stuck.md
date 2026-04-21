@@ -9,7 +9,6 @@ preview_content: "深度研究卡住或长时间无结果的处理方法。"
 <SeoMeta
   title="深度研究卡住了怎么办？ - Kimi 帮助中心"
   description="深度研究生成过程中卡住不动？本文提供排查步骤和解决方案，包括刷新页面、新建对话、优化提示词等方法，帮你快速恢复。"
-  pageUrl="https://www.kimi.com/help/deep-research/deep-research-stuck"
 />
 # 深度研究卡住或未出结果
 

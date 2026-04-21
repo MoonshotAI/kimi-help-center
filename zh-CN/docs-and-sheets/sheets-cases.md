@@ -9,7 +9,6 @@ preview_content: "Kimi Sheets 表格处理的使用案例与提示词模板。"
 <SeoMeta
   title="Kimi 表格生成使用案例与技巧 - Kimi 帮助中心"
   description="探索 Kimi 表格生成的实际使用案例，涵盖数据整理、财务分析、项目排期等场景，了解如何用自然语言快速创建专业表格。"
-  pageUrl="https://www.kimi.com/help/docs-and-sheets/docs-and-sheets-sheets-cases"
 />
 # Kimi Sheets 使用案例
 

@@ -63,7 +63,6 @@ Use a self-closing tag with direct string attributes only.
 <SeoMeta
   title="Page title - Kimi Help Center"
   description="Short page description."
-  pageUrl="https://www.kimi.com/help/category/article-slug"
   ogImage="https://example.com/cover.png"
   ogImageWidth="1200"
   ogImageHeight="630"
@@ -75,6 +74,7 @@ Rules:
 
 - Self-closing only.
 - Use literal string props only.
+- Do not pass `pageUrl`; it is no longer supported.
 - Do not use variables or computed expressions.
 - In MDX string props, prefer literal characters where valid. If the value
   contains embedded double quotes, escape them as HTML entities such as
@@ -276,6 +276,7 @@ Rules:
 - Front matter is present and complete.
 - Every custom component has blank lines around it.
 - `SeoMeta` uses literal string props only.
+- `SeoMeta` does not include `pageUrl`.
 - `SeoMeta` string props use correct MDX escaping for embedded quotes and
   punctuation.
 - `Chat` Kimi share URLs include both required query params.

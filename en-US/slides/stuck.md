@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="What to do if Slides generation gets stuck? - Kimi Help Center"
   description="If the generation process stalls and the file never completes, it is usually caused by a Slides generation failure."
-  pageUrl="https://www.kimi.com/help/slides/ppt-stuck"
 />
 
 # What if Slides generation gets stuck?

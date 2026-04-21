@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Free trial - Kimi Help Center"
   description="Kimi API offers free trial credits to newly registered users, allowing you to fully explore the platform's capabilities before committing."
-  pageUrl="https://www.kimi.com/help/kimi-api/api-free-trial"
 />
 
 Kimi API offers free trial credits to newly registered users, allowing you to fully explore the platform's capabilities before committing.

@@ -9,7 +9,6 @@ preview_content: "PPT 模板获取方式与模式选择说明。"
 <SeoMeta
   title="Kimi PPT 模板在哪里？如何选择模板？ - Kimi 帮助中心"
   description="了解 Kimi PPT 模板的获取方式，在 PPT 助手中输入需求后可选择智能布局或经典模板两种模式，快速生成专业幻灯片。"
-  pageUrl="https://www.kimi.com/help/ppt/ppt-templates"
 />
 # PPT 模板
 

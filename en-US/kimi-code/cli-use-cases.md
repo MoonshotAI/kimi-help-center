@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Common use cases - Kimi Help Center"
   description="Here are some typical scenarios for using Kimi Code CLI in everyday development, each with example prompts for reference."
-  pageUrl="https://www.kimi.com/help/kimi-code/cli-use-cases"
 />
 
 Here are some typical scenarios for using Kimi Code CLI in everyday development, each with example prompts for reference.

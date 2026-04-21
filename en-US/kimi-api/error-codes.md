@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="API error codes - Kimi Help Center"
   description="Common error codes when calling Kimi API and how to resolve them."
-  pageUrl="https://www.kimi.com/help/kimi-api/api-error-codes"
 />
 
 # API error codes

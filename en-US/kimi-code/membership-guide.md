@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Kimi Code membership guide - Kimi Help Center"
   description="Kimi Code is a developer-focused benefit within the Kimi membership plan, providing high-performance AI coding capabilities. You can use this benefit through..."
-  pageUrl="https://www.kimi.com/help/kimi-code/membership-guide"
 />
 
 # Kimi Code membership guide

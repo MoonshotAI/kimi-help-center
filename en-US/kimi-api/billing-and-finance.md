@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Billing \u0026 finance - Kimi Help Center"
   description="Frequently asked questions about Kimi API billing, pricing, and payment."
-  pageUrl="https://www.kimi.com/help/kimi-api/api-billing-and-finance"
 />
 
 # Billing & finance

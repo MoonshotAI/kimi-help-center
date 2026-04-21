@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Account \u0026 profile settings - Kimi Help Center"
   description="Yes. Navigate to:"
-  pageUrl="https://www.kimi.com/help/others/phone-profile"
 />
 
 ## Can I change my linked email or sign-in method?

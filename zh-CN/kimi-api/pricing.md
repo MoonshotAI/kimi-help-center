@@ -9,7 +9,6 @@ preview_content: "Kimi API 计费逻辑、Token 价格与成本优化建议。"
 <SeoMeta
   title="Kimi API 定价与计费说明 - Kimi 帮助中心"
   description="查看 Kimi API 各模型的调用价格、Token 计费规则与账单说明。了解输入/输出 Token 定价，合理预估 API 使用成本。"
-  pageUrl="https://www.kimi.com/help/kimi-api/api-pricing"
 />
 # API 计费说明
 

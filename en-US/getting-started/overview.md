@@ -12,7 +12,6 @@ preview_content: "Explore Kimi's chat modes, AI agents, file handling, and inter
 <SeoMeta
   title="Kimi overview - Kimi Help Center"
   description="Explore Kimi's chat modes, AI agents, file handling, and interface guide to get started."
-  pageUrl="https://www.kimi.com/help/getting-started/overview"
 />
 
 <Callout type="info">

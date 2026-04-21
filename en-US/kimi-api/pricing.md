@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="API pricing - Kimi Help Center"
   description="Kimi API billing based on token consumption, with model-specific and feature-specific pricing."
-  pageUrl="https://www.kimi.com/help/kimi-api/api-pricing"
 />
 
 # API pricing

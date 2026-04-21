@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Deep Research use cases \u0026 prompt library - Kimi Help Center"
   description="I am a professional securities analyst. Please help me conduct an in-depth analysis of Pop Mart from a financial perspective. The analysis should include but..."
-  pageUrl="https://www.kimi.com/help/deep-research/deep-research-use-cases"
 />
 
 ## Use case overview

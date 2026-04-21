@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Core concepts \u0026 terminal - Kimi Help Center"
   description="Image: 截图30"
-  pageUrl="https://www.kimi.com/help/kimi-claw/concepts"
 />
 
 ## Key concepts

@@ -9,7 +9,6 @@ preview_content: "Kimi Docs 文档处理的使用案例与提示词模板。"
 <SeoMeta
   title="Kimi 文档生成使用案例与技巧 - Kimi 帮助中心"
   description="探索 Kimi 文档生成的实际使用案例，涵盖报告撰写、方案策划、合同模板等场景，附提示词示例，帮你快速生成高质量文档。"
-  pageUrl="https://www.kimi.com/help/docs-and-sheets/docs-and-sheets-docs-cases"
 />
 
 # Kimi Docs 使用案例与提示词库

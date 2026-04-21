@@ -11,7 +11,6 @@ preview: false
 <SeoMeta
   title="Agent Features \u0026 Limitations - Kimi Help Center"
   description="Learn about Kimi Agent's capabilities, usage tips, limitations, and best practices for optimal results."
-  pageUrl="https://www.kimi.com/help/agent/agent-features-and-limits"
 />
 
 <Callout type="info">

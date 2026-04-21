@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Rate limits - Kimi Help Center"
   description="Kimi API enforces rate limits on request frequency and concurrency to ensure platform stability and fair usage. Rate limit tiers are based on your account's..."
-  pageUrl="https://www.kimi.com/help/kimi-api/api-rate-limits"
 />
 
 Kimi API enforces rate limits on request frequency and concurrency to ensure platform stability and fair usage. Rate limit tiers are based on your account's cumulative top-up amount.

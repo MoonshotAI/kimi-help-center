@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Interaction \u0026 input - Kimi Help Center"
   description="Kimi Code CLI provides multiple interaction methods to help you collaborate with the AI efficiently."
-  pageUrl="https://www.kimi.com/help/kimi-code/cli-interaction"
 />
 
 Kimi Code CLI provides multiple interaction methods to help you collaborate with the AI efficiently.

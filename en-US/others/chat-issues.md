@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Kimi chat common issues - Kimi Help Center"
   description="This may be caused by:"
-  pageUrl="https://www.kimi.com/help/others/chat-issues"
 />
 
 ## Can't send messages / red circle appears?

@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="IDE integration - Kimi Help Center"
   description="Kimi Code CLI supports integration into IDEs via the Agent Client Protocol ACP, allowing you to use AI coding capabilities directly within your editor."
-  pageUrl="https://www.kimi.com/help/kimi-code/cli-ides"
 />
 
 # IDE integration

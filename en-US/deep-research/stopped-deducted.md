@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="I stopped the task myself — why were credits still deducted? - Kimi Help Center"
   description="Once Deep Research begins, the system immediately allocates compute resources for retrieval, verification, and reasoning. Since resources are already reserve..."
-  pageUrl="https://www.kimi.com/help/deep-research/deep-research-stopped-deducted"
 />
 
 Once Deep Research begins, the system immediately allocates compute resources for retrieval, verification, and reasoning. Since resources are already reserved, manually clicking "Stop" or closing the page is treated as consumed credits.

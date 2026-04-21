@@ -9,7 +9,6 @@ preview_content: "Kimi Code 定制化配置：AGENTS.md、MCP 与环境变量。
 <SeoMeta
   title="Kimi Code CLI 定制化配置指南 - Kimi 帮助中心"
   description="深入了解 Kimi Code CLI 的配置文件（config.toml）、AGENTS.md 项目配置、自定义 System Prompt、MCP 集成和环境变量设置。"
-  pageUrl="https://www.kimi.com/help/kimi-code/cli-customization"
 />
 # 定制化与参考
 

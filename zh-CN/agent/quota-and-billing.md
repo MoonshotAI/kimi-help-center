@@ -9,7 +9,6 @@ preview_content: "Agent 额度计费规则、统一额度池与 Kimi Code 权益
 <SeoMeta
   title="Kimi Agent 额度与计费规则说明 - Kimi 帮助中心"
   description="了解 Kimi Agent 模式的额度消耗规则、计费方式与套餐包含的 Agent 用量。掌握额度查看方法，合理分配使用量，避免意外触顶。"
-  pageUrl="https://www.kimi.com/help/agent/agent-quota-and-billing"
 />
 # Agent 额度与计费
 

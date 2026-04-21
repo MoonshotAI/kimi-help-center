@@ -9,7 +9,6 @@ preview_content: "将 Kimi Code 集成到 Zsh 等工具中的安装步骤。"
 <SeoMeta
   title="Kimi Code CLI 工具集成 - Kimi 帮助中心"
   description="了解如何通过 zsh-kimi-cli 插件将 Kimi Code 集成到终端工作流中，使用 Oh My Zsh 一键安装，Ctrl-X 快速唤起 AI 助手。"
-  pageUrl="https://www.kimi.com/help/kimi-code/cli-integrations"
 />
 # 集成到工具
 

@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Invoices - Kimi Help Center"
   description="Kimi supports self-service invoice generation for your membership payments."
-  pageUrl="https://www.kimi.com/help/membership/membership-invoice"
 />
 
 Kimi supports self-service invoice generation for your membership payments.

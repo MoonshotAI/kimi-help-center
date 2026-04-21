@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Presets - Kimi Help Center"
   description="Presets are Kimi's quick-prompt feature, letting you save frequently used prompts and invoke them with a single click in any session — no more repetitive typ..."
-  pageUrl="https://www.kimi.com/help/getting-started/quick-phrases"
 />
 
 Presets are Kimi's quick-prompt feature, letting you save frequently used prompts and invoke them with a single click in any session — no more repetitive typing.

@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Account \u0026 authentication - Kimi Help Center"
   description="Frequently asked questions about Kimi API developer accounts, verification, and authentication."
-  pageUrl="https://www.kimi.com/help/kimi-api/api-account-and-auth"
 />
 
 # Account & authentication

@@ -12,7 +12,6 @@ preview_content: "Learn about K2.5 Agent's autonomous task execution, 20+ tools,
 <SeoMeta
   title="K2.5 Agent Overview - Kimi Help Center"
   description="Discover Kimi K2.5 Agent's capabilities, evolution, and use cases."
-  pageUrl="https://www.kimi.com/help/agent/agent-overview"
 />
 
 Kimi K2.5 Agent is an autonomous AI assistant that handles complex tasks end-to-end. Powered by the K2.5 model (1T parameters, 32B active), it uses 20+ tools to build websites, generate documents, analyze data, and more.

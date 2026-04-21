@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Conversation limits - Kimi Help Center"
   description="When the conversation context grows too long and exceeds the model's token limit, Kimi Claw may stop responding or return an error."
-  pageUrl="https://www.kimi.com/help/kimi-claw/conversation-limits"
 />
 
 ## Token limit exceeded?

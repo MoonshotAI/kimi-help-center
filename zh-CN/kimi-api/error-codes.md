@@ -9,7 +9,6 @@ preview_content: "Kimi API 错误码一览表与排查建议。"
 <SeoMeta
   title="Kimi API 错误码参考大全 - Kimi 帮助中心"
   description="查阅 Kimi API 常见错误码及其含义，包括 400、401、403、429、500 等错误的原因分析与解决方案，快速定位和修复问题。"
-  pageUrl="https://www.kimi.com/help/kimi-api/api-error-codes"
 />
 
 # API 错误码说明

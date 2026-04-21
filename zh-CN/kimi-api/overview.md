@@ -9,7 +9,6 @@ preview_content: "Kimi API 开放平台介绍与快速开始指南。"
 <SeoMeta
   title="Kimi API 产品概览与快速入门 - Kimi 帮助中心"
   description="了解 Kimi API 的核心能力、接入方式与适用场景。Kimi API 提供强大的大语言模型调用服务，支持对话、工具调用、文件解析等功能。"
-  pageUrl="https://www.kimi.com/help/kimi-api/api-overview"
 />
 
 # Kimi API 介绍

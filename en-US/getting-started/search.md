@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Agentic search - Kimi Help Center"
   description="Kimi's Agentic Search is built on an end-to-end agentic reinforcement learning architecture. Unlike traditional tool-orchestration approaches, it lets the AI..."
-  pageUrl="https://www.kimi.com/help/getting-started/search"
 />
 
 # Agentic search

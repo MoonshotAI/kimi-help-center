@@ -9,7 +9,6 @@ preview_content: "Kimi 会员五档套餐全面对比，了解权益、计费与
 <SeoMeta
   title="Kimi 会员体系介绍 - Kimi 帮助中心"
   description="全面了解 Kimi 会员体系，包括五档套餐定位、权益范围、额度机制和订阅方式，找到最适合你的会员方案。"
-  pageUrl="https://www.kimi.com/help/membership/membership-overview"
 />
 
 # 会员订阅服务权益介绍

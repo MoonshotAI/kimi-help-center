@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Prompt basics - Kimi Help Center"
   description="A prompt is the text instruction you send to Kimi — it can be a question, a description, a set of requirements, or even a complete task brief. Kimi uses your..."
-  pageUrl="https://www.kimi.com/help/getting-started/what-is-prompt"
 />
 
 # Prompt basics

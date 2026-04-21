@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Can't download or save a Deep Research report? - Kimi Help Center"
   description="Deep Research produces two types of reports, both of which can be saved."
-  pageUrl="https://www.kimi.com/help/deep-research/deep-research-download-save"
 />
 
 # Can't download or save Deep Research report?

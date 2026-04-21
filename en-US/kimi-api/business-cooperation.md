@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Business cooperation \u0026 sales - Kimi Help Center"
   description="Partnership options for enterprise clients — from volume discounts to custom SLAs."
-  pageUrl="https://www.kimi.com/help/kimi-api/api-business-cooperation"
 />
 
 # Business cooperation & sales

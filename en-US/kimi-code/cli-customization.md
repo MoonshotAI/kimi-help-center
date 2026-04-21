@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Customization \u0026 reference - Kimi Help Center"
   description="Kimi Code CLI offers extensive customization options, allowing you to tailor the AI's behavior and workflow to your needs."
-  pageUrl="https://www.kimi.com/help/kimi-code/cli-customization"
 />
 
 Kimi Code CLI offers extensive customization options, allowing you to tailor the AI's behavior and workflow to your needs.

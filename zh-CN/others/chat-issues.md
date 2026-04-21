@@ -9,7 +9,6 @@ preview_content: "Kimi 会话常见问题：发送失败、上下文过长、安
 <SeoMeta
   title="Kimi 对话常见问题与排查 - Kimi 帮助中心"
   description="遇到 Kimi 对话异常？本文汇总对话中常见问题的排查方案，包括回复中断、内容异常、加载失败等，帮你快速解决。"
-  pageUrl="https://www.kimi.com/help/others/chat-issues"
 />
 
 # 会话常见问题

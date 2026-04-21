@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Benefits - Kimi Help Center"
   description="Kimi Code is a service included in the Kimi membership plan, providing coding-related support and features to help members complete programming tasks more ef..."
-  pageUrl="https://www.kimi.com/help/kimi-code/benefits"
 />
 
 Kimi Code is a service included in the Kimi membership plan, providing coding-related support and features to help members complete programming tasks more efficiently in their personal development workflow.

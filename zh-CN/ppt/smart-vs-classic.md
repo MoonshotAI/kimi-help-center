@@ -9,7 +9,6 @@ preview_content: "智能布局与经典模板两种 PPT 生成模式的区别与
 <SeoMeta
   title="Kimi PPT 智能布局与经典模板有什么区别？ - Kimi 帮助中心"
   description="对比 Kimi PPT 两种生成模式：智能布局（AI 个性化设计，5-10 分钟）vs 经典模板（从模板库选择，3-5 分钟），选择最适合你的方式。"
-  pageUrl="https://www.kimi.com/help/ppt/ppt-smart-vs-classic"
 />
 
 # 智能布局与经典模版

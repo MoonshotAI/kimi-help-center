@@ -9,7 +9,6 @@ preview_content: "Kimi Code CLI 安装、登录与初始化的快速入门指南
 <SeoMeta
   title="Kimi Code CLI 安装与快速入门 - Kimi 帮助中心"
   description="从零开始使用 Kimi Code CLI：安装命令、三种使用方式（终端/浏览器/IDE）、首次登录四步指引，以及用 /init 生成项目配置文件。"
-  pageUrl="https://www.kimi.com/help/kimi-code/cli-getting-started"
 />
 # 开始使用 Kimi Code CLI
 

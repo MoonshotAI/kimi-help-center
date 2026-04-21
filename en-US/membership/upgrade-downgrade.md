@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Plan changes - Kimi Help Center"
   description="You can adjust your Kimi membership at any time. Here's how upgrades and downgrades work."
-  pageUrl="https://www.kimi.com/help/membership/membership-upgrade-downgrade"
 />
 
 You can adjust your Kimi membership at any time. Here's how upgrades and downgrades work.

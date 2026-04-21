@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Contact \u0026 feedback - Kimi Help Center"
   description="Q: Where can I submit feedback?"
-  pageUrl="https://www.kimi.com/help/getting-started/contact-feedback"
 />
 
 ## Contact&feedback

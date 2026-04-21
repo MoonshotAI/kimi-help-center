@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Kimi Docs use cases \u0026 prompt library - Kimi Help Center"
   description="Example use cases and prompts for Kimi Docs — from manuscript review to professional translation and PDF design."
-  pageUrl="https://www.kimi.com/help/docs-and-sheets/docs-cases"
 />
 
 # Kimi Docs use cases & prompt library

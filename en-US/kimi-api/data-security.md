@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Data processing \u0026 security - Kimi Help Center"
   description="User data security and privacy protection FAQ for Kimi API."
-  pageUrl="https://www.kimi.com/help/kimi-api/api-data-security"
 />
 
 # Data processing & security

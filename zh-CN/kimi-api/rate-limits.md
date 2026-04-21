@@ -9,7 +9,6 @@ preview_content: "API 速率限制分级规则、429 处理与申请提速方法
 <SeoMeta
   title="Kimi API 速率限制说明 - Kimi 帮助中心"
   description="了解 Kimi API 的请求速率限制（RPM/TPM）规则、不同套餐的限额差异以及遇到 429 错误时的处理方法。"
-  pageUrl="https://www.kimi.com/help/kimi-api/api-rate-limits"
 />
 
 # 速率限制与提速

@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Agent quota & billing - Kimi Help Center"
   description="Agent mode uses Kimi's unified quota system. All membership features Agent, Deep Research, Slides, Docs, Sheets, Kimi Code, Kimi Claw, etc. share a single qu..."
-  pageUrl="https://www.kimi.com/help/agent/quota-and-billing"
 />
 
 # Agent quota & billing

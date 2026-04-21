@@ -9,7 +9,6 @@ preview_content: "Kimi Websites 全栈能力说明与当前限制。"
 <SeoMeta
   title="Kimi 生成的网页为什么不能用？ - Kimi 帮助中心"
   description="了解 Kimi Websites 当前的能力边界和限制。不支持第三方支付、OAuth 和复杂 API 集成等场景，以及相应的替代方案建议。"
-  pageUrl="https://www.kimi.com/help/websites/websites-why-not-working"
 />
 
 # Kimi Websites 全栈能力说明

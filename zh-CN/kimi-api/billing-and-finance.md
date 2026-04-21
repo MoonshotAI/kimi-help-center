@@ -9,7 +9,6 @@ preview_content: "API 充值、发票开具与退款政策说明。"
 <SeoMeta
   title="Kimi API 账单与财务管理 - Kimi 帮助中心"
   description="了解 Kimi API 的账单生成规则、充值方式、发票申请流程和财务相关常见问题，方便企业用户进行费用管理。"
-  pageUrl="https://www.kimi.com/help/kimi-api/api-billing-and-finance"
 />
 
 # 计费与财务

@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Why isn't the agent-built website working? - Kimi Help Center"
   description="A full-stack project includes frontend UI, backend services, and persistent storage. Kimi Agent can generate all three, but successful runtime depends on env..."
-  pageUrl="https://www.kimi.com/help/websites/websites-why-not-working"
 />
 
 # Why not working?

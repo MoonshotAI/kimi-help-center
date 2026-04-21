@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Where can I find more Slides templates? - Kimi Help Center"
   description="Open Kimi Slideshttps://www.kimi.com/slides and enter your requirements. After generating an outline, you'll see two mode options below it. Click either mode..."
-  pageUrl="https://www.kimi.com/help/slides/ppt-templates"
 />
 
 # More Slides templates

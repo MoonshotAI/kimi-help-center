@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Kimi Sheets use cases \u0026 prompt library - Kimi Help Center"
   description="Example use cases and prompts for Kimi Sheets — from financial valuation to storyboard creation."
-  pageUrl="https://www.kimi.com/help/docs-and-sheets/sheets-cases"
 />
 
 # Kimi Sheets use cases

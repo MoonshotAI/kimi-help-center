@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="API troubleshooting - Kimi Help Center"
   description="Common issues and solutions for developers using Kimi API."
-  pageUrl="https://www.kimi.com/help/kimi-api/api-troubleshooting"
 />
 
 # API troubleshooting

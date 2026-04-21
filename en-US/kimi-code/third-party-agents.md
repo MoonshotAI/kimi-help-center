@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Using with third-party coding agents - Kimi Help Center"
   description="Kimi Code benefits can be used with Claude Code and Roo Code, allowing you to enjoy Kimi's AI capabilities within your preferred coding tools."
-  pageUrl="https://www.kimi.com/help/kimi-code/third-party-agents"
 />
 
 Kimi Code benefits can be used with Claude Code and Roo Code, allowing you to enjoy Kimi's AI capabilities within your preferred coding tools.

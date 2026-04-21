@@ -9,7 +9,6 @@ preview_content: "深度研究的上下文长度说明与超限处理建议。"
 <SeoMeta
   title="Kimi 深度研究的上下文长度说明 - Kimi 帮助中心"
   description="了解 Kimi 深度研究支持的上下文长度范围与限制，掌握如何优化输入内容以获得更完整、更高质量的研究报告输出。"
-  pageUrl="https://www.kimi.com/help/deep-research/deep-research-context-length"
 />
 # 上下文长度使用指南
 

@@ -9,7 +9,6 @@ preview: false
 <SeoMeta
   title="Supported platforms - Kimi Help Center"
   description="Kimi Claw is available on the following platforms:"
-  pageUrl="https://www.kimi.com/help/kimi-claw/platform-support"
 />
 
 ## Supported platforms

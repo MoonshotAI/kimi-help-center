@@ -12,7 +12,6 @@ Kimi offers five membership tiers — including a free plan — designed to scal
 <SeoMeta
   title="Kimi membership overview - Kimi Help Center"
   description="Compare Kimi's five membership tiers, credit system, and billing options."
-  pageUrl="https://www.kimi.com/help/membership/membership-overview"
 />
 
 ## Plan comparison
