@@ -139,19 +139,19 @@ Kimi Agent 采用了基于强化学习训练的自主决策系统，能够在没
     {
       title: "PPT 制作",
       description: "智能模版、内容生成，从框架到内容一站式生成高品质 PPT。",
-      pageUrl: "/help/ppt/ppt-overview",
+      pageUrl: "/help/ppt",
       type: "ppt",
     },
     {
       title: "文档与表格",
       description: "智能文档编辑、数据分析，支持 Word、Excel、PDF 等多种格式。",
-      pageUrl: "/help/docs-and-sheets/docs-and-sheets-overview",
+      pageUrl: "/help/docs-and-sheets",
       type: "document",
     },
     {
       title: "深度研究",
       description: "通过复杂搜索、多步推理，生成万字高质量研究报告。",
-      pageUrl: "/help/deep-research/deep-research-overview",
+      pageUrl: "/help/deep-research",
       type: "microscope",
     },
   ]}
