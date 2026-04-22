@@ -21,7 +21,7 @@ preview_content: "API 账号注册、认证、换绑与申诉的常见问题。"
 
 ## 个人账号如何转为企业账号？
 
-1. 登录 [platform.kimi.ai](https://platform.kimi.ai) 控制台。
+1. 登录 [platform.kimi.com](https://platform.kimi.com/) 控制台。
 2. 进入「账号设置 → 认证信息」。
 3. 选择「企业认证」，按要求填写企业信息并上传相关资质文件。
 4. 提交后等待审核，审核通过后自动切换为企业账号。
