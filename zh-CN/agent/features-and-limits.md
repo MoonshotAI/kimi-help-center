@@ -88,7 +88,7 @@ Agent 通过调用多种工具满足以下需求：
 
 Agent 使用的 上下文长度（context length）为 **128K tokens**（约 8–10 万汉字）。
 
-Token 是大语言模型处理文本的基本单位，不等于字数——一个汉字通常对应 1.5–2 个 token，一个英文单词约对应 1–2 个 token。如需精确估算，可使用[Kimi 开放平台 Token 估算接口](https://platform.kimi.ai/docs/pricing/chat)
+Token 是大语言模型处理文本的基本单位，不等于字数——一个汉字通常对应 1.5–2 个 token，一个英文单词约对应 1–2 个 token。如需精确估算，可使用[Kimi 开放平台 Token 估算接口](https://platform.kimi.com/docs/pricing/chat)
 
 上下文窗口包含 Agent 在一次任务中能“看到”的所有内容，包括：你的指令、Agent 调用工具的过程记录、工具返回的结果、以及 Agent 自身的输出。当任务涉及大量网页抓取、文件读取或多步工具调用时，上下文会消耗得更快。
 
