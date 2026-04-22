@@ -17,7 +17,7 @@ preview_content: "API 充值、发票开具与退款政策说明。"
 
 ## 收费标准是怎样的？
 
-Kimi API 按 token 消耗量计费，输入 token 和输出 token 分开计价。不同模型价格不同，联网搜索每次额外收费 ¥0.03。详细价格请参考 [platform.kimi.ai/docs/pricing/chat](https://platform.kimi.ai/docs/pricing/chat)。
+Kimi API 按 token 消耗量计费，输入 token 和输出 token 分开计价。不同模型价格不同，联网搜索每次额外收费 ¥0.03。详细价格请参考 [platform.kimi.com/docs/pricing/chat](https://platform.kimi.com/docs/pricing/chat)。
 
 ## 支持企业微信或支付宝充值吗？
 
@@ -31,7 +31,7 @@ API 控制台支持以下充值方式：
 
 ## 如何开发票？
 
-1. 登录 [platform.kimi.ai](https://platform.kimi.ai) 控制台。
+1. 登录 [https://platform.kimi.com/](https://platform.kimi.com/) 控制台。
 2. 进入「费用 → 发票管理」页面。
 3. 选择需要开票的充值记录。
 4. 填写发票信息（个人/企业），提交申请。
@@ -48,6 +48,6 @@ API 控制台支持以下充值方式：
 API 充值余额的退款政策如下：
 
 - 未使用的充值余额可以申请退款。
-- 退款需发送邮件至 **support@moonshot.cn**，提供账号信息和充值记录。
+- 退款需发送邮件至 **api-service@moonshot.ai**，提供账号信息和充值记录。
 - 已消耗的金额和已使用的代金券不予退还。
 - 退款将原路返回至支付账户，处理时间约 3-7 个工作日。
