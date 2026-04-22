@@ -16,10 +16,7 @@ preview: false
 Welcome to Kimi Claw Android. This article will introduce how to deploy OpenClaw to Android phones and turn your idle phone into your 24/7 AI remote assistant. You can remotely control your phone, use apps, connect to smart homes, and create your own personalized assistant through messaging apps such as Kimi, Feishu, and WeChat.
 </Callout>
 
-<Callout type="warning">
-It is recommended to deploy Kimi Claw Android on idle phones to avoid permission conflicts with daily use.
-Please do not manually upgrade the OpenClaw version; official adapted updates will be delivered through in-app version updates.
-</Callout>
+It is recommended to deploy Kimi Claw Android on idle phones to avoid permission conflicts with daily use. Please do not manually upgrade the OpenClaw version; official adapted updates will be delivered through in-app version updates.
 
 <Callout type="info">
 You can use Control (command) + F to quickly find error messages/keywords.
@@ -27,7 +24,7 @@ You can use Control (command) + F to quickly find error messages/keywords.
 
 ## Kimi Claw Android Introduction
 <Frames
-  src="./images/kimi-claw-android-guide/img-06.jpg"
+  src="./images/kimi-claw-android-guide/img-06.png"
 />
 
 System requirements:
@@ -78,8 +75,6 @@ Kimi Claw Android requires the following permissions to run stably in the backgr
 | Storage space permissions | At least 5GB of available space is required |
 | Background running permission | Keep the gateway running when switching to the background |
 
-Self-starting permission configuration guide:
-
 Since the settings paths vary among different mobile phone brands, the following are the general steps:
 
 1. Click "Open Settings" to jump to the phone settings page
@@ -104,9 +99,8 @@ If the installation fails, you can click "Reinstall" to try again. If it fails m
 
 ### Main Interface
 <Frames
-  src="./images/kimi-claw-android-guide/img-14.jpg"
+  src="./images/kimi-claw-android-guide/img-14.png"
 />
-
 After the configuration is completed, enter the Dashboard main interface, and you can see the following information:
 
 - OpenClaw Gateway Status — Starting / Connected / Stopped, and Runtime
@@ -120,7 +114,6 @@ If a permission reminder appears at the top of the Dashboard, it indicates that 
 <Frames
   src="./images/kimi-claw-android-guide/img-33.jpg"
 />
-
 In the Dashboard, you can manage all communication channels:
 
 - View connected channels and their statuses (e.g., Kimi - Connected, Feishu - Connected)
@@ -138,14 +131,13 @@ Please keep at least one chat channel to ensure normal communication with Kimi C
 - Auto Scroll to Bottom — Automatically scroll to the latest log
 - Refresh — Manually refresh the log content
 <Frames
-  src="./images/kimi-claw-android-guide/img-16.png"
+  src="./images/kimi-claw-android-guide/img-16.jpg"
 />
 
 ### Settings
 <Frames
   src="./images/kimi-claw-android-guide/img-21.jpg"
 />
-
 Click Settings to enter the settings page:
 
 **Functional Layer:**
@@ -243,7 +235,7 @@ Enter Kimi Claw Android, connect to the WeChat channel, and complete the process
 
 ### Telegram
 <Frames
-  src="./images/kimi-claw-android-guide/img-34.png"
+  src="./images/kimi-claw-android-guide/img-34.jpg"
 />
 
 Kimi Claw Android supports Telegram integration, requiring users to first obtain their bot token and user ID.
@@ -288,12 +280,11 @@ After the configuration is completed, you can send commands to Claw in Kimi, Fei
 
 ### Use ClawHub Skills
 <Frames
-  src="./images/kimi-claw-android-guide/img-18.png"
+  src="./images/kimi-claw-android-guide/img-18.jpg"
 />
 Kimi Claw Android comes with ClawHub, a built-in skill library. You can manage and install skills in the settings to expand more capabilities for Claw.
 
 Scenarios suitable for using Skills:
-
 - Information Organization: News Aggregation, Competing Product Comparison
 - Data Analysis: Market Review, Data Interpretation
 - Workflow Automation: A Complete Process from Requirement Decomposition to Output
@@ -319,34 +310,34 @@ Due to financial security and privacy concerns, the following categories of apps
 
 1. Social
 
-| Number | Package | Risk description |
-| --- | --- | --- |
-| 1 | wechat | Important private social and payment functions are involved |
+| Package | Risk description |
+| --- | --- |
+| wechat | Important private social and payment functions are involved |
 
 2. Banking
 
-| Number | Package | App name | Risk description |
-| --- | --- | --- | --- |
-| 1 | com.android.bankabc | abc, Agricultural Bank of China | Agricultural Bank of China, which can perform operations such as transfers and wealth management |
-| 2 | com.bankcomm.main | bocom, Bank of Communications | Bank of Communications, which supports operations such as transfers and wealth management |
-| 3 | com.bjbk.im | Bank of Beijing | Bank of Beijing, which can perform operations such as transfers and wealth management |
-| 4 | com.cebbank.im | Everbright Bank | China Everbright Bank, which can perform operations such as transfers and wealth management |
-| 5 | com.cgb.im | Guangfa Bank | Guangfa Bank, which can perform operations such as transfers and wealth management |
-| 6 | com.chinamworld.bocmbci | boc, Bank of China | Bank of China, one of the Big Four Banks |
-| 7 | com.chinamworld.main | CCB, China Construction Bank | China Construction Bank, one of the Big Four Banks |
-| 8 | com.cib.im | Industrial Bank | Industrial Bank, which can perform operations such as transfers and wealth management |
-| 9 | com.citic.im | China CITIC Bank | China CITIC Bank, which supports operations such as transfers and wealth management |
-| 10 | com.cmbc.im | Minsheng Bank | China Minsheng Bank, which can perform operations such as transfers and wealth management |
-| 11 | com.cmbchina.ccd.pluto.customerView | cmb, China Merchants Bank | China Merchants Bank, which supports operations such as transfers and wealth management |
-| 12 | com.hxb.im | Huaxia Bank | Huaxia Bank, which can perform operations such as transfers and wealth management |
-| 13 | com.hzbk.im | Hangzhou Bank | Hangzhou Bank, which supports operations such as transfers and wealth management |
-| 14 | com.icbc | ICBC, Industrial and Commercial Bank of China | Industrial and Commercial Bank of China, one of the Big Four Banks |
-| 15 | com.jsbk.im | Jiangsu Bank | Jiangsu Bank, which supports operations such as transfers and wealth management |
-| 16 | com.nbbk.im | Ningbo Bank | Ningbo Bank, which supports operations such as transfers and wealth management |
-| 17 | com.pingan.paces.cloud | Ping An Pocket Bank | Ping An Bank Mobile Client |
-| 18 | com.psbc.im | Postal Savings Bank | Postal Savings Bank of China |
-| 19 | com.shbk.im | Shanghai Bank | Shanghai Bank, which supports operations such as transfers and wealth management |
-| 20 | com.spdb.im | Shanghai Pufa Bank | Shanghai Pufa Development Bank |
+| Package | App name | Risk description |
+| --- | --- | --- |
+| com.android.bankabc | abc, Agricultural Bank of China | Agricultural Bank of China, which can perform operations such as transfers and wealth management |
+| com.bankcomm.main | bocom, Bank of Communications | Bank of Communications, which supports operations such as transfers and wealth management |
+| com.bjbk.im | Bank of Beijing | Bank of Beijing, which can perform operations such as transfers and wealth management |
+| com.cebbank.im | Everbright Bank | China Everbright Bank, which can perform operations such as transfers and wealth management |
+| com.cgb.im | Guangfa Bank | Guangfa Bank, which can perform operations such as transfers and wealth management |
+| com.chinamworld.bocmbci | boc, Bank of China | Bank of China, one of the Big Four Banks |
+| com.chinamworld.main | CCB, China Construction Bank | China Construction Bank, one of the Big Four Banks |
+| com.cib.im | Industrial Bank | Industrial Bank, which can perform operations such as transfers and wealth management |
+| com.citic.im | China CITIC Bank | China CITIC Bank, which supports operations such as transfers and wealth management |
+| com.cmbc.im | Minsheng Bank | China Minsheng Bank, which can perform operations such as transfers and wealth management |
+| com.cmbchina.ccd.pluto.customerView | cmb, China Merchants Bank | China Merchants Bank, which supports operations such as transfers and wealth management |
+| com.hxb.im | Huaxia Bank | Huaxia Bank, which can perform operations such as transfers and wealth management |
+| com.hzbk.im | Hangzhou Bank | Hangzhou Bank, which supports operations such as transfers and wealth management |
+| com.icbc | ICBC, Industrial and Commercial Bank of China | Industrial and Commercial Bank of China, one of the Big Four Banks |
+| com.jsbk.im | Jiangsu Bank | Jiangsu Bank, which supports operations such as transfers and wealth management |
+| com.nbbk.im | Ningbo Bank | Ningbo Bank, which supports operations such as transfers and wealth management |
+| com.pingan.paces.cloud | Ping An Pocket Bank | Ping An Bank Mobile Client |
+| com.psbc.im | Postal Savings Bank | Postal Savings Bank of China |
+| com.shbk.im | Shanghai Bank | Shanghai Bank, which supports operations such as transfers and wealth management |
+| com.spdb.im | Shanghai Pufa Bank | Shanghai Pufa Development Bank |
 
 3. Payment
 
