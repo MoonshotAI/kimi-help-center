@@ -21,7 +21,7 @@ preview_content: "API 账号注册、认证、换绑与申诉的常见问题。"
 
 ## 个人账号如何转为企业账号？
 
-1. 登录 [platform.kimi.ai](https://platform.kimi.ai) 控制台。
+1. 登录 [platform.kimi.com](https://platform.kimi.com/) 控制台。
 2. 进入「账号设置 → 认证信息」。
 3. 选择「企业认证」，按要求填写企业信息并上传相关资质文件。
 4. 提交后等待审核，审核通过后自动切换为企业账号。
@@ -44,7 +44,7 @@ preview_content: "API 账号注册、认证、换绑与申诉的常见问题。"
 
 如果你的 API 账号因违规被封禁：
 
-1. 发送邮件至 **support@moonshot.cn**，主题注明「API 账号申诉」。
+1. 发送邮件至 **api-service@moonshot.ai**，主题注明「API 账号申诉」。
 2. 邮件中提供你的账号信息（注册手机号/邮箱）和申诉说明。
 3. 平台将在 1-3 个工作日内审核并回复。
 
@@ -52,7 +52,7 @@ preview_content: "API 账号注册、认证、换绑与申诉的常见问题。"
 
 目前手机号换绑需要联系客服协助处理：
 
-1. 发送邮件至 **support@moonshot.cn**，主题注明「手机号换绑」。
+1. 发送邮件至 **api-service@moonshot.ai**，主题注明「手机号换绑」。
 2. 提供原手机号和新手机号信息。
 3. 可能需要进行身份验证以确保账号安全。
 

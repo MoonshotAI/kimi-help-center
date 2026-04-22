@@ -49,5 +49,5 @@ Topped-up funds are available immediately for API usage.
 </Callout>
 
 To request a refund:
-1. Send an email to **support@moonshot.ai** with your account information and top-up records.
+1. Send an email to **api-service@moonshot.ai** with your account information and top-up records.
 2. The team will process your request within 3–7 business days.

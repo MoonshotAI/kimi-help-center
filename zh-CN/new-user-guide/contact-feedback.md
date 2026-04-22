@@ -22,7 +22,7 @@ preview_content: "查看 Kimi 的官方联系方式与意见反馈渠道。"
 | 对话质量反馈 | 对话结束后点击「👎」，说明问题类型与具体偏差 |
 | 账号申诉 / 投诉举报 | [support@moonshot.cn](mailto:support@moonshot.cn) |
 | 媒体联络 | [pr@kimi.com](mailto:pr@kimi.com) |
-| Kimi API 支持 | 登录 [开放平台](https://platform.kimi.ai/) 查询客服联系方式及开发者社群 |
+| Kimi API 支持 | 登录 [开放平台](https://platform.kimi.com/) 查询客服联系方式及开发者社群 |
 | 企业微信官方客服 | 关注微信公众号「月之暗面Kimi」，底部菜单「联系我们」-「联系客服」可以找到官方客服企业微信 |
 | 投资者联系 | [legalteam@moonshot.ai](mailto:legalteam@moonshot.ai) |
 
