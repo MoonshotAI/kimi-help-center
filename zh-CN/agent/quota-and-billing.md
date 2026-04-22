@@ -1,14 +1,15 @@
 ---
-
-## title: "Agent 额度与计费"
+title: "Agent 额度与计费"
 slug: "agent-quota-and-billing"
 order: 4
 extract_headings: true
 preview: true
 preview_content: "Agent 额度计费规则、统一额度池与 Kimi Code 权益说明。"
-
-
-
+---
+<SeoMeta
+  title="Kimi Agent 额度与计费规则说明 - Kimi 帮助中心"
+  description="了解 Kimi Agent 模式的额度消耗规则、计费方式与套餐包含的 Agent 用量。掌握额度查看方法，合理分配使用量，避免意外触顶。"
+/>
 # Agent 额度与计费
 
 Agent 模式使用 Kimi 统一额度进行计费。所有会员功能（Agent、深度研究、PPT、文档、表格、Kimi Code、Kimi Claw 等）共享同一个额度池，额度按实际 token 消耗扣除。
@@ -20,7 +21,9 @@ Agent 模式使用 Kimi 统一额度进行计费。所有会员功能（Agent、
 - **额度刷新**：额度按月刷新，与订阅周期一致
 - **使用优先级**：优先消耗获赠额度（如试用赠送、活动奖励），其次消耗套餐额度
 
+<Callout type="tip">
 举例：以 Moderato 套餐为例，生成一份简单 PPT 可能消耗约 1-2% 额度，进行一次深度研究可能消耗约 5-10% 额度。
+</Callout>
 
 ## 额度用完了怎么办？
 
@@ -33,15 +36,20 @@ Agent 模式使用 Kimi 统一额度进行计费。所有会员功能（Agent、
   - 升级至更高等级会员获取更多额度
 
 ## 如何查看额度使用情况？
-
 ### 会员权益额度
 
+<Frames
+  src="./images/quota-and-billing/quota-and-billing-01.png"
+  alt="额度查看入口"
+/>
 
-
-- **网页版**：我的 → 设置 → 订阅 
+- **网页版**：我的 → 设置 → 订阅
 - **APP 端**：我的 → 会员计划 → 订阅
 
-
+<Frames
+  src="./images/quota-and-billing/quota-and-billing-02.png"
+  alt="额度查看入口"
+/>
 
 可查看内容：
 
