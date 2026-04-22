@@ -65,7 +65,7 @@ Kimi 不仅是对话助手，更是能自主执行任务的 AI Agent：
     {
       title: "Agent 智能代理",
       description: "自主执行任务，只需要你说出目标，建站、文档、数据分析、PPT 都可以。",
-      pageUrl: "/help/new-user-guide/agent-overview",
+      pageUrl: "/help/agent/agent-overview",
       type: "okcomputer",
     },
   ]}
