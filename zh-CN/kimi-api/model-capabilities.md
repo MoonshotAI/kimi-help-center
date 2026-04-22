@@ -25,7 +25,7 @@ preview_content: "Kimi 模型能力问答：JSON Mode、OCR、TTS/ASR 等。"
 
 ## 支持模型微调（Fine-tuning）吗？
 
-目前 Kimi API **暂不支持**用户自行微调模型。如有定制化模型需求，请通过 [platform.kimi.ai/contact-sales](https://platform.kimi.ai/contact-sales) 联系销售团队，了解企业级定制方案。
+目前 Kimi API **暂不支持**用户自行微调模型。如有定制化模型需求，请通过 [platform.kimi.com/contact-sales](https://platform.kimi.com/contact-sales) 联系销售团队，了解企业级定制方案。
 
 ## 支持 OCR 功能吗？
 
