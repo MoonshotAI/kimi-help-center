@@ -1,7 +1,7 @@
 ---
 title: "记忆丢失与上下文保存"
 slug: "memory-loss"
-order: 9
+order: 12
 extract_headings: true
 preview: true
 preview_content: "Kimi Claw 记忆丢失的原因与上下文保存机制说明。"

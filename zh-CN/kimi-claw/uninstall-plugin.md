@@ -1,7 +1,7 @@
 ---
 title: "如何卸载 Kimi 插件？"
 slug: "uninstall-plugin"
-order: 15
+order: 18
 extract_headings: false
 preview: true
 preview_content: "如何安全卸载 Kimi Claw 中的插件。"

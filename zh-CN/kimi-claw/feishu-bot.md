@@ -1,7 +1,7 @@
 ---
 title: "配置飞书机器人"
 slug: "feishu-bot"
-order: 5
+order: 8
 extract_headings: false
 preview: true
 preview_content: "将 Kimi Claw 接入飞书机器人的配置方法与常见问题。"

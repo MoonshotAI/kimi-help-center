@@ -1,7 +1,7 @@
 ---
 title: "Kimi Claw 可以向我收发文件么？"
 slug: "file-transfer"
-order: 13
+order: 16
 extract_headings: true
 preview: true
 preview_content: "Kimi Claw 文件收发能力说明，包括工作空间与飞书获取方式。"

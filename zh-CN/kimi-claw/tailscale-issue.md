@@ -1,7 +1,7 @@
 ---
 title: "Tailscale 断开连接怎么办？"
 slug: "tailscale-issue"
-order: 16
+order: 19
 extract_headings: false
 preview: true
 preview_content: "Tailscale 断开连接导致 Kimi Claw 异常的 DNS 修复方法。"

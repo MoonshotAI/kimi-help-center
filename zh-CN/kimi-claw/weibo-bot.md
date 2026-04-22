@@ -1,7 +1,7 @@
 ---
 title: "配置微博龙虾助手"
 slug: "weibo-bot"
-order: 7
+order: 10
 extract_headings: false
 preview: true
 preview_content: "将 Kimi Claw 接入微博龙虾助手的安装与配置说明。"

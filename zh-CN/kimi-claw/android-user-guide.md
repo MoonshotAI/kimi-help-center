@@ -1,7 +1,7 @@
 ---
 title: "Kimi Claw Android 用户使用说明"
 slug: "android-user-guide"
-order: 2
+order: 3
 extract_headings: true
 preview: true
 preview_content: "将 OpenClaw 部署到安卓手机，把闲置手机变成 7x24 在线的 AI 远程助手。"

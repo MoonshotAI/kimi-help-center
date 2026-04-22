@@ -1,7 +1,7 @@
 ---
 title: "对话限制与 API 限频"
 slug: "conversation-limits"
-order: 10
+order: 13
 extract_headings: true
 preview: true
 preview_content: "Kimi Claw 对话 Token 限制与 API 限频的处理方法。"

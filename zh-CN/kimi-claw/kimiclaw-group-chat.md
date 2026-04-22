@@ -1,7 +1,7 @@
 ---
 title: "Kimi Claw 群聊"
 slug: "kimiclaw-group-chat"
-order: 3
+order: 2
 extract_headings: true
 preview: true
 preview_content: "了解 Kimi Claw 群聊的功能介绍、创建流程、使用技巧与常见问题。"

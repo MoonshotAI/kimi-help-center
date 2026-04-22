@@ -1,7 +1,7 @@
 ---
 title: "升级注意事项"
 slug: "upgrade-notice"
-order: 17
+order: 20
 extract_headings: true
 preview: true
 preview_content: "Kimi Claw 升级注意事项：不要手动升级 OpenClaw 和飞书插件。"

@@ -1,7 +1,7 @@
 ---
 title: "不回消息或回的很慢怎么办？"
 slug: "slow-no-response"
-order: 12
+order: 15
 extract_headings: false
 preview: true
 preview_content: "Kimi Claw 不回消息或回复缓慢的排查路径与修复方法。"

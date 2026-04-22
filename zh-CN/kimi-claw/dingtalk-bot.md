@@ -1,7 +1,7 @@
 ---
 title: "配置钉钉机器人"
 slug: "dingtalk-bot"
-order: 8
+order: 11
 extract_headings: false
 preview: true
 preview_content: "将 Kimi Claw 接入钉钉机器人的完整配置流程。"

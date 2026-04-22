@@ -1,7 +1,7 @@
 ---
 title: "所有平台支持 Kimi Claw 么？"
 slug: "platform-support"
-order: 11
+order: 14
 extract_headings: false
 preview: true
 preview_content: "Kimi Claw 支持的平台一览与各平台配置指南链接。"

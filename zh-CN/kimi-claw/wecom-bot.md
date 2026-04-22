@@ -1,7 +1,7 @@
 ---
 title: "配置企业微信机器人"
 slug: "wecom-bot"
-order: 6
+order: 9
 extract_headings: false
 preview: true
 preview_content: "将 Kimi Claw 接入企业微信机器人的配置步骤。"

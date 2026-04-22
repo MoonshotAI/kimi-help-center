@@ -1,7 +1,7 @@
 ---
 title: "终端命令"
 slug: "concepts"
-order: 3
+order: 6
 extract_headings: true
 preview: true
 preview_content: "Kimi Claw 终端常见命令速查，涵盖系统、技能、定时任务与调试。"

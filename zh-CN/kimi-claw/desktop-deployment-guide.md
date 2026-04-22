@@ -1,7 +1,7 @@
 ---
 title: "一键部署 Kimi Claw Desktop"
 slug: "desktop-deployment-guide"
-order: 1
+order: 4
 extract_headings: true
 preview: true
 preview_content: "在 Kimi 桌面客户端一键部署本地 OpenClaw，打造你的专属 AI 助手。"

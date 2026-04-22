@@ -1,7 +1,7 @@
 ---
 title: "一键配置微信"
 slug: "wechat-bot"
-order: 4
+order: 7
 extract_headings: false
 preview: true
 preview_content: "一键将 Kimi Claw 接入微信的完整配置步骤与注意事项。"

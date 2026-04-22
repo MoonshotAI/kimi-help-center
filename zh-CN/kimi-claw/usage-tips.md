@@ -1,7 +1,7 @@
 ---
 title: "使用技巧"
 slug: "usage-tips"
-order: 2
+order: 5
 extract_headings: false
 preview: true
 preview_content: "Kimi Claw 使用技巧：人设配置、工作空间、Skills 与定时任务。"
