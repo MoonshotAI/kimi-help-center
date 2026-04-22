@@ -15,7 +15,7 @@ preview_content: "Kimi 是什么？了解 Kimi 的核心功能、支持平台与
 
 Kimi 是由 Moonshot 自主研发的 AI 智能助手，支持联网搜索、深度思考、多模态推理和超长文本对话。
 
-访问 [Kimi.com](https://www.kimi.com/) 或下载 Kimi App，即可开始聊天、创作、研究和构建应用。开发者可前往 [Kimi 开放平台](https://platform.kimi.ai/) 获取 API 与工具，将 Kimi 能力集成到自己的应用中。
+访问 [Kimi.com](https://www.kimi.com/) 或下载 Kimi App，即可开始聊天、创作、研究和构建应用。开发者可前往 [Kimi 开放平台](https://platform.kimi.com/) 获取 API 与工具，将 Kimi 能力集成到自己的应用中。
 
 ## 会话模式
 
