@@ -18,6 +18,9 @@ preview_content: "将 OpenClaw 部署到安卓手机，把闲置手机变成 7x2
 
 <Callout type="warning">
 • 建议使用闲置手机部署 Kimi Claw Android，避免与日常使用产生操作冲突。
+</Callout>
+
+<Callout type="warning">
 • 请不要手动升级 OpenClaw 版本，官方会通过版本更新推送适配后的新版本。
 </Callout>
 
