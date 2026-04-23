@@ -171,11 +171,11 @@ Token 是大语言模型处理文本的最小单位。中文里，1 个汉字通
 
 ## 更多会员相关问题
 
-- [会员是怎么收费的/套餐包括什么？](pricing.md)
-- [会员权益到账与查询](account-query.md)
-- [会员额度更新与使用规则](update-rules.md)
-- [套餐升级与降级](upgrade-downgrade.md)
-- [取消自动续费](cancel-subscription.md)
-- [支付相关问题](payment-issues.md)
-- [用户如何自助开发票](invoice.md)
-- [会员问题联系方式](contact.md)
+- [会员是怎么收费的/套餐包括什么？](/membership/membership-pricing)
+- [会员权益到账与查询](/membership/membership-account-query)
+- [会员额度更新与使用规则](/membership/membership-update-rules)
+- [套餐升级与降级](/membership/membership-upgrade-downgrade)
+- [取消自动续费](/membership/membership-cancel-subscription)
+- [支付相关问题](/membership/membership-payment-issues)
+- [用户如何自助开发票](/membership/membership-invoice)
+- [会员问题联系方式](/membership/membership-contact)

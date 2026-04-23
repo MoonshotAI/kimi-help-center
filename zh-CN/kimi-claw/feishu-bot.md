@@ -61,5 +61,5 @@ Kimi Claw 内置 Skill 会帮助你配置飞书机器人。你可以直接对它
 
 ## 相关文档
 
-- [飞书机器人无响应怎么办？](feishu-no-response.md)
-- [升级注意事项（含飞书插件诊断命令详解）](upgrade-notice.md)
+- [飞书机器人无响应怎么办？](/kimi-claw/feishu-no-response)
+- [升级注意事项（含飞书插件诊断命令详解）](/kimi-claw/upgrade-notice)
