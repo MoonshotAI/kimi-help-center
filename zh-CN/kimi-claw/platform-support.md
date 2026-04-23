@@ -21,8 +21,8 @@ Kimi Claw 目前可在以下平台使用：
 
 | 平台 | 配置指南 |
 |------|----------|
-| 微信 | [一键配置微信](wechat-bot.md) |
-| 飞书 | [配置飞书机器人](feishu-bot.md) |
-| 企业微信 | [配置企业微信机器人](wecom-bot.md) |
-| 钉钉 | [配置钉钉机器人](dingtalk-bot.md) |
-| 微博 | [配置微博龙虾助手](weibo-bot.md) |
+| 微信 | [一键配置微信](/kimi-claw/wechat-bot) |
+| 飞书 | [配置飞书机器人](/kimi-claw/feishu-bot) |
+| 企业微信 | [配置企业微信机器人](/kimi-claw/wecom-bot) |
+| 钉钉 | [配置钉钉机器人](/kimi-claw/dingtalk-bot) |
+| 微博 | [配置微博龙虾助手](/kimi-claw/weibo-bot) |
