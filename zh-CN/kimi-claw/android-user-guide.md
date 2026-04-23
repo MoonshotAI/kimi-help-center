@@ -1,5 +1,5 @@
 ---
-title: "Kimi Claw Android 用户使用说明"
+title: "Kimi Claw Android 产品介绍"
 slug: "android-user-guide"
 order: 3
 extract_headings: true
