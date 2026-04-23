@@ -87,7 +87,7 @@ Since the settings paths vary among different mobile phone brands, the following
 
 #### Step 3: Install OpenClaw
 <Frames
-  src="./images/kimi-claw-android-guide/img-08.jpg"
+  src="./images/kimi-claw-android-guide/img-08.png"
 />
 If the installation fails, you can click "Reinstall" to try again. If it fails multiple times, please click "Having issues? Go to feedback" to submit the problem.
 
@@ -108,7 +108,7 @@ If a permission reminder appears at the top of the Dashboard, it indicates that 
 
 ### Chat Channel Management
 <Frames
-  src="./images/kimi-claw-android-guide/img-33.jpg"
+  src="./images/kimi-claw-android-guide/img-33.png"
 />
 In the Dashboard, you can manage all communication channels:
 
@@ -127,12 +127,12 @@ Please keep at least one chat channel to ensure normal communication with Kimi C
 - Auto Scroll to Bottom — Automatically scroll to the latest log
 - Refresh — Manually refresh the log content
 <Frames
-  src="./images/kimi-claw-android-guide/img-16.jpg"
+  src="./images/kimi-claw-android-guide/img-16.png"
 />
 
 ### Settings
 <Frames
-  src="./images/kimi-claw-android-guide/img-21.jpg"
+  src="./images/kimi-claw-android-guide/img-21.png"
 />
 Click Settings to enter the settings page:
 
@@ -163,7 +163,7 @@ Automatically associate with the ClawHub official website and manage skills avai
 
 #### OpenClaw Workspace
 <Frames
-  src="./images/kimi-claw-android-guide/img-19.jpg"
+  src="./images/kimi-claw-android-guide/img-19.png"
 />
 
 #### Backup and Recovery
@@ -201,7 +201,7 @@ Kimi Claw Android only supports editing Bot name and deleting Bot in Bot managem
 
 ### Feishu
 <Frames
-  src="./images/kimi-claw-android-guide/img-25.jpg"
+  src="./images/kimi-claw-android-guide/img-25.png"
 />
 
 Supports three connection methods:
@@ -231,7 +231,7 @@ Enter Kimi Claw Android, connect to the WeChat channel, and complete the process
 
 ### Telegram
 <Frames
-  src="./images/kimi-claw-android-guide/img-34.jpg"
+  src="./images/kimi-claw-android-guide/img-34.png"
 />
 
 Kimi Claw Android supports Telegram integration, requiring users to first obtain their bot token and user ID.
@@ -276,7 +276,7 @@ After the configuration is completed, you can send commands to Claw in Kimi, Fei
 
 ### Use ClawHub Skills
 <Frames
-  src="./images/kimi-claw-android-guide/img-18.jpg"
+  src="./images/kimi-claw-android-guide/img-18.png"
 />
 Kimi Claw Android comes with ClawHub, a built-in skill library. You can manage and install skills in the settings to expand more capabilities for Claw.
 

@@ -61,7 +61,7 @@ Use Kimi directly in your browser at [kimi.com](https://www.kimi.com/) — no do
 ### Mobile
 
 <Frames
-  src="./images/overview/mobile-app.jpg"
+  src="./images/overview/mobile-app.png"
   alt="mobile app"
 />
 
