@@ -131,7 +131,7 @@ K2.6 Agent Swarm 将任务分解到文档集合，部署多个写作专用子智
 
 任务执行结果：Generate 100-Page Literature Review from 40 PDFs
 
-<Chat title="查看结果" src="https://www.kimi.com/share/19c4106b-89b2-8361-8000-0000d07b8235?hide_sidebar=1&disable_auto_preview=1" />
+[查看结果](https://www.kimi.com/share/19c4106b-89b2-8361-8000-0000d07b8235?hide_sidebar=1&disable_auto_preview=1)
 
 ### 多视角分析
 
