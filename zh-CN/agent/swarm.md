@@ -117,7 +117,7 @@ Paul Graham 的文章分散在个人网站、旧博客、转录演讲中。Agent
 
 任务执行结果：收集200+篇Paul Graham 文章
 
-<Chat title="查看结果" src="https://www.kimi.com/share/19cc436e-73c2-89bd-8000-000078b7d71e?hide_sidebar=1&disable_auto_preview=1" />
+[查看结果](https://www.kimi.com/share/19cc436e-73c2-89bd-8000-000078b7d71e?hide_sidebar=1&disable_auto_preview=1)
 
 ### 规模化输出
 
