@@ -10,7 +10,6 @@ preview_content: "将 OpenClaw 部署到安卓手机，把闲置手机变成 7x2
 <SeoMeta
   title="Kimi Claw Android 用户使用说明 - Kimi Help Center"
   description="本文将会为你介绍如何将 OpenClaw 部署到安卓手机，把闲置手机变成你 7x24 在线的 AI 远程助手。"
-  pageUrl="https://www.kimi.com/help/kimi-claw/android-user-guide"
   ogType="article"
 />
 

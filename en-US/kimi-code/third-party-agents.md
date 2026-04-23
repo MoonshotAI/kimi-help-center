@@ -78,4 +78,4 @@ Kimi Code benefits can be used with Claude Code and Roo Code, allowing you to en
 
 - Kimi Code benefits are only supported in **Kimi Code CLI**, **Claude Code**, and **Roo Code**.
 - Using your API Key with unauthorized platforms or tools may be considered a violation and could result in restricted access.
-- For questions, refer to the [Benefits](/help/kimi-code/benefits) page or contact Kimi support.
+- For questions, refer to the [Benefits](/kimi-code/benefits) page or contact Kimi support.

@@ -36,7 +36,7 @@ Upgrades will be prorated and any unused portion of your current plan will be re
 Downgrades can't be applied mid-cycle.
 </Callout>
 
-1. Cancel your current subscription (see [Cancel Subscription](/help/membership/membership-cancel-subscription))
+1. Cancel your current subscription (see [Cancel Subscription](/membership/membership-cancel-subscription))
 2. Continue using your current plan until it expires
 3. Once expired, subscribe to the lower-tier plan of your choice
 

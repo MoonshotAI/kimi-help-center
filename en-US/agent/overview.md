@@ -63,25 +63,25 @@ Describe your task clearly, watch execution progress, then download or share res
     {
       title: "Features \u0026 Limits",
       description: "Capabilities and quotas",
-      pageUrl: "/help/agent/agent-features-and-limits",
+      pageUrl: "/agent/agent-features-and-limits",
       type: "document",
     },
     {
       title: "Quota \u0026 Billing",
       description: "Pricing and membership details",
-      pageUrl: "/help/agent/quota-and-billing",
+      pageUrl: "/agent/quota-and-billing",
       type: "data",
     },
     {
       title: "K2.6 Agent Swarm",
       description: "Multi-agent collaboration",
-      pageUrl: "/help/agent/agent-swarm",
+      pageUrl: "/agent/agent-swarm",
       type: "comment",
     },
     {
       title: "Kimi Claw",
       description: "Cloud automation agent",
-      pageUrl: "/help/kimi-claw/overview",
+      pageUrl: "/kimi-claw/overview",
       type: "kimiclaw",
     },
   ]}

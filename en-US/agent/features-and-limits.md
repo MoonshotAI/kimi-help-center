@@ -32,7 +32,7 @@ Kimi Agent runs asynchronously in the background. If the web page appears frozen
 Agent can generate full-stack content, including frontend interfaces, backend services, and persistent storage logic. If a project does not run as expected, the issue is usually related to sandbox startup, database initialization, auth configuration, or missing publish actions. Standard Agent runs in the cloud and cannot directly access local files or enterprise intranet systems. For local file or intranet access, use Kimi Claw.
 
 <Callout type="tip">
-**Need to access local files?** Use Kimi Claw for secure access to local files and enterprise intranet systems. Learn more in the [Kimi Claw documentation](/help/kimi-claw/overview).
+**Need to access local files?** Use Kimi Claw for secure access to local files and enterprise intranet systems. Learn more in the [Kimi Claw documentation](/kimi-claw/overview).
 </Callout>
 
 **(4) Multi-turn conversations and task adjustments**
@@ -54,7 +54,7 @@ Due to the 256K character context limit of large language models (approximately 
 ## Important notes
 
 <Callout type="warning">
-**Quota Usage**: Agent tasks consume unified quota based on actual token usage. Each Agent task typically consumes 1 quota unit. For detailed quota information by membership tier, see [Quota & Billing](/help/agent/quota-and-billing).
+**Quota Usage**: Agent tasks consume unified quota based on actual token usage. Each Agent task typically consumes 1 quota unit. For detailed quota information by membership tier, see [Quota & Billing](/agent/quota-and-billing).
 Free tier: 6 Agent tasks/month
 Paid tiers: 60–720 Agent tasks/month depending on your plan
 </Callout>

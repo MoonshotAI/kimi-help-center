@@ -42,32 +42,32 @@ Use all credit limit for the same function
 
 ## Save with annual billing
 
-Switch to annual billing and save up to **$480/year**. See [Pricing Details](/help/membership/membership-pricing) for the full breakdown.
+Switch to annual billing and save up to **$480/year**. See [Pricing Details](/membership/membership-pricing) for the full breakdown.
 
 <ColumnsContent
   columns={[
     {
       title: "Credit Rules",
       description: "How credits work and refresh",
-      pageUrl: "/help/membership/update-rules",
+      pageUrl: "/membership/update-rules",
       type: "document",
     },
     {
       title: "Pricing Details",
       description: "Monthly and annual pricing",
-      pageUrl: "/help/membership/membership-pricing",
+      pageUrl: "/membership/membership-pricing",
       type: "data",
     },
     {
       title: "Plan Changes",
       description: "Upgrade or downgrade your plan",
-      pageUrl: "/help/membership/membership-upgrade-downgrade",
+      pageUrl: "/membership/membership-upgrade-downgrade",
       type: "setting",
     },
     {
       title: "Contact Us",
       description: "Get help with billing issues",
-      pageUrl: "/help/membership/membership-contact",
+      pageUrl: "/membership/membership-contact",
       type: "comment",
     },
   ]}

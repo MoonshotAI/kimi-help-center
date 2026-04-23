@@ -50,7 +50,7 @@ If you see an unrecognized charge from Kimi:
 1. **Check your subscription** — Sign in to Kimi and review your active subscriptions. You may have an auto-renewing plan you forgot about
 2. **Trial conversion** — If you started a free trial and didn't cancel before it ended, the system automatically converts it to a paid subscription
 3. **Review payment authorizations** — Check your Apple ID, Google Play, or card settings for recurring Kimi charges
-4. **Cancel if needed** — See [Cancel Subscription](/help/membership/membership-cancel-subscription) to stop future charges
+4. **Cancel if needed** — See [Cancel Subscription](/membership/membership-cancel-subscription) to stop future charges
 
 <Callout type="warning">
 If you believe the charge is unauthorized, email **membership@moonshot.ai** immediately and we'll investigate.

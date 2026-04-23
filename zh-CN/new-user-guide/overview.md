@@ -47,25 +47,25 @@ Kimi 不仅是对话助手，更是能自主执行任务的 AI Agent：
     {
       title: "基础会话",
       description: "会话是一切的起点，支持提问、上传文件、切换模型与 Agent 模式。",
-      pageUrl: "/help/new-user-guide/agentic-chat",
+      pageUrl: "/new-user-guide/agentic-chat",
       type: "comment",
     },
     {
       title: "搜索",
       description: "搜索是模型的实时知识库，用于获取即时、可信、可溯源信息。",
-      pageUrl: "/help/new-user-guide/search",
+      pageUrl: "/new-user-guide/search",
       type: "browser",
     },
     {
       title: "记忆空间",
       description: "长期保存你的偏好，并在后续对话中参考过往聊天记录。",
-      pageUrl: "/help/new-user-guide/memory-space",
+      pageUrl: "/new-user-guide/memory-space",
       type: "setting",
     },
     {
       title: "Agent 智能代理",
       description: "自主执行任务，只需要你说出目标，建站、文档、数据分析、PPT 都可以。",
-      pageUrl: "/help/agent/agent-overview",
+      pageUrl: "/agent/agent-overview",
       type: "okcomputer",
     },
   ]}

@@ -40,4 +40,4 @@ Kimi offers five membership tiers — including a free plan — each available a
 
 ## Credit allocation
 
-All plans use a unified credit pool metered by token consumption. Higher tiers include a proportionally larger credit pool, supporting more frequent and complex workflows. See [Credit Update & Usage Rules](/help/membership/update-rules) for details.
+All plans use a unified credit pool metered by token consumption. Higher tiers include a proportionally larger credit pool, supporting more frequent and complex workflows. See [Credit Update & Usage Rules](/membership/update-rules) for details.

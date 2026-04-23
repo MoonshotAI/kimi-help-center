@@ -20,7 +20,7 @@ This page covers common error codes and self-repair options for Kimi Claw.
 | **400** | Bad Request — Malformed input or invalid parameters | Check your message for unsupported content, then retry. |
 | **401** | Unauthorized — Authentication failed | Sign out of Kimi and sign back in. If the issue persists, check your API credentials in Kimi Claw settings. |
 | **403** | Forbidden — Insufficient permissions | Verify your membership tier supports the feature you're using. Ensure your account isn't restricted. |
-| **429** | Too Many Requests — Rate limit exceeded | Wait a few minutes and retry. See [Conversation Limits](/help/kimi-claw/conversation-limits) for details on checking your quota. |
+| **429** | Too Many Requests — Rate limit exceeded | Wait a few minutes and retry. See [Conversation Limits](/kimi-claw/conversation-limits) for details on checking your quota. |
 | **500** | Internal Server Error — Something went wrong on the server | Retry after a short wait. If recurring, use the self-repair options below or contact support. |
 
 ## Self-repair options
