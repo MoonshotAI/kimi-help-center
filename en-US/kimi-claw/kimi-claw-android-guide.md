@@ -18,10 +18,6 @@ Welcome to Kimi Claw Android. This article will introduce how to deploy OpenClaw
 
 It is recommended to deploy Kimi Claw Android on idle phones to avoid permission conflicts with daily use. Please do not manually upgrade the OpenClaw version; official adapted updates will be delivered through in-app version updates.
 
-<Callout type="info">
-You can use Control (command) + F to quickly find error messages/keywords.
-</Callout>
-
 ## Kimi Claw Android Introduction
 <Frames
   src="./images/kimi-claw-android-guide/img-06.png"
