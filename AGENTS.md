@@ -202,13 +202,13 @@ Use `ColumnsContent` for grouped navigation cards.
     {
       title: "Pricing Details",
       description: "Monthly and annual pricing",
-      pageUrl: "/help/membership/membership-pricing",
+      pageUrl: "/membership/membership-pricing",
       type: "setting",
     },
     {
       title: "Plan Changes",
       description: "Upgrade or downgrade your plan",
-      pageUrl: "/help/membership/upgrade-downgrade",
+      pageUrl: "/membership/upgrade-downgrade",
       type: "document",
     },
   ]}
@@ -263,12 +263,14 @@ Preferred mappings used in the docs:
 Rules:
 
 - Prefer built-in `type` values over custom `icon`.
-- Prefer stable internal article routes in `pageUrl`.
+- Prefer stable internal article routes without the `/help` prefix in
+  `pageUrl`, such as `/<category>/<slug>`.
 
 ## Link Rules
 
-- Rewrite internal docs links to `/help/<category>/<slug>`.
-- Resolve relative article links to their actual `/help/...` route.
+- Rewrite internal docs links to `/<category>/<slug>` without the `/help`
+  prefix.
+- Resolve relative article links to their actual `/<category>/<slug>` route.
 - Preserve external URLs as-is.
 
 ## Quick Review Checklist
