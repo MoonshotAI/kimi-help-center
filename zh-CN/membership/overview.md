@@ -178,5 +178,4 @@ Token 是大语言模型处理文本的最小单位。中文里，1 个汉字通
 - [取消自动续费](cancel-subscription.md)
 - [支付相关问题](payment-issues.md)
 - [用户如何自助开发票](invoice.md)
-- [Andante 七天试用权益介绍](trial.md)
 - [会员问题联系方式](contact.md)
