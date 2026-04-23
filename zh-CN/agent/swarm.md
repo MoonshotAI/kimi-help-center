@@ -99,7 +99,7 @@ Kimi Agent Swarm（智能体集群）通过PARL（Parallel-Agent Reinforcement L
 
 任务执行结果：100 位子智能体（sub-agent）正在寻找创作者
 
-<Chat title="查看结果" src="https://www.kimi.com/share/19c40eea-b272-8ef2-8000-0000af5e0baa?hide_sidebar=1&disable_auto_preview=1" />
+[查看结果](https://www.kimi.com/share/19c40eea-b272-8ef2-8000-0000af5e0baa?hide_sidebar=1&disable_auto_preview=1)
 
 案例2：收集200+篇Paul Graham 文章
 Paul Graham 的文章分散在个人网站、旧博客、转录演讲中。Agent Swarm指派专门的子智能体搜索、下载、分类、总结，最终将超过200篇原始文章整理进主题文件夹，并生成综合总结报告。
