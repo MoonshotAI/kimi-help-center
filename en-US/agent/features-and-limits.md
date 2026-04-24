@@ -70,6 +70,7 @@ Paid tiers: 60–720 Agent tasks/month depending on your plan
 ## FAQ
 
 **Q: What can Agent do?**
+
 Agent meets the following needs through multiple tool calls:
 - **Text generation & editing**: Generate articles, reports, documents, etc. with support for various writing styles and formats.
 - **Web development**: Build full-stack project interfaces and services, supporting app interface design, backend integration, data persistence, and data visualization.
@@ -77,14 +78,19 @@ Agent meets the following needs through multiple tool calls:
 - **Coding assistance**: Code writing and debugging across multiple programming languages.
 
 **Q: Why isn't the Agent-built website working?**
+
 A complete project typically consists of three parts: frontend interface, backend services, and data storage. Agent can generate full-stack project content across all three layers. If your project does not run as expected, the issue is usually related to sandbox startup, database initialization, auth configuration, or missing publish actions.
 
 **Q: What are Agent's deliverables?**
+
 - Complete task execution files
 - Deployed project preview and published versions
 - Downloadable Zip archive (located in `/mnt/okcomputer/output/`)
 
 **Q: What is Agent's context length?**
+
 Agent uses a context length of **256K characters** (approximately 40,000–50,000 Chinese characters / ~100,000 English words).
+
 **Q: How is Agent quota calculated?**
+
 Agent, PPT, and Kimi Code share a unified quota system based on actual token usage. Each Agent task typically counts as one quota unit. View your current quota and usage at [Membership Credits](https://www.kimi.com/membership-credits).
