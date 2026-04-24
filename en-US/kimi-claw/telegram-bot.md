@@ -1,13 +1,13 @@
 ---
-title: "Set up a Telegram bot"
+title: "Telegram bot"
 slug: "telegram-bot"
-order: 4
+order: 7
 extract_headings: false
 preview: false
 ---
 
 <SeoMeta
-  title="Set up a Telegram bot - Kimi Help Center"
+  title="Telegram bot - Kimi Help Center"
   description="Connect Kimi Claw to Telegram so you can chat with it from any device — no browser required."
 />
 

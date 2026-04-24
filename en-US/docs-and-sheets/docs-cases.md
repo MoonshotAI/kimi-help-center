@@ -35,7 +35,7 @@ Like a meticulous manuscript reviewer, Kimi breaks down revision feedback, pinpo
 
 ## Professional translation
 
-Like a tireless translator, Kimi translates a 50-page English PDF page by page into Chinese, preserving all formulas and code in the output.
+Like a tireless translator, Kimi translates a 50-page English PDF page by page into French, preserving all formulas and code in the output.
 
 **Example prompt**:
 
@@ -44,7 +44,7 @@ Like a tireless translator, Kimi translates a 50-page English PDF page by page i
     {
       name: "prompt.md",
       language: "markdown",
-      content: "Find the first assignment PDF for Stanford's CS336 course in English, then convert\nit to a Chinese PDF. Preserve all code and mathematical formulas in the Chinese version.\nThe translation should be fluent — do not omit or add any content.",
+      content: "Find the first assignment PDF for Stanford's CS336 course in English, then convert\nit to a French PDF. Preserve all code and mathematical formulas in the French version.\nThe translation should be fluent — do not omit or add any content.",
     },
   ]}
 />

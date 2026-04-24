@@ -64,6 +64,7 @@ K2.6 Agent Swarm [Beta] uses the PARL (Parallel-Agent Reinforcement Learning) tr
 ### Discovery at scale
 
 **Case 1: Top 3 Creators Across 100 YouTube Niches**
+
 K2.6 Agent Swarm [Beta] created 300 sub-agents for parallel search, generating structured tables with channel names, subscriber counts, and descriptions.
 
 <Frames
@@ -74,21 +75,21 @@ K2.6 Agent Swarm [Beta] created 300 sub-agents for parallel search, generating s
 <Chat title="View result" src="https://www.kimi.com/share/19c40eea-b272-8ef2-8000-0000af5e0baa?hide_sidebar=1&disable_auto_preview=1" />
 
 **Case 2: Collecting 200+ Paul Graham Articles**
+
 Agent Swarm deployed sub-agents to search, download, categorize, and summarize 200+ articles into thematic folders.
 
-<Chat title="View result" src="https://www.kimi.com/share/19cc436e-73c2-89bd-8000-000078b7d71e?hide_sidebar=1&disable_auto_preview=1" />
+<Chat title="View result" src="https://www.kimi.com/chat/19dbe721-9af2-86eb-8000-09b25205727e?chat_enter_method=home" />
 
 ### Output at scale
 
 **Case: 100-Page Literature Review from 40 PDFs**
+
 K2.6 Agent Swarm [Beta] deployed multiple writing-focused sub-agents, each responsible for a chapter. Final output: a 100-page academic document with citations, methodology charts, and citation network analysis.
 
 <Frames
   src="./images/swarm/literature-review.png"
   alt="literature review"
 />
-
-<Chat title="View result" src="https://www.kimi.com/share/19c4106b-89b2-8361-8000-0000d07b8235?hide_sidebar=1&disable_auto_preview=1" />
 
 ### Perspective at scale
 
@@ -152,6 +153,6 @@ K2.6 Agent Swarm [Beta] is especially suited for:
 6. **Office automation**: Professional documents, spreadsheets, presentations
 
 **Further Reading:**
-- [Kimi Blog: "Kimi Agent Swarm: 100 Sub-Agents at Scale"](https://www.kimi.com/blog/agent-swarm)
-- [Kimi K2.5 Technical Report](https://www.kimi.com/blog/kimi-k2-5)
-- [Kimi K2.6 Blog Post](https://www.kimi.com/blog/kimi-k2-6)
+- [Kimi Agent Swarm: 100 Sub-Agents at Scale](https://www.kimi.com/blog/agent-swarm)
+- [Kimi K2.5: Visual Agentic Intelligence​](https://www.kimi.com/blog/kimi-k2-5)
+- [Kimi K2.6: Advancing Open-Source Coding](https://www.kimi.com/blog/kimi-k2-6)

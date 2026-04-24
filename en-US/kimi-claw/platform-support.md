@@ -1,7 +1,7 @@
 ---
 title: "Supported platforms"
 slug: "platform-support"
-order: 7
+order: 10
 extract_headings: false
 preview: false
 ---

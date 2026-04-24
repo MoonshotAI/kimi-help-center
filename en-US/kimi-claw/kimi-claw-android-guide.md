@@ -1,13 +1,13 @@
 ---
-title: "Kimi Claw Android User Guide"
+title: "Kimi Claw Android overview"
 slug: "kimi-claw-android-guide"
-order: 1
+order: 3
 extract_headings: true
 preview: false
 ---
 
 <SeoMeta
-  title="Kimi Claw Android User Guide - Kimi Help Center"
+  title="Kimi Claw Android overview - Kimi Help Center"
   description="Learn how to deploy OpenClaw on your Android phone and turn it into a 24/7 AI remote assistant."
   ogType="article"
 />

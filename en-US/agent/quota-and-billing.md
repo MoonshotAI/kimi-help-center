@@ -34,6 +34,7 @@ When your quota is exhausted:
 - Your options:
   - Wait for your monthly quota to auto-refresh
   - Upgrade to a higher-tier membership for more quota
+
 ## How to check quota usage？
 - **Web**: Profile → Settings → Subscription
 - **App**: Profile → Membership Plan → Subscription

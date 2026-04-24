@@ -1,7 +1,7 @@
 ---
 title: "Uninstall the Kimi plugin"
 slug: "uninstall-plugin"
-order: 10
+order: 13
 extract_headings: false
 preview: false
 ---

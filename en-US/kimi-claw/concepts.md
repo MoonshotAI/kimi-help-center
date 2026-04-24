@@ -1,7 +1,7 @@
 ---
 title: "Core concepts & terminal"
 slug: "concepts"
-order: 3
+order: 5
 extract_headings: false
 preview: false
 ---

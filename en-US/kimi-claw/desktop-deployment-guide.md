@@ -1,14 +1,14 @@
 ---
-title: "Kimi Claw Desktop user guide"
+title: "Kimi Claw Desktop overview"
 slug: "desktop-deployment-guide"
-order: 1
+order: 4
 extract_headings: true
 preview: true
 preview_content: "Deploy a local OpenClaw instance with one click in the Kimi desktop app and create your own personal AI assistant."
 ---
 
 <SeoMeta
-  title="Kimi Claw Desktop user guide - Kimi Help Center"
+  title="Kimi Claw Desktop overview - Kimi Help Center"
   description="Learn how to deploy a local OpenClaw instance with one click in the Kimi desktop app, including downloading the client, deploying locally, and customizing your assistant's name."
   ogType="article"
 />
