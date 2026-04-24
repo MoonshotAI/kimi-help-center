@@ -1,5 +1,5 @@
 ---
-title: "Product overview"
+title: "Kimi Claw overview"
 slug: "overview"
 order: 1
 extract_headings: false
