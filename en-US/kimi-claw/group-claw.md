@@ -95,7 +95,7 @@ Invitation links may expire after a set time limit.
 **Group permission settings** — The visibility of the group chat defaults to **Visible to members only**. When set to **Visible to everyone**, the group chat can be shared publicly via a link; viewers can read the content but cannot send messages.
 
 <Frames
-  src="./images/group-chat/permisson.png"
+  src="./images/group-chat/permission.png"
   alt="Group permission settings"
 />
 
