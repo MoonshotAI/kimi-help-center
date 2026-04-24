@@ -1,7 +1,7 @@
 ---
 title: "Kimi Claw Android User Guide"
 slug: "kimi-claw-android-guide"
-order: 1
+order: 2
 extract_headings: true
 preview: false
 ---
