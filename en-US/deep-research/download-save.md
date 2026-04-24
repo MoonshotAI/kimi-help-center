@@ -1,5 +1,5 @@
 ---
-title: "Can't download or save a Deep Research report?"
+title: "Download or save"
 slug: "deep-research-download-save"
 order: 8
 extract_headings: false
@@ -8,7 +8,7 @@ preview: false
 
 <SeoMeta
   title="Can't download or save a Deep Research report? - Kimi Help Center"
-  description="Deep Research produces two types of reports, both of which can be saved."
+  description="Deep Research produces two types of reports, and you can download both."
 />
 
 # Can't download or save Deep Research report?
