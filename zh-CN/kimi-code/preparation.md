@@ -20,6 +20,11 @@ preview_content: "使用 Kimi Code 前需要了解的基础知识：终端、Pow
 
 你可以把它理解为一个"文字版的文件管理器"：在终端里，你通过输入命令（如 `ls`、`cd`、`mkdir`）来查看文件夹内容、切换目录、创建文件等，而不是用鼠标点击图标。
 
+<Frames
+  src="./images/preparation/preparation-01.png"
+  alt="终端示意图"
+/>
+
 ### 怎么打开终端
 
 | 操作系统 | 打开方式 |
@@ -36,6 +41,11 @@ preview_content: "使用 Kimi Code 前需要了解的基础知识：终端、Pow
 
 ## PowerShell 是什么
 
+<Frames
+  src="./images/preparation/preparation-02.png"
+  alt="PowerShell示意图"
+/>
+
 **PowerShell** 是 Windows 上常用的终端工具，功能比普通命令提示符（CMD）更强大。Kimi Code CLI 在 Windows 上的安装和操作都需要在 PowerShell 中完成。
 
 Windows 上有两个不同的"命令行"工具，不要混淆：
@@ -48,6 +58,10 @@ Windows 上有两个不同的"命令行"工具，不要混淆：
 > **提示**：Kimi Code CLI 的安装命令需要在 PowerShell 中运行，CMD 中可能无法正常执行。
 
 ## 命令怎么运行
+<Frames
+  src="./images/preparation/preparation-03.png"
+  alt="命令运行示意图"
+/>
 
 在终端或 PowerShell 中运行命令很简单：
 
@@ -59,6 +73,11 @@ Windows 上有两个不同的"命令行"工具，不要混淆：
 > **提示**：如果命令执行过程中需要输入密码，终端不会显示任何字符（这是正常的安全机制），直接输入后回车即可。
 
 ## CLI 是什么
+
+<Frames
+  src="./images/preparation/preparation-04.png"
+  alt="终端示意图"
+/>
 
 **CLI** 是 **C**ommand-**L**ine **I**nterface（命令行界面）的缩写，意思是通过输入文字命令来使用工具，而不是通过图形界面点击按钮。
 
