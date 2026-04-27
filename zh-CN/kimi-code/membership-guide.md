@@ -18,7 +18,10 @@ Kimi Code 是  [Kimi 会员权益](https://www.kimi.com/membership/pricing?from=
 
 你可以把它理解为一个 AI 编程助手：它可以在开发工具中帮你阅读代码、修改文件、执行命令，并协助完成开发任务。
 
-![Kimi Code 使用方式示意](./images/membership-guide/membership-guide-01.png)
+<Frames
+  src="./images/membership-guide/membership-guide-01.png"
+  alt="Kimi Code 使用方式示意"
+/>
 
 Kimi Code 主要有三种使用方式：
 1. 通过 Kimi Code CLI，在终端中使用；
@@ -33,11 +36,9 @@ Kimi Code 主要有三种使用方式：
 - **极速响应**：最高输出速度可达 100 Tokens/s
 - **高频并发**：每 5 小时支持约 300–1200 次请求，最高并发 30
 
-
 ## 开始使用
 
 Kimi Code 支持会员在官方客户端和第三方平台使用权益，覆盖不同的开发场景。
-
 
 ### 使用官方客户端
 
