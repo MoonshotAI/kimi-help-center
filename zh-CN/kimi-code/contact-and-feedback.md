@@ -1,7 +1,7 @@
 ---
 title: "联系与反馈"
 slug: "contact-and-feedback"
-order: 3
+order: 4
 extract_headings: false
 preview: true
 preview_content: "Kimi Code 的联系方式与反馈渠道。"

@@ -1,7 +1,7 @@
 ---
 title: "Kimi Code 常见问题"
 slug: "membership-guide"
-order: 2
+order: 3
 extract_headings: false
 preview: true
 preview_content: "Kimi Code 常见问题"

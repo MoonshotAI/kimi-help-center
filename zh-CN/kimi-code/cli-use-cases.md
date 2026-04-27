@@ -1,7 +1,7 @@
 ---
 title: "常见使用案例"
 slug: "cli-use-cases"
-order: 5
+order: 6
 extract_headings: false
 preview: true
 preview_content: "Kimi Code 常见使用场景与示例提示词。"
