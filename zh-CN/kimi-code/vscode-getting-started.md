@@ -12,12 +12,12 @@ preview_content: "Kimi Code VS Code 插件的安装、登录与使用入门。"
   description="在 VS Code 中安装和使用 Kimi Code 扩展：登录、聊天面板、@引用文件、斜杠命令、代码变更 Diff 视图和 MCP 集成全流程指南。"
 />
 
+# Kimi Code for VS Code 快速开始
+
 <Frames
   src="./images/vscode-getting-started/kimi-code-showcase.jpeg"
   alt="在 VS Code 中安装 Kimi Code 扩展插件"
 />
-
-# Kimi Code for VS Code 快速开始
 
 Kimi Code for VS Code 是集成于 Visual Studio Code 的扩展插件。安装后，你可以在编辑器内直接发起提问、审查代码 diff 并快速提交变更。插件能够读取你引用的文件内容，理解项目上下文，提供更精准的编程辅助。
 

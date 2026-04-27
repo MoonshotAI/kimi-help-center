@@ -53,6 +53,7 @@ Kimi Code CLI 会自动保存你的对话历史，方便你随时继续之前的
 
 ### 退出时的续接提示
 当会话退出时（包括正常退出、Ctrl-C 中断、/undo、/fork、/sessions 切换等场景），Kimi Code CLI 会自动打印一条续接命令提示：
+
 <CodePreview
   files={[
     {

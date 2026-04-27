@@ -6,10 +6,12 @@ extract_headings: false
 preview: true
 preview_content: "Kimi Code CLI 的 Agent、Shell、Plan、Thinking 和 Print 五种工作模式。"
 ---
+
 <SeoMeta
   title="Kimi Code CLI 工作模式 - Kimi 帮助中心"
   description="了解 Kimi Code CLI 的五种工作模式：Agent 模式、Shell 模式、Plan 模式、Thinking 模式和 Print 模式的使用方法与场景。"
 />
+
 # 工作模式
 
 ## Agent 与 Shell 模式
