@@ -6,10 +6,12 @@ extract_headings: false
 preview: true
 preview_content: "Kimi Code 权益说明：计费方式、刷新周期与适用工具。"
 ---
+
 <SeoMeta
   title="Kimi Code 权益与计费说明 - Kimi 帮助中心"
   description="了解 Kimi Code 的计费方式（含在套餐中无额外费用）、7 天周期额度刷新规则，以及支持的工具范围（Kimi Code CLI/Claude Code/Roo Code）。"
 />
+
 # Kimi Code 权益说明
 
 Kimi Code 是 Kimi 会员权益中的一项服务，为会员提供编程相关的支持和功能，帮助会员在个人开发的过程中更高效地完成编程任务。
@@ -21,14 +23,14 @@ Kimi Code 的额度以订阅日为起点**每 7 天自动刷新**，未用完不
 登录 [Kimi Code 控制台](https://www.kimi.com/code/console) 可随时查看剩余额度与频限状态、管理 API Key 和登录设备。
 
 <Frames
-  src="./images/benefits-/benefits-01.png"
+  src="./images/benefits/benefits-01.png"
   alt="控制台额度示意图"
 />
 
 > Kimi Code 与 Kimi 会员计划共享额度，如 Kimi 会员的月总额度达到上限，Kimi Code 额度会变为冻结状态，需等待月额度重置或升级订阅，月额度消耗可在 Kimi 主页设置中的 [订阅](https://www.kimi.com/membership/subscription) 查看。
 
 <Frames
-  src="./images/benefits-/benefits-02.png"
+  src="./images/benefits/benefits-02.png"
   alt="控制台额度明细示意图"
 />
 
