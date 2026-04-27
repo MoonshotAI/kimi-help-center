@@ -1,7 +1,7 @@
 ---
 title: "Kimi Code for VS Code 快速开始"
 slug: "vscode-getting-started"
-order: 10
+order: 5
 extract_headings: false
 preview: true
 preview_content: "Kimi Code VS Code 插件的安装、登录与使用入门。"

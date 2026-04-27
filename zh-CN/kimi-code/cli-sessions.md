@@ -1,7 +1,7 @@
 ---
 title: "上下文管理"
 slug: "cli-sessions"
-order: 6
+order: 8
 extract_headings: false
 preview: true
 preview_content: "Kimi Code 会话管理：续接、上下文压缩与持久化。"

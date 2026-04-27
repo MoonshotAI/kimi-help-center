@@ -1,7 +1,7 @@
 ---
 title: "交互与输入"
 slug: "cli-interaction"
-order: 6
+order: 7
 extract_headings: false
 preview: true
 preview_content: "Kimi Code 的交互模式、斜杠命令与审批机制说明。"
