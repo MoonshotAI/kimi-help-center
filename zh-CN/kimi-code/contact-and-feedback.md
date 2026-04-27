@@ -6,10 +6,12 @@ extract_headings: false
 preview: true
 preview_content: "Kimi Code 的联系方式与反馈渠道。"
 ---
+
 <SeoMeta
   title="联系与反馈 - Kimi Code 帮助中心"
   description="了解 Kimi Code 的反馈渠道，包括 CLI 内反馈、GitHub Issues、邮件等方式。"
 />
+
 # 联系与反馈
 
 ## 反馈渠道
@@ -26,7 +28,7 @@ preview_content: "Kimi Code 的联系方式与反馈渠道。"
 
 ### 方式三：邮件反馈
 
-你也可以通过邮件向 Kimi Code团队[code@moonshot.ai](mailto:code@moonshot.ai)反馈问题。请在邮件中尽量包含以下信息：
+你也可以通过邮件向 Kimi Code 团队 [code@moonshot.ai](mailto:code@moonshot.ai)反馈问题。请在邮件中尽量包含以下信息：
 
 - **问题描述**：清晰描述你遇到的问题或期望的功能
 - **复现步骤**：如何一步步触发这个问题
@@ -35,6 +37,7 @@ preview_content: "Kimi Code 的联系方式与反馈渠道。"
 
 ### 方式四：加入飞书交流群
 扫码加入飞书交流群
+
 <Frames
   src="./images/contact-and-feedback/contact-and-feedback-01.png"
   alt="飞书群二维码"
