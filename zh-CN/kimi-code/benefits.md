@@ -1,7 +1,7 @@
 ---
 title: "权益说明"
 slug: "benefits"
-order: 2
+order: 3
 extract_headings: false
 preview: true
 preview_content: "Kimi Code 权益说明：计费方式、刷新周期与适用工具。"

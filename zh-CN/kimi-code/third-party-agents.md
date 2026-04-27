@@ -1,7 +1,7 @@
 ---
 title: "在第三方 Coding Agent 中使用"
 slug: "third-party-agents"
-order: 11
+order: 13
 extract_headings: false
 preview: true
 preview_content: "在 Claude Code、Roo Code 等第三方 Agent 中使用 Kimi 模型。"

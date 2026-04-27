@@ -1,7 +1,7 @@
 ---
 title: "Kimi Code 文档索引"
 slug: "code-docs-index"
-order: 12
+order: 14
 extract_headings: false
 preview: true
 preview_content: "Kimi Code CLI、VS Code 扩展和第三方工具的完整文档索引。"

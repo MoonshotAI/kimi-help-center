@@ -1,7 +1,7 @@
 ---
 title: "定制化和更多参考"
 slug: "cli-customization"
-order: 9
+order: 10
 extract_headings: false
 preview: true
 preview_content: "Kimi Code 定制化配置：AGENTS.md、MCP 与环境变量。"

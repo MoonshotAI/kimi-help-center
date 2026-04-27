@@ -1,7 +1,7 @@
 ---
 title: "VS Code 核心操作"
 slug: "vscode-core-operations"
-order: 6
+order: 12
 extract_headings: false
 preview: true
 preview_content: "Kimi Code VS Code 扩展的聊天面板、文件引用、diff 审查、计划模式与上下文管理。"
