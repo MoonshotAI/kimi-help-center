@@ -1,7 +1,7 @@
 ---
 title: "联系与反馈"
 slug: "contact-and-feedback"
-order: 12
+order: 3
 extract_headings: false
 preview: true
 preview_content: "Kimi Code 的联系方式与反馈渠道。"
@@ -26,20 +26,12 @@ preview_content: "Kimi Code 的联系方式与反馈渠道。"
 
 ### 方式三：邮件反馈
 
-你也可以通过邮件向 Kimi 团队反馈问题。请在邮件中尽量包含以下信息：
+你也可以通过邮件向 Kimi Code团队[code@moonshot.ai](mailto:code@moonshot.ai)反馈问题。请在邮件中尽量包含以下信息：
 
 - **问题描述**：清晰描述你遇到的问题或期望的功能
 - **复现步骤**：如何一步步触发这个问题
 - **环境信息**：操作系统、Kimi Code CLI 版本（可通过 `kimi --version` 查看）
 - **错误日志**：如果有报错信息，请完整粘贴
-
-## 其他联系渠道
-
-| 反馈类型 | 渠道 |
-|---------|------|
-| 账号申诉 / 投诉举报 | [support@moonshot.cn](mailto:support@moonshot.cn) |
-| 媒体联络 | [pr@kimi.com](mailto:pr@kimi.com) |
-| 投资者联系 | [legalteam@moonshot.ai](mailto:legalteam@moonshot.ai) |
 
 ## 常见问题自助排查
 
@@ -49,3 +41,10 @@ preview_content: "Kimi Code 的联系方式与反馈渠道。"
 - 网络连接是否正常，能否访问 `api.kimi.com`
 - API Key 是否有效且未过期
 - 工作目录是否正确，Kimi 是否有权限访问相关文件
+
+## 其他联系渠道
+
+| 反馈类型 | 渠道 |
+|---------|------|
+| 账号申诉 / 投诉举报 | [support@moonshot.cn](mailto:support@moonshot.cn) |
+| 媒体联络 | [pr@kimi.com](mailto:pr@kimi.com) |
