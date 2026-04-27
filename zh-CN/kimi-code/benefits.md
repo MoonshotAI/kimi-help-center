@@ -20,7 +20,21 @@ Kimi Code 的额度以订阅日为起点**每 7 天自动刷新**，未用完不
 
 登录 [Kimi Code 控制台](https://www.kimi.com/code/console) 可随时查看剩余额度与频限状态、管理 API Key 和登录设备。
 
+<Frames
+  src="./images/benefits-/benefits-01.png"
+  alt="控制台额度示意图"
+/>
+
 > Kimi Code 与 Kimi 会员计划共享额度，如 Kimi 会员的月总额度达到上限，Kimi Code 额度会变为冻结状态，需等待月额度重置或升级订阅，月额度消耗可在 Kimi 主页设置中的 [订阅](https://www.kimi.com/membership/subscription) 查看。
+
+<Frames
+  src="./images/benefits-/benefits-02.png"
+  alt="控制台额度明细示意图"
+/>
+
+当你使用 Kimi 账号登录对应设备后，将一同分享你套餐中的额度。如果你超过 30 天不活跃，我们会自动解除你的登录状态。
+可以在登录 [Kimi Code 控制台](https://www.kimi.com/code/console) 可随时查看登录设备和使用记录（仅展示100条明细）。
+
 
 ## 额度刷新
 
