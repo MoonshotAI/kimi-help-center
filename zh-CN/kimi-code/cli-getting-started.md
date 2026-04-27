@@ -64,6 +64,11 @@ Kimi Code CLI 是一个运行在终端中的 AI Agent，帮助你完成软件开
 
 验证安装是否成功：
 
+<Frames
+  src="./images/cli-getting-started/cli-getting-started-02.png"
+  alt="验证安装"
+/>
+
 <CodePreview
   files={[
     {
