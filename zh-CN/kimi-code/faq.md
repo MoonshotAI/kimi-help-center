@@ -1,3 +1,16 @@
+---
+title: "Kimi Code 常见问题"
+slug: "membership-guide"
+order: 2
+extract_headings: false
+preview: true
+preview_content: "Kimi Code 常见问题"
+---
+<SeoMeta
+  title="Kimi Code 常见问题 - Kimi 帮助中心"
+  description="了解 Kimi Code 的安装与鉴权、API密钥无效、会员过期、交互问题等"
+/>
+
 # 常见问题
 
 ## 安装与鉴权
