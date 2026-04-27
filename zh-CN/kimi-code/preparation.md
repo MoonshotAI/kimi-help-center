@@ -6,10 +6,12 @@ extract_headings: false
 preview: true
 preview_content: "使用 Kimi Code 前需要了解的基础知识：终端、PowerShell、CLI 及安全注意事项。"
 ---
+
 <SeoMeta
   title="使用 Kimi Code 前的准备工作 - Kimi 帮助中心"
   description="了解终端、PowerShell、CLI 的基础概念，以及如何安全地使用 Kimi Code CLI 进行开发。"
 />
+
 # 准备工作
 
 在使用 Kimi Code 之前，你需要了解几个基础概念。这些知识能帮助你更顺畅地安装和使用 Kimi Code。
