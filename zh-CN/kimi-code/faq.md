@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "Kimi Code 常见问题"
 ---
+
 <SeoMeta
   title="Kimi Code 常见问题 - Kimi 帮助中心"
   description="了解 Kimi Code 的安装与鉴权、API密钥无效、会员过期、交互问题等"
@@ -29,7 +30,7 @@ preview_content: "Kimi Code 常见问题"
 | 平台 | Base URL | 计费方式 | Key 创建入口 |
 |------|---------|---------|-------------|
 | **Kimi Code** | Open AI 兼容： `https://api.kimi.com/coding/v1`<br> Anthropic 兼容：`https://api.kimi.com/coding/` | Kimi 会员订阅（含额度） | [Kimi Code 控制台](https://www.kimi.com/code/console) |
-| **Kimi 开放平台** | `https://api.moonshot.cn/v1` | 按量付费 | [Kimi 开放平台官网 ](https://platform.kimi.com) |
+| **Kimi 开放平台** | `https://api.moonshot.cn/v1` | 按量付费 | [Kimi 开放平台官网](https://platform.kimi.com) |
 
 
 ### API 密钥无效
