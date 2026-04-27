@@ -1,7 +1,7 @@
 ---
 title: "开始使用"
 slug: "cli-getting-started"
-order: 3
+order: 4
 extract_headings: false
 preview: true
 preview_content: "Kimi Code CLI 安装、登录与初始化的快速入门指南。"
