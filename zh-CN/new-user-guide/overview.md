@@ -131,4 +131,4 @@ Kimi 不仅是对话助手，更是能自主执行任务的 AI Agent：
   src="./images/overview/overview-04-01.png"
   alt="image"
 />
-- 在节假日、大事件、纪念日，Kimi会随机上新doodle，祝你也快乐。
+- 在节假日、大事件、纪念日，Kimi会随机上新doodle。
