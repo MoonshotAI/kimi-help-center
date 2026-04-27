@@ -2,9 +2,15 @@
 
 `kimi info` 显示 Kimi Code CLI 的版本和协议信息。
 
-```sh
-kimi info [--json]
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi info [--json]",
+    },
+  ]}
+/>
 
 ## 选项
 
@@ -25,17 +31,24 @@ kimi info [--json]
 
 **文本输出**
 
-```sh
-$ kimi info
-kimi-cli version: 1.20.0
-agent spec versions: 1
-wire protocol: 1.7
-python version: 3.13.1
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "$ kimi info\nkimi-cli version: 1.20.0\nagent spec versions: 1\nwire protocol: 1.7\npython version: 3.13.1",
+    },
+  ]}
+/>
 
 **JSON 输出**
 
-```sh
-$ kimi info --json
-{"kimi_cli_version": "1.20.0", "agent_spec_versions": ["1"], "wire_protocol_version": "1.7", "python_version": "3.13.1"}
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "$ kimi info --json\n{\"kimi_cli_version\": \"1.20.0\", \"agent_spec_versions\": [\"1\"], \"wire_protocol_version\": \"1.7\", \"python_version\": \"3.13.1\"}",
+    },
+  ]}
+/>

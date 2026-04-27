@@ -20,91 +20,121 @@ Kimi Code CLI 内置了一些工具（文件读写、Shell 命令、网页抓取
 
 添加 HTTP 服务器：
 
-```sh
-# 基本用法
-kimi mcp add --transport http context7 https://mcp.context7.com/mcp
-
-# 带 Header
-kimi mcp add --transport http context7 https://mcp.context7.com/mcp \
-  --header "CONTEXT7_API_KEY: your-key"
-
-# 使用 OAuth 认证
-kimi mcp add --transport http --auth oauth linear https://mcp.linear.app/mcp
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "# 基本用法\nkimi mcp add --transport http context7 https://mcp.context7.com/mcp\n\n# 带 Header\nkimi mcp add --transport http context7 https://mcp.context7.com/mcp \\n  --header \"CONTEXT7_API_KEY: your-key\"\n\n# 使用 OAuth 认证\nkimi mcp add --transport http --auth oauth linear https://mcp.linear.app/mcp",
+    },
+  ]}
+/>
 
 添加 stdio 服务器（本地进程）：
 
-```sh
-kimi mcp add --transport stdio chrome-devtools -- npx chrome-devtools-mcp@latest
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi mcp add --transport stdio chrome-devtools -- npx chrome-devtools-mcp@latest",
+    },
+  ]}
+/>
 
 **列出服务器**
 
-```sh
-kimi mcp list
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi mcp list",
+    },
+  ]}
+/>
 
 在 Kimi Code CLI 运行时，也可以输入 `/mcp` 查看已连接的服务器和加载的工具。
 
 **移除服务器**
 
-```sh
-kimi mcp remove context7
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi mcp remove context7",
+    },
+  ]}
+/>
 
 **OAuth 授权**
 
 对于使用 OAuth 的服务器，需要先完成授权：
 
-```sh
-kimi mcp auth linear
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi mcp auth linear",
+    },
+  ]}
+/>
 
 这会打开浏览器完成 OAuth 流程。授权成功后，Kimi Code CLI 会保存 token 供后续使用。
 
 **测试服务器**
 
-```sh
-kimi mcp test context7
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi mcp test context7",
+    },
+  ]}
+/>
 
 ## MCP 配置文件
 
 MCP 服务器配置存储在 `~/.kimi/mcp.json`，格式与其他 MCP 客户端兼容：
 
-```json
-{
-  "mcpServers": {
-    "context7": {
-      "url": "https://mcp.context7.com/mcp",
-      "headers": {
-        "CONTEXT7_API_KEY": "your-key"
-      }
+<CodePreview
+  files={[
+    {
+      name: "example.json",
+      language: "json",
+      content: "{\n  \"mcpServers\": {\n    \"context7\": {\n      \"url\": \"https://mcp.context7.com/mcp\",\n      \"headers\": {\n        \"CONTEXT7_API_KEY\": \"your-key\"\n      }\n    },\n    \"chrome-devtools\": {\n      \"command\": \"npx\",\n      \"args\": [\"chrome-devtools-mcp@latest\"],\n      \"env\": {\n        \"SOME_VAR\": \"value\"\n      }\n    }\n  }\n}",
     },
-    "chrome-devtools": {
-      "command": "npx",
-      "args": ["chrome-devtools-mcp@latest"],
-      "env": {
-        "SOME_VAR": "value"
-      }
-    }
-  }
-}
-```
+  ]}
+/>
 
 **临时加载配置**
 
 使用 `--mcp-config-file` 参数可以加载其他位置的配置文件：
 
-```sh
-kimi --mcp-config-file /path/to/mcp.json
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi --mcp-config-file /path/to/mcp.json",
+    },
+  ]}
+/>
 
 使用 `--mcp-config` 参数可以直接传入 JSON 配置：
 
-```sh
-kimi --mcp-config '{"mcpServers": {"test": {"url": "https://..."}}}'
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi --mcp-config '{\"mcpServers\": {\"test\": {\"url\": \"https://...\"}}}'",
+    },
+  ]}
+/>
 
 ## 加载状态
 

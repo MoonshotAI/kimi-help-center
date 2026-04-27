@@ -2,17 +2,29 @@
 
 `kimi mcp` 用于管理 MCP (Model Context Protocol) 服务器配置。关于 MCP 的概念和使用方式，详见 [Model Context Protocol](/kimi-code-cli/customization/mcp)。
 
-```sh
-kimi mcp COMMAND [ARGS]
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi mcp COMMAND [ARGS]",
+    },
+  ]}
+/>
 
 ## `add`
 
 添加 MCP 服务器配置。
 
-```sh
-kimi mcp add [OPTIONS] NAME [TARGET_OR_COMMAND...]
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi mcp add [OPTIONS] NAME [TARGET_OR_COMMAND...]",
+    },
+  ]}
+/>
 
 **参数**
 
@@ -34,9 +46,15 @@ kimi mcp add [OPTIONS] NAME [TARGET_OR_COMMAND...]
 
 列出所有已配置的 MCP 服务器。
 
-```sh
-kimi mcp list
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi mcp list",
+    },
+  ]}
+/>
 
 输出包括：
 - 配置文件路径
@@ -47,9 +65,15 @@ kimi mcp list
 
 移除 MCP 服务器配置。
 
-```sh
-kimi mcp remove NAME
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi mcp remove NAME",
+    },
+  ]}
+/>
 
 **参数**
 
@@ -61,9 +85,15 @@ kimi mcp remove NAME
 
 对使用 OAuth 的 MCP 服务器进行授权。
 
-```sh
-kimi mcp auth NAME
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi mcp auth NAME",
+    },
+  ]}
+/>
 
 执行后会打开浏览器进行 OAuth 授权流程。授权成功后，token 会被缓存以供后续使用。
 
@@ -81,9 +111,15 @@ kimi mcp auth NAME
 
 清除 MCP 服务器的 OAuth 缓存 token。
 
-```sh
-kimi mcp reset-auth NAME
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi mcp reset-auth NAME",
+    },
+  ]}
+/>
 
 **参数**
 
@@ -97,9 +133,15 @@ kimi mcp reset-auth NAME
 
 测试与 MCP 服务器的连接并列出可用工具。
 
-```sh
-kimi mcp test NAME
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi mcp test NAME",
+    },
+  ]}
+/>
 
 **参数**
 

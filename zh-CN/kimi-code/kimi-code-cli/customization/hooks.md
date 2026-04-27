@@ -40,31 +40,15 @@ Kimi Code CLI 支持 13 种生命周期事件：
 
 在 `~/.kimi/config.toml` 中使用 `[[hooks]]` 数组定义 hook：
 
-```toml
-# 文件编辑后自动格式化
-[[hooks]]
-event = "PostToolUse"
-matcher = "WriteFile|StrReplaceFile"
-command = "jq -r '.tool_input.file_path' | xargs prettier --write"
-
-# 阻止修改 .env 文件
-[[hooks]]
-event = "PreToolUse"
-matcher = "WriteFile|StrReplaceFile"
-command = ".kimi/hooks/protect-env.sh"
-timeout = 10
-
-# 需要审批时发送桌面通知
-[[hooks]]
-event = "Notification"
-matcher = "permission_prompt"
-command = "osascript -e 'display notification \"Kimi needs attention\" with title \"Kimi CLI\"'"
-
-# 会话结束前检查任务完成情况
-[[hooks]]
-event = "Stop"
-command = ".kimi/hooks/check-complete.sh"
-```
+<CodePreview
+  files={[
+    {
+      name: "config.toml",
+      language: "toml",
+      content: "# 文件编辑后自动格式化\n[[hooks]]\nevent = \"PostToolUse\"\nmatcher = \"WriteFile|StrReplaceFile\"\ncommand = \"jq -r '.tool_input.file_path' | xargs prettier --write\"\n\n# 阻止修改 .env 文件\n[[hooks]]\nevent = \"PreToolUse\"\nmatcher = \"WriteFile|StrReplaceFile\"\ncommand = \".kimi/hooks/protect-env.sh\"\ntimeout = 10\n\n# 需要审批时发送桌面通知\n[[hooks]]\nevent = \"Notification\"\nmatcher = \"permission_prompt\"\ncommand = \"osascript -e 'display notification \\"Kimi needs attention\\" with title \\"Kimi CLI\\"'\"\n\n# 会话结束前检查任务完成情况\n[[hooks]]\nevent = \"Stop\"\ncommand = \".kimi/hooks/check-complete.sh\"",
+    },
+  ]}
+/>
 
 ### 配置字段
 
@@ -81,15 +65,15 @@ command = ".kimi/hooks/check-complete.sh"
 
 Hook 命令从标准输入接收 JSON 格式的上下文信息，包含通用字段和事件特定字段：
 
-```json
-{
-  "session_id": "abc123",
-  "cwd": "/path/to/project",
-  "hook_event_name": "PreToolUse",
-  "tool_name": "Shell",
-  "tool_input": {"command": "rm -rf /"}
-}
-```
+<CodePreview
+  files={[
+    {
+      name: "example.json",
+      language: "json",
+      content: "{\n  \"session_id\": \"abc123\",\n  \"cwd\": \"/path/to/project\",\n  \"hook_event_name\": \"PreToolUse\",\n  \"tool_name\": \"Shell\",\n  \"tool_input\": {\"command\": \"rm -rf /\"}\n}",
+    },
+  ]}
+/>
 
 ### 输出（退出码）
 
@@ -103,15 +87,15 @@ Hook 命令从标准输入接收 JSON 格式的上下文信息，包含通用字
 
 退出码 0 时，可以通过输出结构化 JSON 提供更详细的信息：
 
-```json
-{
-  "hookSpecificOutput": {
-    "hookEventName": "PreToolUse",
-    "permissionDecision": "deny",
-    "permissionDecisionReason": "请使用 rg 代替 grep"
-  }
-}
-```
+<CodePreview
+  files={[
+    {
+      name: "example.json",
+      language: "json",
+      content: "{\n  \"hookSpecificOutput\": {\n    \"hookEventName\": \"PreToolUse\",\n    \"permissionDecision\": \"deny\",\n    \"permissionDecisionReason\": \"请使用 rg 代替 grep\"\n  }\n}",
+    },
+  ]}
+/>
 
 当 `permissionDecision` 为 `deny` 时，会阻止操作并将 `permissionDecisionReason` 反馈给 LLM。
 
@@ -119,71 +103,65 @@ Hook 命令从标准输入接收 JSON 格式的上下文信息，包含通用字
 
 ### 保护敏感文件
 
-```bash
-#!/bin/bash
-# .kimi/hooks/protect-env.sh
-
-read JSON
-echo "$JSON" | jq -r '.tool_input.file_path' | grep -qE '\.env$|\.env\.local$'
-
-if [ $? -eq 0 ]; then
-    echo "Error: Direct modification of .env files is not allowed. Use .env.example instead." >&2
-    exit 2
-fi
-
-exit 0
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "#!/bin/bash\n# .kimi/hooks/protect-env.sh\n\nread JSON\necho \"$JSON\" | jq -r '.tool_input.file_path' | grep -qE '\.env$|\.env\.local$'\n\nif [ $? -eq 0 ]; then\n    echo \"Error: Direct modification of .env files is not allowed. Use .env.example instead.\" >&2\n    exit 2\nfi\n\nexit 0",
+    },
+  ]}
+/>
 
 ### 自动格式化代码
 
-```bash
-#!/bin/bash
-# .kimi/hooks/auto-format.sh
-
-FILE=$(python3 -c "import sys,json; print(json.load(sys.stdin).get('tool_input',{}).get('file_path',''))")
-
-if [[ "$FILE" == *.js ]] || [[ "$FILE" == *.ts ]]; then
-    prettier --write "$FILE" 2>/dev/null
-elif [[ "$FILE" == *.py ]]; then
-    black "$FILE" 2>/dev/null
-fi
-
-exit 0
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "#!/bin/bash\n# .kimi/hooks/auto-format.sh\n\nFILE=$(python3 -c \"import sys,json; print(json.load(sys.stdin).get('tool_input',{}).get('file_path',''))\")\n\nif [[ \"$FILE\" == *.js ]] || [[ \"$FILE\" == *.ts ]]; then\n    prettier --write \"$FILE\" 2>/dev/null\nelif [[ \"$FILE\" == *.py ]]; then\n    black \"$FILE\" 2>/dev/null\nfi\n\nexit 0",
+    },
+  ]}
+/>
 
 ### 检查未完成的任务
 
-```bash
-#!/bin/bash
-# .kimi/hooks/check-complete.sh
-
-# 检查是否有进行中的后台任务
-if kimi task list --active 2>/dev/null | grep -q "running"; then
-    echo '{"hookSpecificOutput":{"permissionDecision":"deny","permissionDecisionReason":"还有后台任务在运行，请先检查 /task"}}'
-    exit 0
-fi
-
-exit 0
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "#!/bin/bash\n# .kimi/hooks/check-complete.sh\n\n# 检查是否有进行中的后台任务\nif kimi task list --active 2>/dev/null | grep -q \"running\"; then\n    echo '{\"hookSpecificOutput\":{\"permissionDecision\":\"deny\",\"permissionDecisionReason\":\"还有后台任务在运行，请先检查 /task\"}}'\n    exit 0\nfi\n\nexit 0",
+    },
+  ]}
+/>
 
 ## 查看已配置的 Hooks
 
 在 Shell 模式下使用 `/hooks` 命令查看当前配置的 hooks：
 
-```
-/hooks
-```
+<CodePreview
+  files={[
+    {
+      name: "example.txt",
+      language: "text",
+      content: "/hooks",
+    },
+  ]}
+/>
 
 输出示例：
 
-```
-Configured Hooks:
-
-  PostToolUse: 1 hook(s)
-  PreToolUse: 1 hook(s)
-  Notification: 1 hook(s)
-  Stop: 1 hook(s)
-```
+<CodePreview
+  files={[
+    {
+      name: "example.txt",
+      language: "text",
+      content: "Configured Hooks:\n\n  PostToolUse: 1 hook(s)\n  PreToolUse: 1 hook(s)\n  Notification: 1 hook(s)\n  Stop: 1 hook(s)",
+    },
+  ]}
+/>
 
 ## 设计原则
 

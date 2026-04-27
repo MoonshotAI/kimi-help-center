@@ -2,9 +2,15 @@
 
 `kimi acp` 命令启动一个支持多会话的 ACP (Agent Client Protocol) 服务器。
 
-```sh
-kimi acp
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi acp",
+    },
+  ]}
+/>
 
 ## 说明
 

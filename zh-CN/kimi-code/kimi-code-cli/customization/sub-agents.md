@@ -6,9 +6,15 @@ Agent 定义了 AI 的行为方式，包括系统提示词、可用工具和子 
 
 Kimi Code CLI 提供两个内置 Agent。启动时可以通过 `--agent` 参数选择：
 
-```sh
-kimi --agent okabe
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi --agent okabe",
+    },
+  ]}
+/>
 
 ### `default`
 
@@ -24,36 +30,41 @@ kimi --agent okabe
 
 Agent 使用 YAML 格式定义。通过 `--agent-file` 参数加载自定义 Agent：
 
-```sh
-kimi --agent-file /path/to/my-agent.yaml
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi --agent-file /path/to/my-agent.yaml",
+    },
+  ]}
+/>
 
 **基本结构**
 
-```yaml
-version: 1
-agent:
-  name: my-agent
-  system_prompt_path: ./system.md
-  tools:
-    - "kimi_cli.tools.shell:Shell"
-    - "kimi_cli.tools.file:ReadFile"
-    - "kimi_cli.tools.file:WriteFile"
-```
+<CodePreview
+  files={[
+    {
+      name: "config.yaml",
+      language: "yaml",
+      content: "version: 1\nagent:\n  name: my-agent\n  system_prompt_path: ./system.md\n  tools:\n    - \"kimi_cli.tools.shell:Shell\"\n    - \"kimi_cli.tools.file:ReadFile\"\n    - \"kimi_cli.tools.file:WriteFile\"",
+    },
+  ]}
+/>
 
 **继承与覆盖**
 
 使用 `extend` 可以继承其他 Agent 的配置，只覆盖需要修改的部分：
 
-```yaml
-version: 1
-agent:
-  extend: default  # 继承默认 Agent
-  system_prompt_path: ./my-prompt.md  # 覆盖系统提示词
-  exclude_tools:  # 排除某些工具
-    - "kimi_cli.tools.web:SearchWeb"
-    - "kimi_cli.tools.web:FetchURL"
-```
+<CodePreview
+  files={[
+    {
+      name: "config.yaml",
+      language: "yaml",
+      content: "version: 1\nagent:\n  extend: default  # 继承默认 Agent\n  system_prompt_path: ./my-prompt.md  # 覆盖系统提示词\n  exclude_tools:  # 排除某些工具\n    - \"kimi_cli.tools.web:SearchWeb\"\n    - \"kimi_cli.tools.web:FetchURL\"",
+    },
+  ]}
+/>
 
 `extend: default` 会继承内置的默认 Agent。你也可以指定相对路径继承其他 Agent 文件。
 
@@ -84,54 +95,55 @@ agent:
 
 你也可以通过 `system_prompt_args` 定义自定义参数：
 
-```yaml
-agent:
-  system_prompt_args:
-    MY_VAR: "自定义值"
-```
+<CodePreview
+  files={[
+    {
+      name: "config.yaml",
+      language: "yaml",
+      content: "agent:\n  system_prompt_args:\n    MY_VAR: \"自定义值\"",
+    },
+  ]}
+/>
 
 然后在提示词中使用 `${MY_VAR}`。
 
 **系统提示词示例**
 
-```markdown
-# My Agent
-
-You are a helpful assistant. Current time: ${KIMI_NOW}.
-
-Working directory: ${KIMI_WORK_DIR}
-
-${MY_VAR}
-```
+<CodePreview
+  files={[
+    {
+      name: "example.md",
+      language: "markdown",
+      content: "# My Agent\n\nYou are a helpful assistant. Current time: ${KIMI_NOW}.\n\nWorking directory: ${KIMI_WORK_DIR}\n\n${MY_VAR}",
+    },
+  ]}
+/>
 
 ## 在 Agent 文件中定义子 Agent
 
 子 Agent 可以处理特定类型的任务。在 Agent 文件中定义子 Agent 后，主 Agent 可以通过 `Agent` 工具启动它们：
 
-```yaml
-version: 1
-agent:
-  extend: default
-  subagents:
-    coder:
-      path: ./coder-sub.yaml
-      description: "处理编码任务"
-    reviewer:
-      path: ./reviewer-sub.yaml
-      description: "代码审查专家"
-```
+<CodePreview
+  files={[
+    {
+      name: "config.yaml",
+      language: "yaml",
+      content: "version: 1\nagent:\n  extend: default\n  subagents:\n    coder:\n      path: ./coder-sub.yaml\n      description: \"处理编码任务\"\n    reviewer:\n      path: ./reviewer-sub.yaml\n      description: \"代码审查专家\"",
+    },
+  ]}
+/>
 
 子 Agent 文件也是标准的 Agent 格式，通常会继承主 Agent：
 
-```yaml
-# coder.yaml
-version: 1
-agent:
-  extend: ./agent.yaml  # 继承主 Agent
-  system_prompt_args:
-    ROLE_ADDITIONAL: |
-      你现在作为子 Agent 运行...
-```
+<CodePreview
+  files={[
+    {
+      name: "config.yaml",
+      language: "yaml",
+      content: "# coder.yaml\nversion: 1\nagent:\n  extend: ./agent.yaml  # 继承主 Agent\n  system_prompt_args:\n    ROLE_ADDITIONAL: |\n      你现在作为子 Agent 运行...",
+    },
+  ]}
+/>
 
 ## 内置子 Agent 类型
 

@@ -39,68 +39,85 @@ Kimi Code CLI 支持多种 LLM 平台，可以通过配置文件或 `/login` 命
 
 用于连接 Kimi API，包括 Kimi Code 和 Kimi Platform。
 
-```toml
-[providers.kimi-for-coding]
-type = "kimi"
-base_url = "https://api.kimi.com/coding/v1"
-api_key = "sk-xxx"
-```
+<CodePreview
+  files={[
+    {
+      name: "config.toml",
+      language: "toml",
+      content: "[providers.kimi-for-coding]\ntype = \"kimi\"\nbase_url = \"https://api.kimi.com/coding/v1\"\napi_key = \"sk-xxx\"",
+    },
+  ]}
+/>
 
 ### `openai_legacy`
 
 兼容 OpenAI Chat Completions API 的平台，包括 OpenAI 官方 API 和各种兼容服务。
 
-```toml
-[providers.openai]
-type = "openai_legacy"
-base_url = "https://api.openai.com/v1"
-api_key = "sk-xxx"
-```
+<CodePreview
+  files={[
+    {
+      name: "config.toml",
+      language: "toml",
+      content: "[providers.openai]\ntype = \"openai_legacy\"\nbase_url = \"https://api.openai.com/v1\"\napi_key = \"sk-xxx\"",
+    },
+  ]}
+/>
 
 ### `openai_responses`
 
 用于 OpenAI Responses API（较新的 API 格式）。
 
-```toml
-[providers.openai-responses]
-type = "openai_responses"
-base_url = "https://api.openai.com/v1"
-api_key = "sk-xxx"
-```
+<CodePreview
+  files={[
+    {
+      name: "config.toml",
+      language: "toml",
+      content: "[providers.openai-responses]\ntype = \"openai_responses\"\nbase_url = \"https://api.openai.com/v1\"\napi_key = \"sk-xxx\"",
+    },
+  ]}
+/>
 
 ### `anthropic`
 
 用于连接 Anthropic Claude API。
 
-```toml
-[providers.anthropic]
-type = "anthropic"
-base_url = "https://api.anthropic.com"
-api_key = "sk-ant-xxx"
-```
+<CodePreview
+  files={[
+    {
+      name: "config.toml",
+      language: "toml",
+      content: "[providers.anthropic]\ntype = \"anthropic\"\nbase_url = \"https://api.anthropic.com\"\napi_key = \"sk-ant-xxx\"",
+    },
+  ]}
+/>
 
 ### `gemini`
 
 用于连接 Google Gemini API。
 
-```toml
-[providers.gemini]
-type = "gemini"
-base_url = "https://generativelanguage.googleapis.com"
-api_key = "xxx"
-```
+<CodePreview
+  files={[
+    {
+      name: "config.toml",
+      language: "toml",
+      content: "[providers.gemini]\ntype = \"gemini\"\nbase_url = \"https://generativelanguage.googleapis.com\"\napi_key = \"xxx\"",
+    },
+  ]}
+/>
 
 ### `vertexai`
 
 用于连接 Google Vertex AI。需要通过 `env` 字段设置必要的环境变量。
 
-```toml
-[providers.vertexai]
-type = "vertexai"
-base_url = "https://xxx-aiplatform.googleapis.com"
-api_key = ""
-env = { GOOGLE_CLOUD_PROJECT = "your-project-id" }
-```
+<CodePreview
+  files={[
+    {
+      name: "config.toml",
+      language: "toml",
+      content: "[providers.vertexai]\ntype = \"vertexai\"\nbase_url = \"https://xxx-aiplatform.googleapis.com\"\napi_key = \"\"\nenv = { GOOGLE_CLOUD_PROJECT = \"your-project-id\" }",
+    },
+  ]}
+/>
 
 所有供应商类型都支持通过 `custom_headers` 字段添加自定义 HTTP 请求头。详见「配置文件」。
 
@@ -115,13 +132,15 @@ env = { GOOGLE_CLOUD_PROJECT = "your-project-id" }
 | `image_in` | 支持图片输入 |
 | `video_in` | 支持视频输入 |
 
-```toml
-[models.gemini-3-pro-preview]
-provider = "gemini"
-model = "gemini-3-pro-preview"
-max_context_size = 262144
-capabilities = ["thinking", "image_in"]
-```
+<CodePreview
+  files={[
+    {
+      name: "config.toml",
+      language: "toml",
+      content: "[models.gemini-3-pro-preview]\nprovider = \"gemini\"\nmodel = \"gemini-3-pro-preview\"\nmax_context_size = 262144\ncapabilities = [\"thinking\", \"image_in\"]",
+    },
+  ]}
+/>
 
 ### `thinking`
 

@@ -37,30 +37,52 @@ Kimi Code CLI 是一个运行在终端中的 AI Agent，帮助你完成软件开
 
 运行安装脚本即可完成安装。脚本会先安装 [uv](https://docs.astral.sh/uv/)（Python 包管理工具），再通过 uv 安装 Kimi Code CLI：
 
-```sh
-# Linux / macOS
-curl -LsSf https://code.kimi.com/install.sh | bash
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "# Linux / macOS\ncurl -LsSf https://code.kimi.com/install.sh | bash",
+    },
+  ]}
+/>
 
-```powershell
-# Windows (PowerShell)
-Invoke-RestMethod https://code.kimi.com/install.ps1 | Invoke-Expression
-```
+<CodePreview
+  files={[
+    {
+      name: "example.txt",
+      language: "powershell",
+      content: "# Windows (PowerShell)\nInvoke-RestMethod https://code.kimi.com/install.ps1 | Invoke-Expression",
+    },
+  ]}
+/>
 
 验证安装是否成功：
 
-```sh
-kimi --version
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi --version",
+    },
+  ]}
+/>
 
 
 > 由于 macOS 的安全检查机制（Gatekeeper），首次运行 `kimi` 命令可能需要较长时间。可以在「系统设置 → 隐私与安全性 → 开发者工具」中添加你的终端应用来加速后续启动。
 
 如果你已经安装了 uv，也可以直接运行：
 
-```sh
-uv tool install --python 3.13 kimi-cli
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "uv tool install --python 3.13 kimi-cli",
+    },
+  ]}
+/>
 
 > Kimi Code CLI 支持 Python 3.12-3.14，但建议使用 3.13 以获得最佳兼容性。
 
@@ -130,9 +152,15 @@ uv tool install --python 3.13 kimi-cli
 
 用自然语言提问，快速了解项目：
 
-```
-这个项目的整体架构是怎样的？入口文件在哪里？
-```
+<CodePreview
+  files={[
+    {
+      name: "example.txt",
+      language: "text",
+      content: "这个项目的整体架构是怎样的？入口文件在哪里？",
+    },
+  ]}
+/>
 
 Kimi Code CLI 会自动搜索和阅读相关文件，然后给出回答。
 
@@ -140,9 +168,15 @@ Kimi Code CLI 会自动搜索和阅读相关文件，然后给出回答。
 
 试试让 Kimi Code CLI 修改代码：
 
-```
-给 README 添加一个"快速开始"部分，包含安装和运行步骤
-```
+<CodePreview
+  files={[
+    {
+      name: "example.txt",
+      language: "text",
+      content: "给 README 添加一个\"快速开始\"部分，包含安装和运行步骤",
+    },
+  ]}
+/>
 
 Kimi Code CLI 在修改文件前会展示 diff 并请求确认——你可以批准、拒绝，或直接输入反馈让它调整方向。它不会在未经允许的情况下改动你的代码。
 
@@ -150,9 +184,15 @@ Kimi Code CLI 在修改文件前会展示 diff 并请求确认——你可以批
 
 Kimi Code CLI 也可以运行 Shell 命令并分析结果：
 
-```
-运行测试，如果有失败的用例就修复它们
-```
+<CodePreview
+  files={[
+    {
+      name: "example.txt",
+      language: "text",
+      content: "运行测试，如果有失败的用例就修复它们",
+    },
+  ]}
+/>
 
 到这里，你已经体验了三个核心能力：**提问理解**、**修改代码**、**执行命令**。
 
@@ -201,12 +241,24 @@ Kimi Code CLI 也可以运行 Shell 命令并分析结果：
 
 升级到最新版本：
 
-```sh
-uv tool upgrade kimi-cli --no-cache
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "uv tool upgrade kimi-cli --no-cache",
+    },
+  ]}
+/>
 
 卸载 Kimi Code CLI：
 
-```sh
-uv tool uninstall kimi-cli
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "uv tool uninstall kimi-cli",
+    },
+  ]}
+/>

@@ -60,27 +60,29 @@ Kimi Code CLI 的配置可以通过多种方式设置，不同来源的配置按
 
 示例：
 
-```sh
-KIMI_API_KEY="sk-xxx" KIMI_MODEL_NAME="kimi-k2-thinking-turbo" kimi
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "KIMI_API_KEY=\"sk-xxx\" KIMI_MODEL_NAME=\"kimi-k2-thinking-turbo\" kimi",
+    },
+  ]}
+/>
 
 ## 配置优先级示例
 
 假设配置文件 `~/.kimi/config.toml` 内容如下：
 
-```toml
-default_model = "kimi-for-coding"
-
-[providers.kimi-for-coding]
-type = "kimi"
-base_url = "https://api.kimi.com/coding/v1"
-api_key = "sk-config"
-
-[models.kimi-for-coding]
-provider = "kimi-for-coding"
-model = "kimi-for-coding"
-max_context_size = 262144
-```
+<CodePreview
+  files={[
+    {
+      name: "config.toml",
+      language: "toml",
+      content: "default_model = \"kimi-for-coding\"\n\n[providers.kimi-for-coding]\ntype = \"kimi\"\nbase_url = \"https://api.kimi.com/coding/v1\"\napi_key = \"sk-config\"\n\n[models.kimi-for-coding]\nprovider = \"kimi-for-coding\"\nmodel = \"kimi-for-coding\"\nmax_context_size = 262144",
+    },
+  ]}
+/>
 
 以下是不同场景的配置来源：
 
