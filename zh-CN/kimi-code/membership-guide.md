@@ -73,6 +73,11 @@ Invoke-RestMethod https://code.kimi.com/install.ps1 | Invoke-Expression
 
 #### 方式二：Kimi Code for VS Code
 
+<Frames
+  src="./images/membership-guide/membership-guide-02.png"
+  alt="Kimi Code for VS code示意"
+/>
+
 适合偏好使用 VS Code 编辑器的开发者。在编辑器侧边栏与 AI 协同，支持代码补全、文件编辑、网页搜索和自动化任务。
 
 在 VS Code 扩展市场搜索 "Kimi Code" 安装，或访问 [Visual Studio Marketplace](vscode:extension/moonshot-ai.kimi-code)。
@@ -83,6 +88,11 @@ Invoke-RestMethod https://code.kimi.com/install.ps1 | Invoke-Expression
 
 
 ### 方式三：第三方工具接入
+
+<Frames
+  src="./images/membership-guide/membership-guide-03.png"
+  alt="第三方工具接入示意"
+/>
 
 安装官方客户端或接入第三方工具后，需要完成认证才能使用 Kimi Code 额度。
 
