@@ -37,6 +37,11 @@ Kimi Code CLI 是一个运行在终端中的 AI Agent，帮助你完成软件开
 
 运行安装脚本即可完成安装。脚本会先安装 [uv](https://docs.astral.sh/uv/)（Python 包管理工具），再通过 uv 安装 Kimi Code CLI：
 
+<Frames
+  src="./images/cli-getting-started/cli-getting-started-01.png"
+  alt="安装 uv 和 Kimi Code CLI"
+/>
+
 <CodePreview
   files={[
     {
