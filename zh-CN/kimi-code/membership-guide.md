@@ -58,15 +58,28 @@ Kimi Code CLI 是一个运行在终端中的 AI Agent，帮助你完成软件开
 适合习惯终端操作的开发者。在终端中与 AI 对话，让它阅读代码、编辑文件、执行命令、搜索网页，自主完成开发任务。
 
 如果你使用的是 macOS / Linux，请在终端中复制并运行：
-```bash
-# macOS / Linux
-curl -LsSf https://code.kimi.com/install.sh | bash
-```
+
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "# macOS / Linux\ncurl -LsSf https://code.kimi.com/install.sh | bash",
+    },
+  ]}
+/>
+
 如果你使用的是 Windows，请打开 PowerShell，复制并运行：
-```powershell
-# Windows (PowerShell)
-Invoke-RestMethod https://code.kimi.com/install.ps1 | Invoke-Expression
-```
+
+<CodePreview
+  files={[
+    {
+      name: "command.ps1",
+      language: "powershell",
+      content: "# Windows (PowerShell)\nInvoke-RestMethod https://code.kimi.com/install.ps1 | Invoke-Expression",
+    },
+  ]}
+/>
 
 安装完成后，在终端中运行 `kimi` 即可启动。
 

@@ -6,22 +6,39 @@
 
 如果你使用 Oh My Zsh，可以这样安装：
 
-```sh
-git clone https://github.com/MoonshotAI/zsh-kimi-cli.git \
-  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/kimi-cli
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "git clone https://github.com/MoonshotAI/zsh-kimi-cli.git \\\n  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/kimi-cli",
+    },
+  ]}
+/>
 
 然后在 `~/.zshrc` 中添加插件：
 
-```sh
-plugins=(... kimi-cli)
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "plugins=(... kimi-cli)",
+    },
+  ]}
+/>
 
 重新加载 Zsh 配置：
 
-```sh
-source ~/.zshrc
-```
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "source ~/.zshrc",
+    },
+  ]}
+/>
 
 ## 使用
 

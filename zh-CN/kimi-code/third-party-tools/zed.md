@@ -13,18 +13,15 @@ Kimi Code CLI 支持通过 [Agent Client Protocol (ACP)](https://agentclientprot
 
 在 Zed 的配置文件 `~/.config/zed/settings.json` 中添加：
 
-```json
-{
-  "agent_servers": {
-    "Kimi Code CLI": {
-      "type": "custom",
-      "command": "kimi",
-      "args": ["acp"],
-      "env": {}
-    }
-  }
-}
-```
+<CodePreview
+  files={[
+    {
+      name: "config.json",
+      language: "json",
+      content: '{\n  "agent_servers": {\n    "Kimi Code CLI": {\n      "type": "custom",\n      "command": "kimi",\n      "args": ["acp"],\n      "env": {}\n    }\n  }\n}',
+    },
+  ]}
+/>
 
 配置说明：
 

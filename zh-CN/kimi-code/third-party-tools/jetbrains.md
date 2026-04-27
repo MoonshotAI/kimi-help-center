@@ -15,17 +15,15 @@ JetBrains 系列 IDE（IntelliJ IDEA、PyCharm、WebStorm 等）通过 AI 聊天
 
 在 AI 聊天面板的菜单中点击 "Configure ACP agents"，添加以下配置：
 
-```json
-{
-  "agent_servers": {
-    "Kimi Code CLI": {
-      "command": "~/.local/bin/kimi",
-      "args": ["acp"],
-      "env": {}
-    }
-  }
-}
-```
+<CodePreview
+  files={[
+    {
+      name: "config.json",
+      language: "json",
+      content: '{\n  "agent_servers": {\n    "Kimi Code CLI": {\n      "command": "~/.local/bin/kimi",\n      "args": ["acp"],\n      "env": {}\n    }\n  }\n}',
+    },
+  ]}
+/>
 
 `command` 需要使用完整路径，可以在终端中运行 `which kimi` 获取。保存后，在 AI 聊天的 Agent 选择器中就可以选择 Kimi Code CLI 了。
 
