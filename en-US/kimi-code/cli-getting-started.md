@@ -12,13 +12,15 @@ preview_content: "Set up Kimi Code with CLI, VS Code, or third-party agents usin
   description="Set up Kimi Code with CLI, VS Code, or third-party agents using your membership benefits."
 />
 
-Kimi Code CLI is a terminal-based AI agent that helps you with software development tasks and terminal operations. It can read and edit code, execute shell commands, search and fetch web pages, and autonomously plan and adjust its approach during execution.
+Kimi Code CLI is an AI Agent that runs in your terminal, helping you complete software development tasks and terminal operations. It can read and edit code, execute Shell commands, search and scrape the web, and autonomously plan and adjust its actions during execution.
 
 ## Use cases
 
-- **Write and Modify Code**: Describe your requirements and the AI will automatically write and modify code.
-- **Understand Projects**: Quickly grasp project architecture, code logic, and file purposes.
-- **Automate Tasks**: Batch code modifications, documentation, test generation, and other repetitive work.
+- **Write and Modify Code**: Implementing new features, fixing bugs, and refactoring code.
+- **Understand Projects**: Exploring unfamiliar codebases and answering questions about architecture and implementation.
+- **Automate Tasks**: Batch processing files, executing builds and tests, and running scripts.
+
+If you have any issues suggestions, provide feedback on [GitHub Issues](https://github.com/MoonshotAI/kimi-cli/issues) 
 
 ## Ways to use
 
@@ -30,7 +32,7 @@ Kimi Code CLI is a terminal-based AI agent that helps you with software developm
 
 ## Installation
 
-Run the following command in your terminal to install Kimi Code CLI:
+Run the installation script to complete the setup. The script will first install [uv](https://docs.astral.sh/uv/) and then install Kimi Code CLI via uv:
 
 <Frames
   src="./images/cli-getting-started/screenshot-23.png"
@@ -63,7 +65,9 @@ After installation, verify that it was installed successfully:
 
 ## First run
 
-1. Navigate to your project directory:
+### Startup and login
+
+Navigate to your project directory:
 
 <CodePreview
   files={[
@@ -75,19 +79,7 @@ After installation, verify that it was installed successfully:
   ]}
 />
 
-2. Launch Kimi Code CLI:
-
-<CodePreview
-  files={[
-    {
-      name: "command.sh",
-      language: "bash",
-      content: "kimi",
-    },
-  ]}
-/>
-
-3. Run the `/login` command to complete authorization:
+Run the `/login` command to complete authorization:
 
 <CodePreview
   files={[
@@ -101,20 +93,80 @@ After installation, verify that it was installed successfully:
 
    The system will prompt you to select a login method — follow the instructions to complete authorization.
 
-4. Once configured, you can start chatting with the AI.
+### Core Capabilities
 
-## Generate AGENTS.md
+You can interact with Kimi Code CLI using natural language:
 
-Run the `/init` command in your project directory — Kimi Code CLI will automatically scan the project structure and generate an `AGENTS.md` file:
-
-<CodePreview
-  files={[
+<ColumnsContent
+  columns={[
     {
-      name: "prompt.txt",
-      language: "text",
-      content: "/init",
+      title: "Ask Questions",
+      description: "Understand project architecture and entry points.",
+      pageUrl: "/help/core-operations/asking-questions",
+      type: "microscope",
+    },
+    {
+      title: "Modify Code",
+      description: "Let Kimi write features or fix bugs with your approval.",
+      pageUrl: "/help/core-operations/editing-code",
+      type: "code",
+    },
+    {
+      title: "Run Commands",
+      description: "Execute tests and automate terminal tasks.",
+      pageUrl: "/help/core-operations/executing-commands",
+      type: "okcomputer",
     },
   ]}
 />
 
-`AGENTS.md` provides the AI with project context such as background information, build steps, and coding conventions, helping the AI understand your project more accurately.
+## Common Commands Cheat Sheet
+
+| Command | Description |
+|------|------|
+| `kimi` | Start interactive dialogue |
+| `kimi web` | Open browser graphical interface |
+| `/login` | Configure or switch API sources |
+| `/usage` | Check remaining balance and quota |
+| `/help` | View all commands and shortcuts |
+| `Ctrl-J` | New line (do not submit) |
+| `Ctrl-C` / `Ctrl-D` | Interrupt current operation / Exit |
+
+## FAQ 
+
+**I entered my API Key, but it says authentication failed.**
+
+First, confirm that your Key and Base URL belong to the same platform. `api.kimi.com` and `api.moonshot.cn` are two completely independent account systems, and their API Keys are not interchangeable:
+
+**The `kimi` command is not found after installation.**
+
+The installation script adds `kimi` to your PATH, but you need to restart the terminal or run `source ~/.bashrc` (or `source ~/.bashrc`) for it to take effect. If it's still not found, check if `~/.local/bin` is in your PATH.
+
+**The browser did not pop up after running `/login`.**
+
+In a remote server or headless environment, `/login` will display a URL. Manually copy it into your browser to complete the authorization.
+
+## Upgrade and uninstallation
+
+Upgrade to the latest version:
+
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "uv tool upgrade kimi-cli --no-cache",
+    },
+  ]}
+/>
+
+Uninstall Kimi Code CLI:
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "uv tool uninstall kimi-cli",
+    },
+  ]}
+/>

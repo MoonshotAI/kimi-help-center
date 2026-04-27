@@ -13,62 +13,93 @@ preview: false
 
 # Kimi Code for VS Code quick start
 
-<Callout type="info">
-Kimi Code for VS Code is an extension integrated into Visual Studio Code. Once installed, you can ask questions, review code diffs, and quickly commit changes — all from within the editor.
-</Callout>
+Kimi Code for VS Code is an extension integrated into Visual Studio Code. After installation, you can ask questions directly within the editor, review code diffs, and quickly commit changes. 
+
+The extension can read the content of files you reference and display modification suggestions through a visual interface, executing them after your confirmation. The entire workflow is under your control while significantly improving development efficiency.
+
+This extension provides a native chat panel in VS Code, supporting:
+- Referencing files or folders via the `@` symbol.
+- Executing project scans and context management via `/` commands.
+- Diff views showing file changes with rollback support.
+- Integrating MCP servers to call external tools.
+
+---
 
 ## Installation
 
-1. Open VS Code
-2. Go to the Extensions Marketplace (shortcut `Ctrl+Shift+X` / `Cmd+Shift+X`)
-3. Search for **Kimi Code**
-4. Click **Install**
+1.  **Prerequisites**: You need a Kimi account subscription or a Kimi API key.
+2.  **Marketplace**: Install via the [VS Code Marketplace](vscode:extension/moonshot-ai.kimi-code).
 
 <Callout type="tip">
-If the extension doesn't appear, try restarting VS Code or running `Developer: Reload Window` from the Command Palette.
+If the extension doesn't appear after installation, please restart VS Code or execute **Developer: Reload Window** in the command palette (Mac: `Cmd+Shift+P`, Win/Linux: `Ctrl+Shift+P`).
 </Callout>
 
-## Login configuration
+---
 
-After installation, sign in to your Kimi account:
+## Authentication
 
-1. Open the Kimi Code chat panel
-2. Enter the `/login` command
-3. Follow the prompts to complete authorization — the system will automatically bind your account
+Kimi Code supports two authentication modes. You can switch modes at any time via the **gear icon**.
 
-## Basic usage
+<Frames
+  src="./images/vscode/kimi-code-gear-icon.png"
+  alt="Authentication settings"
+  width={800}
+  height={450}
+/>
 
-### Chat panel
+- **Kimi Account Mode**: Click the login button to authorize via your browser.
+- **API Key Mode**: Click to skip login if you have already configured an API key.
 
-Kimi Code provides a native chat panel in the VS Code sidebar where you can:
+---
 
-- **Ask Questions**: Type your question and the AI will respond using your project context
-- **Reference Files**: Use the `@` symbol to reference files or folders — the AI reads their content as context
-- **Slash Commands**: Use `/` commands for project scanning, context management, and more
+## Typical Workflows
 
-### Code changes
+<ColumnsContent
+  columns={[
+    {
+      title: "Code Reading",
+      description: "Type @ to select files and request an explanation of the logic flow.",
+      pageUrl: "/help/vscode/code-reading",
+      type: "microscope",
+    },
+    {
+      title: "Refactoring",
+      description: "Request a refactoring plan for a folder and review diffs before applying.",
+      pageUrl: "/help/vscode/refactoring",
+      type: "code",
+    },
+    {
+      title: "Debugging",
+      description: "Paste error traces and reference related files for instant diagnosis.",
+      pageUrl: "/help/vscode/debugging",
+      type: "okcomputer",
+    },
+  ]}
+/>
 
-AI-generated code changes are displayed in a diff view where you can:
+---
 
-- **Review Changes**: Inspect AI-suggested modifications line by line
-- **Accept or Reject**: Selectively apply some or all changes
-- **Revert**: Roll back changes that have already been applied
+## Commands and Shortcuts
 
-### MCP integration
+Use `CodePreview` to quickly test commands or reference key shortcuts:
 
-The VS Code extension also supports MCP integration — you can configure MCP servers in your project to extend the AI's capabilities.
+<CodePreview
+  files={[
+    {
+      name: "shortcuts.txt",
+      language: "text",
+      content: "Ctrl+Shift+K : Focus Kimi input box\nAlt+K : Insert current file reference\nCtrl+N : New conversation",
+    },
+  ]}
+/>
 
-## Comparison with CLI
-
-| Feature | VS Code Extension | CLI |
-| --- | --- | --- |
-| **Environment** | Inside VS Code editor | Terminal |
-| **Interaction** | Graphical chat panel | Command-line conversation |
-| **Code Changes** | Diff view with rollback | Direct file modification |
-| **File References** | @ references, graphical selection | @ references, path completion |
-| **Shell Commands** | Executed by the AI | Direct execution in Shell Mode |
-| **Session Management** | In-panel management | /sessions command |
+| Shortcut | Function |
+| :--- | :--- |
+| `Ctrl+Shift+K` / `Cmd+Shift+K` | Focus Kimi input box |
+| `Alt+K` | Insert current file reference |
+| `Ctrl+N` / `Cmd+N` | New conversation |
+| `↑` / `↓` | Browse input history |
 
 <Callout type="info">
-Both methods can be used as needed and do not conflict with each other. The CLI is better suited for terminal power users and automation scenarios, while the VS Code extension is ideal for developers who prefer a graphical interface.
+Type **Kimi Code** in the command palette to access more commands: open in new tab, open in sidebar, or manage sessions.
 </Callout>
