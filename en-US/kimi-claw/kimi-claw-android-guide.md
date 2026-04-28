@@ -13,12 +13,13 @@ preview: false
 />
 
 <Callout type="tip">
-Welcome to Kimi Claw Android. This article will introduce how to deploy OpenClaw to Android phones and turn your idle phone into your 24/7 AI remote assistant. You can remotely control your phone, use apps, connect to smart homes, and create your own personalized assistant through messaging apps such as Kimi, Feishu, and WeChat.
+This article will introduce how to deploy OpenClaw to Android phones and turn your idle phone into your 24/7 AI remote assistant. You can remotely control your phone, use apps, connect to smart homes, and create your own personalized assistant through messaging apps such as Kimi, Feishu, and WeChat.
 </Callout>
 
 It is recommended to deploy Kimi Claw Android on idle phones to avoid permission conflicts with daily use. Please do not manually upgrade the OpenClaw version; official adapted updates will be delivered through in-app version updates.
 
 ## Kimi Claw Android Introduction
+
 <Frames
   src="./images/kimi-claw-android-guide/img-06.png"
 />
@@ -33,15 +34,17 @@ System requirements:
 | Account | Kimi Allegretto and above subscription |
 
 <Callout type="info">
-It is recommended to use idle phones to avoid conflicts with daily use
+It is recommended to use idle phones to avoid conflicts with daily use.
 </Callout>
 
 ## Download and install
 ### Download Kimi Claw Android
 
 You can download it in the following ways:
+
 #### Method 1: Scan the QR code to download from the webpage.
 Log in to the [kimi.com](https://kimi.com), find the "Download Kimi Claw Android" entrance, and use your Android phone to scan the QR code on the page to download.
+
 <Frames
   src="./images/kimi-claw-android-guide/img-03.png"
 />
@@ -86,17 +89,21 @@ Since the settings paths vary among different mobile phone brands, the following
 3. If you are a free user, you need to activate membership privileges first. Click "Go to Upgrade" to activate your membership.
 
 #### Step 3: Install OpenClaw
+
 <Frames
   src="./images/kimi-claw-android-guide/img-08.png"
 />
+
 If the installation fails, you can click "Reinstall" to try again. If it fails multiple times, please click "Having issues? Go to feedback" to submit the problem.
 
 ## Dashboard User Guide
 
 ### Main Interface
+
 <Frames
   src="./images/kimi-claw-android-guide/img-14.png"
 />
+
 After the configuration is completed, enter the Dashboard main interface, and you can see the following information:
 
 - OpenClaw Gateway Status — Starting / Connected / Stopped, and Runtime
@@ -107,6 +114,7 @@ After the configuration is completed, enter the Dashboard main interface, and yo
 If a permission reminder appears at the top of the Dashboard, it indicates that some permissions have not been granted or have expired. Please follow the prompts to complete the authorization item by item to ensure the normal operation of Kimi Claw Android.
 
 ### Chat Channel Management
+
 <Frames
   src="./images/kimi-claw-android-guide/img-33.png"
 />
@@ -126,11 +134,13 @@ Please keep at least one chat channel to ensure normal communication with Kimi C
 - Filter Level — Filter by log level (Info / Warning / Error, etc.)
 - Auto Scroll to Bottom — Automatically scroll to the latest log
 - Refresh — Manually refresh the log content
+
 <Frames
   src="./images/kimi-claw-android-guide/img-16.png"
 />
 
 ### Settings
+
 <Frames
   src="./images/kimi-claw-android-guide/img-21.png"
 />
@@ -142,6 +152,7 @@ Click Settings to enter the settings page:
 - OpenClaw Workspace: Enter the local OpenClaw configuration file directory and edit personal preferences
 
 **System Layer:**
+
 <Frames
   src="./images/kimi-claw-android-guide/backup.png"
 />
@@ -162,6 +173,7 @@ Click Settings to enter the settings page:
 Automatically associate with the ClawHub official website and manage skills available for Kimi Claw Android. You can download and install Skills to extend Claw's capabilities.
 
 #### OpenClaw Workspace
+
 <Frames
   src="./images/kimi-claw-android-guide/img-19.png"
 />
@@ -230,6 +242,7 @@ You need to first complete the installation of WeChat Claw as guided by WeChat o
 Enter Kimi Claw Android, connect to the WeChat channel, and complete the process by scanning the QR code with WeChat
 
 ### Telegram
+
 <Frames
   src="./images/kimi-claw-android-guide/img-34.png"
 />
@@ -275,6 +288,7 @@ After the configuration is completed, you can send commands to Claw in Kimi, Fei
 - "Help me check the calendar to see what's on the schedule for today"
 
 ### Use ClawHub Skills
+
 <Frames
   src="./images/kimi-claw-android-guide/img-18.png"
 />

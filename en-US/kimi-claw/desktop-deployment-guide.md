@@ -39,11 +39,6 @@ First, download the Kimi desktop app and sign in to your account.
 
 After downloading, sign in to your Kimi account and confirm your membership is at the Allegretto level or above. If not, upgrade your plan before proceeding.
 
-<Frames
-  src="./images/desktop claw/upgrade plan.png"
-  alt="Kimi desktop app — signed out"
-/>
-
 ## Step 2: Deploy locally
 
 Go to the Kimi Claw page in the Kimi desktop app, click **Deploy on my computer**, and follow the on-screen steps to set up your Kimi Claw Desktop.
