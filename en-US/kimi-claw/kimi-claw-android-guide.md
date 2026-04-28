@@ -353,7 +353,7 @@ Due to financial security and privacy concerns, the following categories of apps
 
 | Package | App name | Risk description |
 | --- | --- | --- |
-| com.eg.android.AlipayGphone | Alipay, 支付宝 | Alipay, China's largest third-party payment platform |
+| com.eg.android.AlipayGphone | Alipay | Alipay, China's largest third-party payment platform |
 | com.paypal.android.p2pmobile | paypal | PayPal, the world's largest online payment platform |
 | com.unionpay | ysf, Cloud Flash Payment | China UnionPay Cloud Flash Payment, a bank card payment instrument |
 | com.squareup.cash | cashapp | Cash App, a US mobile payment platform |

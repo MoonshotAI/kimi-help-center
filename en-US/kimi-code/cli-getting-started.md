@@ -97,28 +97,11 @@ Run the `/login` command to complete authorization:
 
 You can interact with Kimi Code CLI using natural language:
 
-<ColumnsContent
-  columns={[
-    {
-      title: "Ask Questions",
-      description: "Understand project architecture and entry points.",
-      pageUrl: "/help/core-operations/asking-questions",
-      type: "microscope",
-    },
-    {
-      title: "Modify Code",
-      description: "Let Kimi write features or fix bugs with your approval.",
-      pageUrl: "/help/core-operations/editing-code",
-      type: "code",
-    },
-    {
-      title: "Run Commands",
-      description: "Execute tests and automate terminal tasks.",
-      pageUrl: "/help/core-operations/executing-commands",
-      type: "okcomputer",
-    },
-  ]}
-/>
+**Ask Questions**: Understand project architecture and entry points.
+
+**Modify Code**: Let Kimi write features or fix bugs with your approval.
+
+**Run Commands**: Execute tests and automate terminal tasks.
 
 ## Common Commands Cheat Sheet
 
