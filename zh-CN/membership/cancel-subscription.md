@@ -6,6 +6,7 @@ extract_headings: true
 preview: true
 preview_content: "如何取消 Kimi 会员自动续费，支持多渠道操作指引。"
 ---
+
 <SeoMeta
   title="如何取消 Kimi 会员订阅？ - Kimi 帮助中心"
   description="了解取消 Kimi 会员自动续费的操作步骤，支持在 iOS、Android、网页端等各平台取消，以及取消后的权益保留规则。"

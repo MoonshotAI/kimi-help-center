@@ -6,6 +6,7 @@ extract_headings: true
 preview: true
 preview_content: "Kimi Claw 文件收发能力说明，包括工作空间与飞书获取方式。"
 ---
+
 <SeoMeta
   title="Kimi Claw 如何传输和处理文件？ - Kimi 帮助中心"
   description="了解 Kimi Claw 支持的文件类型、传输方式和大小限制。掌握在各平台上向 Kimi Claw 发送文件并获取处理结果的方法。"

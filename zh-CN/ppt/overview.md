@@ -6,10 +6,10 @@ extract_headings: false
 preview: true
 preview_content: "Kimi PPT 一键生成 PPT，了解入口、操作步骤与示例提示词。"
 ---
+
 <SeoMeta
   title="Kimi PPT 智能生成功能介绍 - Kimi 帮助中心"
   description="了解 Kimi PPT 的核心能力：AI 自动调研、内容生成和智能设计，支持一键生成和多轮优化，附多场景示例提示词。"
-  pageUrl="https://www.kimi.com/help/ppt/ppt-overview"
 />
 
 # Kimi PPT 介绍

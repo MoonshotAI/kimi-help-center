@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "如何查询 API 账户余额、消耗明细与用量估算。"
 ---
+
 <SeoMeta
   title="如何查看 Kimi API 余额和用量？ - Kimi 帮助中心"
   description="了解如何在 Kimi 开放平台查看 API 账户余额、历史用量和消费明细，掌握额度使用情况，及时充值避免服务中断。"

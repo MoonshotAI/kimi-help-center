@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "了解 Kimi 的记忆空间机制，让 AI 跨会话记住你的偏好与信息。"
 ---
+
 <SeoMeta
   title="Kimi 记忆空间是什么？使用方法介绍 - Kimi 帮助中心"
   description="了解 Kimi 记忆空间功能，让 AI 记住你的偏好、背景和常用信息，跨对话保持个性化体验，无需每次重复说明。"

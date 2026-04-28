@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "Kimi Docs & Sheets 文档和表格的能力介绍与使用入口。"
 ---
+
 <SeoMeta
   title="Kimi 文档与表格功能介绍 - Kimi 帮助中心"
   description="了解 Kimi 的智能文档和表格生成功能。AI 自动创建结构化文档、数据表格和分析报告，支持 Word、Excel 等多种格式导出。"

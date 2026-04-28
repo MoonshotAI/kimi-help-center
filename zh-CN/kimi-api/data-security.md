@@ -6,6 +6,7 @@ extract_headings: true
 preview: true
 preview_content: "Kimi API 数据处理声明、安全机制与文件删除接口。"
 ---
+
 <SeoMeta
   title="Kimi API 数据安全与隐私保护 - Kimi 帮助中心"
   description="了解 Kimi API 的数据安全措施、隐私保护策略和合规认证。你的数据不会被用于模型训练，全链路加密传输，保障企业数据安全。"

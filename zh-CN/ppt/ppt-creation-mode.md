@@ -6,10 +6,10 @@ extract_headings: false
 preview: true
 preview_content: "智能布局与经典模板两种 PPT 生成模式的区别与选择建议。"
 ---
+
 <SeoMeta
   title="如何选择 Kimi PPT 的创作模式？ - Kimi 帮助中心"
   description="对比 Kimi PPT 两种生成模式，智能布局（AI 个性化设计）vs 经典模板（从模板库选择），并介绍如何选择 PPT 场景与模板。"
-  pageUrl="https://www.kimi.com/help/ppt/ppt-creation-mode"
 />
 
 # 如何选择 PPT 创作模式

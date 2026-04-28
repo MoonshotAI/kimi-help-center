@@ -6,6 +6,7 @@ extract_headings: true
 preview: true
 preview_content: "查看 Kimi 的官方联系方式与意见反馈渠道。"
 ---
+
 <SeoMeta
   title="如何向 Kimi 反馈问题或建议？ - Kimi 帮助中心"
   description="了解向 Kimi 团队反馈问题、提交 Bug 报告和功能建议的渠道和方法，你的反馈是我们改进产品的重要依据。"

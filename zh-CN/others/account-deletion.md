@@ -6,6 +6,7 @@ extract_headings: true
 preview: true
 preview_content: "Kimi 账号注销的操作步骤与数据删除说明。"
 ---
+
 <SeoMeta
   title="如何注销 Kimi 账号？ - Kimi 帮助中心"
   description="了解注销 Kimi 账号的操作步骤和注意事项。注销后账号数据将被永久删除且不可恢复，请在操作前仔细阅读相关说明。"

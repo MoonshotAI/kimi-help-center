@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "深度研究的上下文长度说明与超限处理建议。"
 ---
+
 <SeoMeta
   title="Kimi 深度研究的上下文长度说明 - Kimi 帮助中心"
   description="了解 Kimi 深度研究支持的上下文长度范围与限制，掌握如何优化输入内容以获得更完整、更高质量的研究报告输出。"
@@ -33,8 +34,6 @@ Kimi-Researcher 的上下文长度（context length）为 **128K tokens**（约 
 <Callout type="info">
 **常见误解**：128K 上下文 ≠ 能一次性输出 128K 内容。输出长度通常为上下文窗口的 1/8 到 1/16。
 </Callout>
-
----
 
 ## 输出截断说明
 
@@ -74,8 +73,6 @@ Kimi-Researcher 的上下文长度（context length）为 **128K tokens**（约 
 ### 模型选择
 
 根据实际场景选择合适模型，平衡上下文长度与响应效率。上下文长度并非越长越好——过长的上下文会增加处理延迟和计算成本。
-
----
 
 ## 注意事项
 

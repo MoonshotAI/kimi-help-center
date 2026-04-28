@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "深度研究搜索方向偏差的反馈方法与减少偏差技巧。"
 ---
+
 <SeoMeta
   title="深度研究方向偏了怎么调整？ - Kimi 帮助中心"
   description="当深度研究的输出方向与预期不符时，了解如何通过优化提示词、补充约束条件或分步引导来纠正研究方向，获得更精准的结果。"

@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "在 Claude Code、Roo Code 等第三方 Agent 中使用 Kimi 模型。"
 ---
+
 <SeoMeta
   title="第三方 Coding Agent 中使用 Kimi - Kimi 帮助中心"
   description="了解如何在 Claude Code 和 Roo Code 等第三方 Coding Agent 中配置和使用 Kimi 模型，包括环境变量设置和 API 兼容配置步骤。"

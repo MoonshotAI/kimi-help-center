@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "Kimi API 免费测试代金券的使用规则与到期说明。"
 ---
+
 <SeoMeta
   title="Kimi API 免费试用额度说明 - Kimi 帮助中心"
   description="了解 Kimi API 新用户免费试用额度的领取方式、有效期和使用范围，零成本体验 Kimi 大模型的核心能力。"

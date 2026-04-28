@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "学习如何写好提示词，掌握结构化提问技巧，让 AI 输出更精准。"
 ---
+
 <SeoMeta
   title="什么是提示词（Prompt）？怎么写好提示词？ - Kimi 帮助中心"
   description="了解提示词的基本概念和撰写技巧。好的提示词能显著提升 Kimi 的回答质量，本文教你用结构化方法写出高效的提示词。"

@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "如何安全卸载 Kimi Claw 中的插件。"
 ---
+
 <SeoMeta
   title="如何卸载 Kimi Claw 插件？ - Kimi 帮助中心"
   description="了解在各平台上卸载 Kimi Claw 插件的具体步骤，包括飞书、浏览器等环境下的完整卸载方法和注意事项。"

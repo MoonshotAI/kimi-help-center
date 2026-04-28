@@ -6,10 +6,10 @@ extract_headings: false
 preview: true
 preview_content: "PPT 功能找不到、打不开或预览异常的排查方法与反馈指引。"
 ---
+
 <SeoMeta
   title="PPT 找不到或打不开怎么办？常见问题排查 - Kimi 帮助中心"
   description="PPT 功能入口找不到、文件打不开或下载异常？本文提供全面排查方案，涵盖各端入口指引、浏览器拦截修复和文件损坏处理。"
-  pageUrl="https://www.kimi.com/help/ppt/ppt-troubleshooting"
 />
 
 # 常见问题与排查

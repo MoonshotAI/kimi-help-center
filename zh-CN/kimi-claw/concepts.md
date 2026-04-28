@@ -6,6 +6,7 @@ extract_headings: true
 preview: true
 preview_content: "Kimi Claw 终端常见命令速查，涵盖系统、技能、定时任务与调试。"
 ---
+
 <SeoMeta
   title="了解 Kimi Claw 的终端操作指令- Kimi 帮助中心"
   description="了解 Kimi Claw 的终端操作指令，包括 检查网关、Bot实例状态、Skill安装信息、检查定时任务状态和记忆空间，帮助你更好地理解和使用 Kimi Claw 的各项功能。"

@@ -6,6 +6,7 @@ extract_headings: true
 preview: true
 preview_content: "手机号换绑、验证码收不到与个人资料修改指引。"
 ---
+
 <SeoMeta
   title="Kimi 手机端个人设置说明 - Kimi 帮助中心"
   description="了解 Kimi App 手机端的个人资料设置、偏好配置和账号管理功能，定制属于你的 AI 助手使用体验。"

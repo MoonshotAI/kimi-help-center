@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "深度研究任务未完成但已扣除额度的计费说明。"
 ---
+
 <SeoMeta
   title="深度研究为什么会扣除额度？ - Kimi 帮助中心"
   description="了解 Kimi 深度研究的额度扣除规则。深度研究涉及多轮搜索和大量模型推理，了解计费逻辑帮助你合理使用额度。"

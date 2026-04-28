@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "了解 Kimi 的联网搜索能力，包括信源选择、专业数据库与 URL 定向访问。"
 ---
+
 <SeoMeta
   title="Kimi 搜索功能使用指南 - Kimi 帮助中心"
   description="了解 Kimi 的联网搜索能力，AI 自动检索最新信息并整合分析，为你提供有据可查的回答，告别信息过时的困扰。"

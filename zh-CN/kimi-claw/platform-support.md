@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "Kimi Claw 支持的平台一览与各平台配置指南链接。"
 ---
+
 <SeoMeta
   title="Kimi Claw 支持哪些平台？ - Kimi 帮助中心"
   description="查看 Kimi Claw 当前支持的全部平台列表，包括飞书、微信、企业微信、钉钉、微博等，了解各平台的功能差异与接入方式。"

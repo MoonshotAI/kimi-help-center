@@ -6,6 +6,7 @@ extract_headings: true
 preview: true
 preview_content: "Kimi Claw 记忆丢失的原因与上下文保存机制说明。"
 ---
+
 <SeoMeta
   title="Kimi Claw 记忆丢失怎么办？ - Kimi 帮助中心"
   description="遇到 Kimi Claw 忘记之前对话内容的情况？了解记忆丢失的常见原因（上下文清理、会话超时等）和解决方案。"

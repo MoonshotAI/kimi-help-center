@@ -6,6 +6,7 @@ extract_headings: true
 preview: true
 preview_content: "账号被封禁的常见原因与申诉流程。"
 ---
+
 <SeoMeta
   title="Kimi 账号被封禁了怎么办？ - Kimi 帮助中心"
   description="了解 Kimi 账号封禁的可能原因和申诉流程。如果你的账号被限制使用，按照本文指引提交申诉，我们会尽快处理。"

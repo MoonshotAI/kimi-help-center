@@ -6,6 +6,7 @@ extract_headings: true
 preview: true
 preview_content: "API 账号注册、认证、换绑与申诉的常见问题。"
 ---
+
 <SeoMeta
   title="Kimi API 账号注册与认证指南 - Kimi 帮助中心"
   description="了解 Kimi API 的账号注册流程、API Key 创建与管理方法、认证方式说明，快速完成接入准备。"

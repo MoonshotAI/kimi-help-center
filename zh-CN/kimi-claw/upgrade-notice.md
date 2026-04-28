@@ -6,6 +6,7 @@ extract_headings: true
 preview: true
 preview_content: "Kimi Claw 升级注意事项：不要手动升级 OpenClaw 和飞书插件。"
 ---
+
 <SeoMeta
   title="Kimi Claw 升级注意事项 - Kimi 帮助中心"
   description="重要提醒：请勿手动升级 OpenClaw 版本或飞书插件，可能导致插件失效。了解正确的升级方式和误升级后的恢复方法。"

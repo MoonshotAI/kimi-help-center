@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "快速上手 Kimi 对话，了解模型选择、工具调用与会话管理。"
 ---
+
 <SeoMeta
   title="什么是 Kimi Agent 对话模式？ - Kimi 帮助中心"
   description="了解 Kimi Agent 对话模式与普通对话的区别。Agent 模式支持工具调用、文件生成和多步任务执行，适合处理复杂需求。"

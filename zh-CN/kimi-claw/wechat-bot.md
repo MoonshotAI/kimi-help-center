@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "一键将 Kimi Claw 接入微信的完整配置步骤与注意事项。"
 ---
+
 <SeoMeta
   title="如何将 Kimi Claw 接入微信？配置教程 - Kimi 帮助中心"
   description="了解 Kimi Claw 微信机器人的配置方法与使用说明，在微信中随时调用 Kimi AI 能力，提升日常沟通和工作效率。"

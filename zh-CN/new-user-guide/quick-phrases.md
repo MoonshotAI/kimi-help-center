@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "设置常用语快捷指令，一键发送常用提示词，提升对话效率。"
 ---
+
 <SeoMeta
   title="Kimi 快捷指令使用指南 - Kimi 帮助中心"
   description="了解 Kimi 内置的快捷指令功能，一键触发常用操作，提升日常使用效率，适合高频场景的快速交互。"

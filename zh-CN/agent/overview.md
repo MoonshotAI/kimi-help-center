@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "了解 Kimi Agent 模式的工作方式、使用入口与适用场景。"
 ---
+
 <SeoMeta
   title="Kimi Agent 模式是什么？功能介绍与使用入口 - Kimi 帮助中心"
   description="了解 Kimi Agent 模式的工作原理、核心能力与适用场景。Kimi Agent 通过多轮推理和 20 多种工具自主完成复杂任务，支持文档生成、代码开发、数据分析等全栈工作流。"

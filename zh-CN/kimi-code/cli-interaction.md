@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "Kimi Code 的交互模式、斜杠命令与审批机制说明。"
 ---
+
 <SeoMeta
   title="Kimi Code CLI 交互方式与命令参考 - Kimi 帮助中心"
   description="掌握 Kimi Code CLI 的 Agent/Shell 双模式切换、Thinking 模式、多行输入、图片粘贴、斜杠命令和审批确认机制等交互功能。"

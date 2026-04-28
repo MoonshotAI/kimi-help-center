@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "深度研究使用案例与提示词模板，覆盖多种研究场景。"
 ---
+
 <SeoMeta
   title="Kimi 深度研究适用场景与使用案例 - Kimi 帮助中心"
   description="探索 Kimi 深度研究的典型使用场景，包括行业分析、竞品调研、市场趋势、学术文献综述等，附实用提示词示例，助你快速上手。"

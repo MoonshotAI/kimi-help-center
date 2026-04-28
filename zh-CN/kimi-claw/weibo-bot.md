@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "将 Kimi Claw 接入微博龙虾助手的安装与配置说明。"
 ---
+
 <SeoMeta
   title="如何将 Kimi Claw 接入微博？配置教程 - Kimi 帮助中心"
   description="了解 Kimi Claw 微博机器人的配置方法，在微博平台中接入 Kimi AI 能力，实现智能互动与内容创作。"

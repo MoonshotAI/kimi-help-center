@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "将 Kimi Claw 接入飞书机器人的配置方法与常见问题。"
 ---
+
 <SeoMeta
   title="如何将 Kimi Claw 接入飞书？配置教程 - Kimi 帮助中心"
   description="一步步教你将 Kimi Claw 接入飞书机器人。通过扫码快捷配置，即可在飞书群聊或私聊中使用 Kimi AI Agent 的全部能力。"

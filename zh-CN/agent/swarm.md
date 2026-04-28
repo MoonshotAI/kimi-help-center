@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "Agent 集群（Agent Swarm）多智能体协作能力介绍与使用案例。"
 ---
+
 <SeoMeta
   title="Kimi Agent Swarm 多智能体协作模式介绍 - Kimi 帮助中心"
   description="了解 Kimi Agent Swarm 的多智能体协作机制。多个 Agent 协同工作，自动拆解复杂任务并行执行，大幅提升处理效率与输出质量。"

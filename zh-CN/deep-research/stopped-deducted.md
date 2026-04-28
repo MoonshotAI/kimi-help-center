@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "主动停止深度研究任务后的额度扣除规则与建议。"
 ---
+
 <SeoMeta
   title="深度研究中途停止为什么还扣了额度？ - Kimi 帮助中心"
   description="解答深度研究中断后仍扣除额度的原因。任务启动后模型已开始推理和搜索，即使手动停止，已消耗的计算资源仍会计入额度。"

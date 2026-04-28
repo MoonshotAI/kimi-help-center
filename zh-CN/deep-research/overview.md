@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "深度研究（Deep Research）的能力、入口、交付物与使用建议。"
 ---
+
 <SeoMeta
   title="Kimi 深度研究是什么？产品介绍与使用方法 - Kimi 帮助中心"
   description="了解 Kimi 深度研究功能的工作方式与适用场景。AI 自动进行多轮搜索、信息整合与分析，生成结构化研究报告，适用于行业调研、竞品分析、学术研究等场景。"

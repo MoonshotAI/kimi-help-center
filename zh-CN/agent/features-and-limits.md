@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "Agent 模式的核心功能、使用建议与已知限制说明。"
 ---
+
 <SeoMeta
   title="Kimi Agent 功能说明与使用限制 - Kimi 帮助中心"
   description="详细了解 Kimi Agent 模式支持的功能范围、工具调用能力及当前使用限制，帮助你合理规划 Agent 任务，获得最佳使用体验。"

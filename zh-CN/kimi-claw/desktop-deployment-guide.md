@@ -28,10 +28,10 @@ OpenClaw 是一个具备独特个性与长期记忆能力的 AI 助手，在 Kim
 
 一键部署会为你完成以下配置：
 
-- **自动部署** — Kimi 将自动在本机上部署 OpenClaw，若你本地已安装其他 OpenClaw，Kimi 也可以在您的授权下，复刻已有 OpenClaw 的人设、记忆空间和能力，方便一键迁移。
+- **自动部署** — Kimi 将自动在本机上部署 OpenClaw，若你本地已安装其他 OpenClaw，Kimi 也可以在你的授权下，复刻已有 OpenClaw 的人设、记忆空间和能力，方便一键迁移。
 - **自动配置模型** — Kimi 会帮你自动配置 Kimi 模型并自动关联 Kimi Code 会员权益额度，无需额外配置 API。同时会自动配置 Kimi Web Search 服务，为 AI 提供联网搜索能力。
 - **会员要求** — 一键部署仅支持 Allegretto 及以上计划。
-- **数量限制** — 现阶段每个账号仅支持最多 1 个 Kimi Claw Desktop，若您更换机器，并在 Kimi 桌面客户端上部署新 Kimi Claw Desktop 时，需根据到时的指引对之前机器上的 Claw 进行解绑。
+- **数量限制** — 现阶段每个账号仅支持最多 1 个 Kimi Claw Desktop，若你更换机器，并在 Kimi 桌面客户端上部署新 Kimi Claw Desktop 时，需根据到时的指引对之前机器上的 Claw 进行解绑。
 
 ## Step 1：下载 Kimi 桌面客户端并升级会员
 
@@ -79,12 +79,12 @@ OpenClaw 是一个具备独特个性与长期记忆能力的 AI 助手，在 Kim
 />
 
 <Callout type="warning">
-当前每个用户账号下，最多支持部署 1 个 Kimi Claw Desktop。若您在其他电脑上曾经部署过，则会和您确认是否要断开旧 Claw 的连接，您可以按需选择。
+当前每个用户账号下，最多支持部署 1 个 Kimi Claw Desktop。若你在其他电脑上曾经部署过，则会和你确认是否要断开旧 Claw 的连接，你可以按需选择。
 </Callout>
 
 **一键搬运本地 OpenClaw**
 
-若您在当前电脑上安装过其他版本的本地 OpenClaw，系统会向您询问是否要复制以下数据：
+若你在当前电脑上安装过其他版本的本地 OpenClaw，系统会向你询问是否要复制以下数据：
 
 - OpenClaw 的人设
 - 记忆空间
@@ -109,7 +109,7 @@ OpenClaw 是一个具备独特个性与长期记忆能力的 AI 助手，在 Kim
 
 ## Step 3：修改昵称
 
-部署完成后，根据您的喜好修改 Kimi Claw Desktop 的昵称。
+部署完成后，根据你的喜好修改 Kimi Claw Desktop 的昵称。
 
 <Frames
   src="./images/desktop-deployment-guide/screenshot-08.png"

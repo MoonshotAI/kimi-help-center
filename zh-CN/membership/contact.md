@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "会员专属问题的联系方式与反馈渠道。"
 ---
+
 <SeoMeta
   title="如何联系 Kimi 客服？ - Kimi 帮助中心"
   description="查看 Kimi 客服的联系方式和服务时间。遇到会员、支付、功能等问题时，通过在线客服或反馈渠道获取及时帮助。"

@@ -6,6 +6,7 @@ extract_headings: false
 preview: true
 preview_content: "将 Kimi Claw 接入企业微信机器人的配置步骤。"
 ---
+
 <SeoMeta
   title="如何将 Kimi Claw 接入企业微信？配置教程 - Kimi 帮助中心"
   description="了解 Kimi Claw 企业微信机器人的配置方法，将 AI Agent 集成到企业微信工作流中，提升团队协作效率。"

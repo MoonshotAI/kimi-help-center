@@ -6,6 +6,7 @@ extract_headings: true
 preview: true
 preview_content: "Kimi Claw 对话 Token 限制与 API 限频的处理方法。"
 ---
+
 <SeoMeta
   title="Kimi Claw 对话限制说明 - Kimi 帮助中心"
   description="了解 Kimi Claw 的对话轮数限制、消息长度限制和会话超时规则，帮助你合理规划对话节奏，获得最佳使用体验。"
