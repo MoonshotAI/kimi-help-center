@@ -24,7 +24,7 @@ Kimi WebBridge works with any local AI agent that supports MCP or shell skill in
 </Callout>
 
 <Frames
-  src="./images/kimi-webbridge/kimi webbridge.png"
+  src="./images/kimi-webbridge/kimi-webbridge.png"
   alt="the main interface of kimi webbridge"
 />
 

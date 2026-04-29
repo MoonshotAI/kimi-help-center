@@ -39,7 +39,7 @@ For further assistance, please contact our team via the 👎 feedback channel in
 Once the model finishes creating your presentation, a message at the end of the conversation will prompt you to "Click the card below to preview," and a Slides card will pop up. Click the card to enter the Slides editing page.
 
 <Frames
-  src="./ppt-image/pptcard.png"
+  src="./images/pptcard.png"
   alt="pptcard"
 />
 
@@ -99,14 +99,14 @@ If the above methods don't resolve the issue, please submit feedback via the in-
 **Web:** Bottom-left corner of the official website: Account → User Feedback → Help & Feedback
 
 <Frames
-  src="./ppt-image/feedback1.png"
+  src="./images/feedback1.png"
   alt="feedback1"
 />
 
 **Slides Results Page:** Click the 「☰」 menu button in the bottom-right corner of the Slides results page → 「User Feedback」 → 「Slides-Specific Feedback Entry」 to enter the Slides feedback page and fill in the information.
 
 <Frames
-  src="./ppt-image/feedback2.png"
+  src="./images/feedback2.png"
   alt="feedback2"
 />
 

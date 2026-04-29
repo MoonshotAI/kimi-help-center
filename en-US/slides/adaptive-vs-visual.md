@@ -26,7 +26,7 @@ Kimi Slides offers two generation modes. Choose the one that best fits your need
 Kimi intelligently designs the layout and styling. The AI automatically matches colors, fonts, icons, and chart styles to your content, with support for multiple style presets (business, academic, tech, minimalist, etc.). Ideal for scenarios that demand a unique visual identity and personalized presentation.
 
 <Frames
-  src="./ppt-image/adaptive.png"
+  src="./images/adaptive.png"
   alt="adaptive"
 />
 
@@ -36,7 +36,7 @@ Kimi intelligently designs the layout and styling. The AI automatically matches 
 Select a template from the pre-built library. Powered by Nano Banana Pro, Visual mode is perfect for producing presentations quickly. Templates span business, education, tech, and more. Once you choose a template, Kimi automatically fills in your content and generates a finished deck.
 
 <Frames
-  src="./ppt-image/visual.png"
+  src="./images/visual.png"
   alt="visual"
 />
 
@@ -46,13 +46,13 @@ Adaptive mode offers multiple scenario options including academic research, busi
 - Each scenario comes with preset templates. Selecting a specific template generates a presentation in that template's style.
 
 <Frames
-  src="./ppt-image/profile.png"
+  src="./images/profile.png"
   alt="profile"
 />
 
 - To use a custom template, simply upload a PPTX file and describe your generation requirements—no need to select a specific scenario or official preset template.
 
 <Frames
-  src="./ppt-image/upload_template.png"
+  src="./images/upload_template.png"
   alt="upload_template"
 />
