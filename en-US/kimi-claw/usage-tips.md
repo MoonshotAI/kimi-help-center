@@ -1,7 +1,7 @@
 ---
 title: "Usage tips"
 slug: "usage-tips"
-order: 14
+order: 16
 extract_headings: false
 preview: false
 ---
