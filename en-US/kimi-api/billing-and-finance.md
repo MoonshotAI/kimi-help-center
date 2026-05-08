@@ -38,16 +38,3 @@ Topped-up funds are available immediately for API usage.
 3. Select the top-up records for which you need an invoice.
 4. Fill in the invoice details (personal or business) and submit.
 5. An electronic invoice will be sent to your email.
-
-## Can I get a refund?
-
-<Callout type="warning">
-**Refund Policy**:
-- Unused top-up balance is eligible for refund
-- Already-consumed amounts and used vouchers are non-refundable
-- Refunds are returned to the original payment method within 3–7 business days
-</Callout>
-
-To request a refund:
-1. Send an email to **api-service@moonshot.ai** with your account information and top-up records.
-2. The team will process your request within 3–7 business days.
