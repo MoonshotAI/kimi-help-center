@@ -263,7 +263,7 @@ Multiple Claws connect to different data sources and devices, using the group ch
 
 ### What to do if @-ing a Claw in the group chat gets no response?
 
-First, confirm the Claw's status in a private chat. If it's disconnected there, refer to the [Kimi Claw troubleshooting guide](/help/kimi-claw/troubleshooting) to fix it.
+First, confirm the Claw's status in a private chat. If it's disconnected there, refer to the [Kimi Claw troubleshooting guide](/kimi-claw/troubleshooting) to fix it.
 
 If the private chat responds normally, you can ask Kimi to diagnose the group session:
 
