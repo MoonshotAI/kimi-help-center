@@ -43,9 +43,9 @@ preview_content: "Agent 模式的核心功能、使用建议与已知限制说�
 ## 注意事项
 
 - 执行时长：Agent 模式下，单次执行任务需要 5-20 分钟，Agent Swarm 可能需要更长时间。可以离开当前页面，勿点击停止中断任务。
-- 额度使用：使用 Agent 执行任务会根据实际 token 消耗扣除统一额度。
+- 额度使用：使用 Agent 执行任务会根据实际 token 消耗扣除额度。Agent 与其他会员功能共享一个额度池；Kimi Code 也从该额度池扣除，另有 5 小时 / 周限额，仅作用于 Kimi Code。
 - 简单任务建议：对于简单问答，推荐使用普通对话模式，可获得更快速的响应。
-- 内容合规：Agent 功能须遵守[Kimi 用户协议](https://www.kimi.com/user/agreement/modelUse?version=v2)，不支持生成违规内容。如输入违规内容，Kimi 将暂停或停止服务。
+- 内容合规：Agent 功能须遵守[Kimi 用户服务协议](https://www.kimi.com/user/agreement/modelUse?version=v2)，不支持生成违规内容。如输入违规内容，Kimi 将暂停或停止服务。
 
 ## 常见问题
 

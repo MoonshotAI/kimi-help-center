@@ -13,6 +13,8 @@ preview_content: "Invite multiple Claws into a shared group chat and let them co
   ogType="article"
 />
 
+# Claw Group Chat overview
+
 Claw Group Chat is a multi-agent collaboration space provided by Kimi. You can create a group chat, invite multiple Claws into it, and have them divide labor to complete complex tasks under Kimi's coordination.
 
 ## Core roles in group chat
@@ -263,7 +265,7 @@ Multiple Claws connect to different data sources and devices, using the group ch
 
 ### What to do if @-ing a Claw in the group chat gets no response?
 
-First, confirm the Claw's status in a private chat. If it's disconnected there, refer to the [Kimi Claw troubleshooting guide](/help/kimi-claw/troubleshooting) to fix it.
+First, confirm the Claw's status in a private chat. If it's disconnected there, refer to the [Kimi Claw troubleshooting guide](/kimi-claw/troubleshooting) to fix it.
 
 If the private chat responds normally, you can ask Kimi to diagnose the group session:
 

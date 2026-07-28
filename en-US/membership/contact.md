@@ -1,7 +1,7 @@
 ---
 title: "Contact us"
 slug: "membership-contact"
-order: 10
+order: 11
 extract_headings: false
 preview: false
 ---
@@ -10,6 +10,8 @@ preview: false
   title="Contact us - Kimi Help Center"
   description="Need help? Here's how to reach us."
 />
+
+# Contact us
 
 Need help? Here's how to reach us.
 
@@ -35,6 +37,17 @@ Best for:
 - Product feature questions
 - Technical issues while using Kimi
 - Account-related questions (non-billing)
+- Feature requests and feedback
+
+## API service support
+
+**Email:** api-service@moonshot.ai.
+You can also go to [Kimi OpenPlatform Community](https://forum.moonshot.ai/)
+
+Best for:
+
+- API related questions
+- Technical issues while using Kimi API
 - Feature requests and feedback
 
 ## In-product feedback

@@ -2,7 +2,7 @@
 title: "Not responding or slow?"
 slug: "slow-no-response"
 order: 8
-extract_headings: true
+extract_headings: false
 preview: false
 ---
 
@@ -25,7 +25,7 @@ If Kimi Claw isn't replying or is unusually slow, there are several possible cau
 | **Resource busy** | Server load is high; responses may be delayed |
 | **Instance offline** | The Kimi Claw instance has gone offline and needs to be repaired |
 
-## How to fix？
+## How to fix?
 
 Work through these steps in order until the issue is resolved:
 

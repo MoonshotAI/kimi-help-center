@@ -9,7 +9,7 @@ preview: false
 # Agent features & limitations
 
 <SeoMeta
-  title="Agent Features \u0026 Limitations - Kimi Help Center"
+  title="Agent Features & Limitations - Kimi Help Center"
   description="Learn about Kimi Agent's capabilities, usage tips, limitations, and best practices for optimal results."
 />
 
@@ -25,7 +25,7 @@ Clearly state background information and constraints — project context, use ca
 
 **(2) During execution**
 
-Kimi Agent runs asynchronously in the background. If the web page appears frozen or stalled, **do not click "Stop"** — this will interrupt task execution. You can leave the page; the task will continue running in the background and you'll receive a notification when it completes. For tasks expected to take a long time (e.g., K2.6 Agent Swarm [Beta]), please be patient.
+Kimi Agent runs asynchronously in the background. If the web page appears frozen or stalled, **do not click "Stop"** — this will interrupt task execution. You can leave the page; the task will continue running in the background and you'll receive a notification when it completes. For tasks expected to take a long time (e.g., Agent Swarm), please be patient.
 
 **(3) Website scenarios**
 
@@ -39,10 +39,10 @@ Agent can generate full-stack content, including frontend interfaces, backend se
 Over multiple rounds of dialogue and revisions, the Agent may "forget" some early details. It's best to establish the task framework and key points first, then make incremental adjustments.
 
 **(5) Large task decomposition**
-For large, complex tasks, break them into 2–3 phases and submit them to Kimi in batches, or use K2.6 Agent Swarm [Beta].
+For large, complex tasks, break them into 2–3 phases and submit them to Kimi in batches, or use Agent Swarm.
 
 **(6) File output limitations**
-In standard Agent mode, typically only one file can be output per task (e.g., a document or spreadsheet). For multiple files (e.g., both a Word doc and a PPT), use K2.6 Agent Swarm [Beta].
+In standard Agent mode, typically only one file can be output per task (e.g., a document or spreadsheet). For multiple files (e.g., both a Word doc and a PPT), use Agent Swarm.
 
 **(7) Context limits and output balance**
 Due to the 256K character context limit of large language models (approximately 40,000–50,000 Chinese characters / ~100,000 English words), processing large volumes of files requires balancing input and output volume.
@@ -54,17 +54,17 @@ Due to the 256K character context limit of large language models (approximately 
 ## Important notes
 
 <Callout type="warning">
-**Quota Usage**: Agent tasks consume unified quota based on actual token usage. Each Agent task typically consumes 1 quota unit. For detailed quota information by membership tier, see [Quota & Billing](/agent/quota-and-billing).
-Free tier: 6 Agent tasks/month
-Paid tiers: 60–720 Agent tasks/month depending on your plan
+**credit usage**: Agent tasks consume credits from the shared pool. Kimi Code also draws from this shared pool but has its own 5-hour / weekly rate limit that applies only to Kimi Code. Each Agent task typically consumes 1 credit unit. For detailed credit information by membership tier, see [Credits & Billing](/agent/quota-and-billing).
+
+- 60–720 Agent tasks/month depending on your plan
 </Callout>
 
-- **Execution time**: In Agent mode, a single task typically takes 5–20 minutes. K2.6 Agent Swarm [Beta] tasks may take longer. You can leave the page — just don't click Stop to interrupt the task.
-- **Quota usage**: Agent tasks consume unified quota based on actual token usage. 
+- **Execution time**: In Agent mode, a single task typically takes 5–20 minutes. Agent Swarm tasks may take longer. You can leave the page — just don't click Stop to interrupt the task.
+- **credit usage**: Agent tasks consume credits from the shared pool, which Kimi Code also draws from (Kimi Code has its own 5-hour / weekly rate limit).
 - **Simple tasks**: For simple Q&A, standard chat mode is recommended for faster responses.
 
 <Callout type="warning">
-**Content Compliance**: Agent features are subject to the [Kimi User Agreement](https://www.kimi.com/user/agreement/modelUse?version=v2). Generating prohibited content is not supported; submitting prohibited content may result in service suspension.
+**Content Compliance**: Agent features are subject to the [Kimi User Service Agreement](https://www.kimi.com/user/agreement/modelUse?version=v2). Generating prohibited content is not supported; submitting prohibited content may result in service suspension.
 </Callout>
 
 ## FAQ
@@ -91,6 +91,6 @@ A complete project typically consists of three parts: frontend interface, backen
 
 Agent uses a context length of **256K characters** (approximately 40,000–50,000 Chinese characters / ~100,000 English words).
 
-**Q: How is Agent quota calculated?**
+**Q: How are Agent credits calculated?**
 
-Agent, PPT, and Kimi Code share a unified quota system based on actual token usage. Each Agent task typically counts as one quota unit. View your current quota and usage at [Membership Credits](https://www.kimi.com/membership-credits).
+All membership features, including Kimi Code, share one credit pool. Each Agent task typically counts as one credit unit.

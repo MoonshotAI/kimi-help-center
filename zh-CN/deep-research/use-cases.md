@@ -2,7 +2,7 @@
 title: "深度研究使用案例与提示词库"
 slug: "deep-research-use-cases"
 order: 2
-extract_headings: false
+extract_headings: true
 preview: true
 preview_content: "深度研究使用案例与提示词模板，覆盖多种研究场景。"
 ---

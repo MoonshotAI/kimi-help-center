@@ -11,6 +11,8 @@ preview: false
   description="This page covers common error codes and self-repair options for Kimi Claw."
 />
 
+# General troubleshooting
+
 This page covers common error codes and self-repair options for Kimi Claw.
 
 ## Common error codes

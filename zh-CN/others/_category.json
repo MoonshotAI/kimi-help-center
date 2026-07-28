@@ -1,7 +1,11 @@
 {
-  "title": "其他",
-  "description": "账号安全、隐私条款、个人设置",
+  "title": "常见问题",
+  "description": "Kimi 常见问题：能力、产品区别、模型与模式选择、联系客服、会话与账号问题。",
+  "seo": {
+    "title": "常见问题",
+    "description": "Kimi 常见问题解答：Kimi 能做什么、各产品区别、模型与模式怎么选、如何联系客服，以及会话与账号相关常见问题。"
+  },
   "icon": "others",
-  "order": 11,
+  "order": 16,
   "note": "每篇 md 的 front matter 中 extract_headings: true/false 控制是否在列表页展开 ## 标题"
 }

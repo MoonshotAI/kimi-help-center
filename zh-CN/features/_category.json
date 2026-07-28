@@ -1,0 +1,10 @@
+{
+  "title": "功能",
+  "description": "搜索、记忆、定时任务、技能等通用功能",
+  "seo": {
+    "title": "功能",
+    "description": "搜索、记忆、定时任务、技能等通用功能"
+  },
+  "icon": "getting-started",
+  "order": 2
+}

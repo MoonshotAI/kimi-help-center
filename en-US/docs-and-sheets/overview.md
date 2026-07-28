@@ -7,12 +7,12 @@ preview: true
 preview_content: "Create and edit Word, PDF, and Excel documents with AI-powered Kimi Docs and Kimi Sheets."
 ---
 
-# Kimi Docs & Kimi Sheets
-
 <SeoMeta
-  title="Kimi Docs \u0026 Kimi Sheets Overview - Kimi Help Center"
+  title="Kimi Docs & Kimi Sheets Overview - Kimi Help Center"
   description="Create and edit Word, PDF, and Excel documents with AI-powered Kimi Docs and Kimi Sheets."
 />
+
+# Kimi Docs & Kimi Sheets
 
 <Callout type="info">
 On January 27, 2026, Moonshot AI released Kimi K2.5, bringing major upgrades to Kimi Agent's productivity capabilities. Kimi Agent now "masters Office" with end-to-end file output for Word, PDF, Excel, and Slides.
@@ -39,7 +39,7 @@ Kimi Docs has strong text adaptation capabilities and systematic understanding o
 - Re-edit and reformat existing PDFs without professional typesetting software
 - Extract specific information from hundred-page PDFs
 - Compare subtle differences across multiple contract versions
-### How to use Kimi Docs？
+### How to use Kimi Docs?
 **Entry Points:**
 - General: Click Docs, Sheets, or Slides shortcuts in the sidebar or chat box
 - Dedicated: Click "Docs" button at the bottom of the chat box
@@ -69,9 +69,9 @@ Describe your needs directly, e.g., "Create an XX report for me." Or upload an e
 </Callout>
 
 ### Method 2: mobile app
-The Kimi app is available on iOS and Android. Tap the Taskbar → switch to Docs Agent mode.
+The Kimi app is available on iOS and Android. Tap the Taskbar → switch to Docs mode.
 #### Method 3: general Agent mode
-Switch to K2.6 Agent mode and enter a document-related task. Kimi will invoke reading and writing tools.
+Select the K3 model and enter a document-related task. Kimi will invoke reading and writing tools.
 ## Kimi Sheets
 Kimi Sheets understands cell relationships, cross-sheet linkage logic, and produces .xlsx files directly in the browser.
 ### Key capabilities
@@ -81,7 +81,7 @@ Kimi Sheets understands cell relationships, cross-sheet linkage logic, and produ
 | **Multi-source consolidation** | Merge 50 different department Excel reports into a single company summary |
 | **Natural language input** | Autonomous web search with intelligent spreadsheet generation |
 
-### How to use Kimi Sheets？
+### How to use Kimi Sheets?
 Click the "Agent" button at the bottom of the chat box, or select the "Sheets" shortcut in the sidebar.
 
 <Frames

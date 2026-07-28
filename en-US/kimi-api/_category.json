@@ -1,7 +1,11 @@
 {
   "title": "Kimi API",
   "description": "Kimi API usage, authentication, error troubleshooting, pricing",
+  "seo": {
+    "title": "Kimi API",
+    "description": "Kimi API usage, authentication, error troubleshooting, pricing"
+  },
   "icon": "api",
-  "order": 10,
+  "order": 12,
   "note": "extract_headings in each md front matter controls whether ## headings appear as expandable items on the list page"
 }

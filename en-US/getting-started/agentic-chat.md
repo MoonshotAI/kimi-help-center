@@ -8,12 +8,13 @@ preview: false
 
 <SeoMeta
   title="Getting started with Kimi - Kimi Help Center"
-  description="You can type questions in the chat box, upload files, or switch between models depending on your needs."
+  description="Learn about Kimi's three models (K2.6, K3, K3 Swarm), built-in tools, and multimodal capabilities to quickly get started with chat and task execution."
 />
 
-You can type questions in the chat box, upload files, or switch between models depending on your needs.
+# Getting started with Kimi
 
-Open [kimi.com](https://kimi.com) and try sending a message — say hello to Kimi:
+You can type questions in the chat box, upload files, or switch between models depending on your needs.
+Open [kimi.com](https://www.kimi.com) and try sending a message — say hello to Kimi:
 
 <CodePreview
   files={[
@@ -25,22 +26,38 @@ Open [kimi.com](https://kimi.com) and try sending a message — say hello to Kim
   ]}
 />
 
-## Powered by K2.6
-Kimi K2.6 is an open-source model that builds on K2.5 with significant upgrades, focusing on state-of-the-art coding, long-horizon execution, and agent swarm capabilities. It achieves state-of-the-art performance across agent tasks, coding, image understanding, video understanding, and general intelligence benchmarks. K2.6 is also Kimi's **most versatile** model — its native multimodal architecture supports both visual and text input, thinking and non-thinking modes, as well as conversational and agentic tasks.
-As a result, Kimi excels not only at Q&A conversations but also at autonomous task planning, tool invocation, and multi-step reasoning — supporting deep thinking and execution for complex tasks.
+## Choose a model
+
+Kimi offers multiple models. Click the model switch button above the input box to switch.
+
+| Model | Thinking strength | Best for |
+|-------|-------------------|----------|
+| **K2.6** | Standard / High | Fast conversation and Q&A with quicker responses |
+| **K3** | Low / High / Max | Chat and Agent tasks; the most capable overall |
+| **K3 Swarm** | Low / High / Max | Large-scale search and batch processing, completed in one go |
+
+<Callout type="tip">
+K2.6 does not consume credits in Chat (when used as a K2.6 Agent inside Kimi Work, it still consumes membership credits); K3 and K3 Swarm are billed by credits. See the [membership benefits](https://www.kimi.com/help/membership/membership-overview) for details.
+</Callout>
+
+### About Kimi K3
+
+Kimi K3 is currently Kimi's most powerful model, with 2.8 trillion parameters, built on Kimi Delta Attention (KDA) and Attention Residuals, featuring **native vision** and a **1-million-token context window**. As the world's first open 3T-class model, K3 is designed for frontier intelligence across long-horizon coding, knowledge work, and reasoning, reaching leading performance in coding, long-horizon execution, and a wide range of general intelligence tasks.
+
 ### Built-in tools
+
 Available out of the box, no configuration needed:
+
 | Tool | Description |
 |------|------------|
 | **Web Search** | Real-time web search for the latest news and information |
 | **Fetch Tool** | Direct access to specific URLs (web pages, documents, images, and other online resources) |
-| **Data Source** | Connect to professional databases; query database listings and retrieve data |
 | **Image Search** | Text-to-image and image-to-image search for quick visual content discovery |
 | **IPython** | Execute Python code for data analysis and visualization |
 | **Memory** | Smart memory that records your personal preferences and habits |
 
 ## Visual & multimodal capabilities
-K2.6 supports full-scenario understanding of images, videos, and office documents (PDF/Word/Excel), using a **native multimodal architecture** (not bolt-on OCR). It can directly parse document content and perform intermediate-to-advanced office tasks (such as writing Excel formulas or generating PPT outlines/VBA code).
+Kimi K3 supports full-scenario understanding of images, videos, and office documents (PDF/Word/Excel), using a **native multimodal architecture** (not bolt-on OCR). It can directly parse document content and perform intermediate-to-advanced office tasks (such as writing Excel formulas or generating PPT outlines/VBA code). Combined with native vision and a 1-million-token context window, it can handle longer and more complex multimodal materials.
 ### Multimodal input support
 - **Images**: PNG, JPEG, WebP, GIF, etc. (via URL, Base64, or local file upload)
 - **Video**: MP4, etc. (via video_url or image frame sequences + fps parameter)
@@ -62,10 +79,10 @@ K2.6 supports full-scenario understanding of images, videos, and office document
 
 ### Important notes
 
-<Callout type="warning">
-1. **Image generation limitation**: Standard chat mode only supports image *search*, not image *generation* (image generation requires K2.6 Agent mode).
-2. **File output limitation**: Only text content is supported as output (e.g., PPT outlines, Word body text, code). Direct binary file output (`.pptx`, `.docx`, `.xlsx`, `.pdf`) is not supported.
-3. For image generation or complex editable document output, use [K2.6 Agent](https://www.kimi.com/agent) or the code execution tool.
+1. **File output**: K3 can produce editable documents end-to-end (such as `.pptx`, `.docx`, `.xlsx`, `.pdf`) and other complex deliverables; K2.6 focuses on fast Q&A and only outputs text (such as PPT outlines, Word body text, or code).
+
+<Callout type="tip">
+Tip: To generate images, audio, or video, click "+" → Plugin, select the corresponding feature, and use it with **K3**. To create complex editable documents or run multi-step tasks, we recommend choosing **K3** or **K3 Swarm** for the full experience.
 </Callout>
 
 ## Sessions vs. conversation turns
@@ -105,7 +122,13 @@ Within a single session, each new question or instruction you send is answered w
 ## Best practices
 
 <Callout type="tip">
-1. **Start a new session for each task**: Independent tasks — essay writing, research, debugging — should each get their own session to avoid context interference.
-2. **Summarize periodically in long sessions**: After 20+ turns, proactively ask Kimi to summarize key information to prevent data loss.
-3. **Clean up sensitive information promptly**: Chat history is retained; delete the entire session after handling private content.
+**Start a new session for each task**: Independent tasks — essay writing, research, debugging — should each get their own session to avoid context interference.
+</Callout>
+
+<Callout type="tip">
+**Summarize periodically in long sessions**: After 20+ turns, proactively ask Kimi to summarize key information to prevent data loss.
+</Callout>
+
+<Callout type="tip">
+**Clean up sensitive information promptly**: Chat history is retained; delete the entire session after handling private content.
 </Callout>

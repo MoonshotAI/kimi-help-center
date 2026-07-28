@@ -2,12 +2,12 @@
 title: "Account & credit query"
 slug: "membership-account-query"
 order: 5
-extract_headings: false
+extract_headings: true
 preview: false
 ---
 
 <SeoMeta
-  title="Account \u0026 credit query - Kimi Help Center"
+  title="Account & credit query - Kimi Help Center"
   description="After purchasing a membership, your benefits typically activate instantly. If something seems off, check the guides below."
 />
 

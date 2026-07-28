@@ -76,4 +76,4 @@ Kimi Code CLI 支持通过环境变量进行配置，适合在 CI/CD 或脚本�
 
 - **斜杠命令参考**：使用 `/help` 查看所有可用命令。
 - **CLI 参数参考**：运行 `kimi --help` 查看所有启动参数。
-- **官方文档**：访问 [Kimi Code 文档](https://kimi.com/code/docs) 获取最新的完整文档。
+- **官方文档**：访问 [Kimi Code 文档](https://www.kimi.com/code/docs/) 获取最新的完整文档。

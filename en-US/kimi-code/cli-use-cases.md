@@ -11,6 +11,8 @@ preview: false
   description="Here are some typical scenarios for using Kimi Code CLI in everyday development, each with example prompts for reference."
 />
 
+# Common use cases
+
 Here are some typical scenarios for using Kimi Code CLI in everyday development, each with example prompts for reference.
 
 ## Implement new features

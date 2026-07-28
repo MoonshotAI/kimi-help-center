@@ -1,14 +1,14 @@
 ---
 title: "Account suspension & appeals"
 slug: "account-ban"
-order: 2
+order: 8
 extract_headings: true
 preview: false
 ---
 
 <SeoMeta
-  title="Account suspension \u0026 appeals - Kimi Help Center"
-  description="If you violate applicable laws, the user agreement, or platform policies, the platform may take actions including blocking content, freezing/transferring acc..."
+  title="Account suspension & appeals - Kimi Help Center"
+  description="Learn about the possible reasons for Kimi account suspension and how to appeal. If your account has been restricted, follow the steps in this article to submit an appeal, and we will process it as soon as possible."
 />
 
 # Account suspension & appeals
@@ -26,7 +26,7 @@ Possible actions include:
 | **Benefits** | Suspend or revoke some or all benefits (including paid benefits) |
 | **Service** | Refuse, suspend, or terminate service |
 
-## How to appeal？
+## How to appeal?
 If you disagree with the outcome:
 
 <Callout type="info">

@@ -75,6 +75,7 @@ Kimi Code CLI 启动时会以你当前所在的文件夹作为**工作目录**�
 > 3. 输入 `kimi` 启动
 
 ## 命令怎么运行
+
 <Frames
   src="./images/preparation/preparation-03.png"
   alt="命令运行示意图"
@@ -83,8 +84,8 @@ Kimi Code CLI 启动时会以你当前所在的文件夹作为**工作目录**�
 在终端或 PowerShell 中运行命令很简单：
 
 1. **复制命令**：从文档中复制命令文本
-   - macOS/Linux：`curl -LsSf https://code.kimi.com/install.sh | bash`
-   - Windows：`Invoke-RestMethod https://code.kimi.com/install.ps1 | Invoke-Expression`
+   - macOS/Linux：`curl -fsSL https://code.kimi.com/kimi-code/install.sh | bash`
+   - Windows：`irm https://code.kimi.com/kimi-code/install.ps1 | iex`
 2. **粘贴到终端**：在终端窗口中按右键或 `Cmd/Ctrl + V` 粘贴
 3. **按下回车**：按 `Enter` 键执行命令
 4. **等待完成**：终端会显示执行过程和结果

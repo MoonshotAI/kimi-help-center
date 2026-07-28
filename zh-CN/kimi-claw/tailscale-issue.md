@@ -11,6 +11,7 @@ preview_content: "Tailscale 断开连接导致 Kimi Claw 异常的 DNS 修复方
   title="Tailscale 导致 Kimi Claw 断连怎么修？ - Kimi 帮助中心"
   description="使用 Tailscale VPN 时 Kimi Claw 频繁断连？本文解析 Tailscale 覆盖 DNS 导致的连接问题，提供添加公共 DNS 和开启 Override 的修复步骤。"
 />
+
 # Tailscale 断开连接
 
 如果配置了 Tailscale 之后 Kimi Claw 断开了连接，这是由于系统的 DNS 配置被 Tailscale 覆盖导致的。

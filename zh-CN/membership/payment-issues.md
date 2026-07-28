@@ -1,7 +1,7 @@
 ---
 title: "支付相关问题"
 slug: "membership-payment-issues"
-order: 8
+order: 9
 extract_headings: true
 preview: true
 preview_content: "会员支付失败、签约未生效、误扣款等常见问题的解决方案。"
@@ -11,6 +11,7 @@ preview_content: "会员支付失败、签约未生效、误扣款等常见问�
   title="Kimi 会员支付问题排查 - Kimi 帮助中心"
   description="遇到 Kimi 会员支付失败、扣款未到账或重复扣费？本文提供常见支付问题的排查方法和解决方案，帮你快速恢复服务。"
 />
+
 # 会员支付相关问题
 
 以下是会员订阅过程中常见的支付相关问题及解决方案。

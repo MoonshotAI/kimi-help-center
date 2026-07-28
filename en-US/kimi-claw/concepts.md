@@ -2,14 +2,16 @@
 title: "Core concepts & terminal"
 slug: "concepts"
 order: 5
-extract_headings: false
+extract_headings: true
 preview: false
 ---
 
 <SeoMeta
-  title="Core concepts \u0026 terminal - Kimi Help Center"
-  description="Image: 截图30"
+  title="Core concepts & terminal - Kimi Help Center"
+  description="Understand Kimi Claw's core concepts — Memory, Skills, HEARTBEAT, Identity, Soul, Tools, and User — and the terminal commands for checking the gateway, bot status, skills, and scheduled tasks."
 />
+
+# Core concepts & terminal
 
 ## Key concepts
 

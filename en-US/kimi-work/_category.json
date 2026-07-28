@@ -1,0 +1,11 @@
+{
+  "title": "Kimi Work",
+  "description": "A local Agent for knowledge workers — overview, Goal mode, plugins, and use cases",
+  "seo": {
+    "title": "Kimi Work",
+    "description": "A local Agent for knowledge workers — overview, Goal mode, plugins, and use cases"
+  },
+  "icon": "kimi-work",
+  "order": 4,
+  "note": "extract_headings: true/false in each md front matter controls whether ## headings expand on the list page"
+}

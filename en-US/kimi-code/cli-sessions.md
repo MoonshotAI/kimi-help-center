@@ -7,9 +7,11 @@ preview: false
 ---
 
 <SeoMeta
-  title="Sessions \u0026 context - Kimi Help Center"
+  title="Sessions & context - Kimi Help Center"
   description="Kimi Code CLI supports multi-session management and context persistence, allowing you to pause and resume work at any time."
 />
+
+# Sessions & context
 
 Kimi Code CLI supports multi-session management and context persistence, allowing you to pause and resume work at any time.
 
@@ -37,7 +39,7 @@ Use the `--continue` (or `-c`) flag to continue the last conversation.
     {
       name: "command.sh",
       language: "bash",
-      content: "kimi --session \u003csession-id\u003e",
+      content: "kimi --session <session-id>",
     },
   ]}
 />

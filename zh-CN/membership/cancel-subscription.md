@@ -1,7 +1,7 @@
 ---
 title: "取消自动续费"
 slug: "membership-cancel-subscription"
-order: 7
+order: 8
 extract_headings: true
 preview: true
 preview_content: "如何取消 Kimi 会员自动续费，支持多渠道操作指引。"

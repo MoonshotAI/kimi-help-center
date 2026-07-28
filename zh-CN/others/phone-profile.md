@@ -1,7 +1,7 @@
 ---
 title: "手机号与个人资料"
 slug: "phone-profile"
-order: 3
+order: 6
 extract_headings: true
 preview: true
 preview_content: "手机号换绑、验证码收不到与个人资料修改指引。"

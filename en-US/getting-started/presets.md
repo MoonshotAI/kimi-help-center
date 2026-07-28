@@ -2,7 +2,7 @@
 title: "Presets"
 slug: "quick-phrases"
 order: 4
-extract_headings: false
+extract_headings: true
 preview: false
 ---
 
@@ -10,6 +10,8 @@ preview: false
   title="Presets - Kimi Help Center"
   description="Presets are Kimi's quick-prompt feature, letting you save frequently used prompts and invoke them with a single click in any session — no more repetitive typ..."
 />
+
+# Presets
 
 Presets are Kimi's quick-prompt feature, letting you save frequently used prompts and invoke them with a single click in any session — no more repetitive typing.
 
@@ -19,7 +21,7 @@ Presets are Kimi's quick-prompt feature, letting you save frequently used prompt
 - **Reusable high-quality prompts**: Save well-tuned prompts for consistent, repeatable results
 - **Common instruction shortcuts**: Everyday commands like "Summarize this article," "Translate to English," or "Organize in a table"
 
-## How to add a preset？
+## How to add a preset?
 
 1. Open [kimi.com](https://www.kimi.com/) or the Kimi app
 2. Click the **"+"** button to the left of the chat input box, or locate the **Presets** entry point

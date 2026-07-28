@@ -13,6 +13,12 @@ preview: false
 
 # Kimi Code for VS Code quick start
 
+<Callout type="warning">
+**VS Code Extension Compatibility Notice**
+
+Kimi Code for VS Code is currently only available for new installation to users of the legacy Python CLI. Existing users who have already installed the plugin can continue using it after upgrading to the new CLI. TS version CLI users are not supported for installation at this time.
+</Callout>
+
 Kimi Code for VS Code is an extension integrated into Visual Studio Code. After installation, you can ask questions directly within the editor, review code diffs, and quickly commit changes. 
 
 The extension can read the content of files you reference and display modification suggestions through a visual interface, executing them after your confirmation. The entire workflow is under your control while significantly improving development efficiency.
@@ -54,28 +60,13 @@ Kimi Code supports two authentication modes. You can switch modes at any time vi
 
 ## Typical Workflows
 
-<ColumnsContent
-  columns={[
-    {
-      title: "Code Reading",
-      description: "Type @ to select files and request an explanation of the logic flow.",
-      pageUrl: "/help/vscode/code-reading",
-      type: "microscope",
-    },
-    {
-      title: "Refactoring",
-      description: "Request a refactoring plan for a folder and review diffs before applying.",
-      pageUrl: "/help/vscode/refactoring",
-      type: "code",
-    },
-    {
-      title: "Debugging",
-      description: "Paste error traces and reference related files for instant diagnosis.",
-      pageUrl: "/help/vscode/debugging",
-      type: "okcomputer",
-    },
-  ]}
-/>
+Code Reading: Type`@` to select a file or folder, request an explanation of the code flow, and continue asking follow-up questions.
+
+Refactoring: Reference target code such as `@src/feature/`, request a refactoring plan, review the diff and selectively approve, using rollback when necessary.
+
+Debugging: Paste error messages or stack traces, reference related files, request diagnosis and fixes, then approve the proposed changes.
+
+Project Overview: Reference a folder such as `@src/services/`, request a module map or architecture summary, and continue asking about dependencies or weak points.
 
 ---
 

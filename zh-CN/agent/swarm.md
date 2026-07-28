@@ -22,11 +22,7 @@ preview_content: "Agent 集群（Agent Swarm）多智能体协作能力介绍与
 - 单次任务执行超过 4,000 次工具调用
 - 相比单Agent顺序执行，速度提升 4.5倍
 
-Kimi Agent Swarm 核心实现了：
-
-- 最多部署 300 个子智能体 同时工作
-- 单次任务执行超过 4,000 次工具调用
-- 相比单Agent顺序执行，速度提升 4.5 倍
+当前，Agent 集群由 Kimi K3 驱动（K3 集群），在大规模并行搜索与批量处理上进一步提升。
 
 ## 背后故事
 
@@ -57,9 +53,13 @@ Kimi Agent Swarm（智能体集群）通过PARL（Parallel-Agent Reinforcement L
 />
 
 - 网页版：[https://www.kimi.com/agent-swarm](https://www.kimi.com/agent-swarm)
-- 手机/平板：打开 Kimi App → 选择切换模式 → 切换至 K2.6 Agent 集群模式
+- 手机/平板：打开 Kimi App，在对话框上方的模型切换按钮中选择 K3 集群模型
 
-注意：目前，K2.6 Agent 集群还处于Beta（内测）阶段，仅Allegretto、Allegro会员可用。Agent 集群任务消耗的额度较高（约为普通 Agent 任务的数倍），具体取决于任务复杂度和子智能体数量。
+<Callout type="info">
+关于 [Beta] 标记：[Beta] 表示产品上线初期仅向少部分用户开放的试用标记，用于小范围验证与打磨；随着功能成熟会逐步移除并全量开放。
+</Callout>
+
+注意：Agent 集群任务消耗的额度较高（约为普通 Agent 任务的数倍），具体取决于任务复杂度和子智能体数量。Moderato、Allegretto、Allegro 会员可用。
 
 ### 操作步骤
 
@@ -90,14 +90,14 @@ Kimi Agent Swarm（智能体集群）通过PARL（Parallel-Agent Reinforcement L
    - 数据分析：图表、趋势分析、关键指标的表格
    - 办公文档：Word 文档、PDF文档、Markdown文档、PPT 演示文稿等
 5. 预览、下载或分享产出成果
-6. 后续轮次切换至K2.6单Agent继续
+6. 后续轮次中，Kimi 会根据任务自动在对话与 Agent 之间调度，无需手动切换
 
 ## 使用案例
 
 ### 规模化探索
 
 案例1：100个细分领域Top 3创作者挖掘
-任务要求找出100个YouTube细分领域各自的Top 3创作者。K2.6 Agent Swarm首先研究并定义每个领域，然后自主创建300个子智能体进行并行搜索，最终生成包含频道名称、订阅数、描述的结构化表格和可视化图表。
+任务要求找出100个YouTube细分领域各自的Top 3创作者。Agent Swarm 首先研究并定义每个领域，然后自主创建300个子智能体进行并行搜索，最终生成包含频道名称、订阅数、描述的结构化表格和可视化图表。
 
 <Frames
   src="./images/swarm/swarm-04.png"
@@ -123,7 +123,7 @@ Paul Graham 的文章分散在个人网站、旧博客、转录演讲中。Agent
 ### 规模化输出
 
 案例：从40篇PDF生成100页文献综述
-K2.6 Agent Swarm 将任务分解到文档集合，部署多个写作专用子智能体，每个负责特定章节。最终输出一份100页、双栏的学术文档，包含完整格式化的引用和参考文献，以及方法分布饼图、引用网络分析图等可视化内容。
+Agent Swarm 将任务分解到文档集合，部署多个写作专用子智能体，每个负责特定章节。最终输出一份100页、双栏的学术文档，包含完整格式化的引用和参考文献，以及方法分布饼图、引用网络分析图等可视化内容。
 
 <Frames
   src="./images/swarm/swarm-06.png"
@@ -252,3 +252,4 @@ Agent Swarm 特别适用于以下复杂任务：
 1. Kimi官方博客 - "Kimi Agent Swarm: 100 Sub-Agents at Scale" ([https://www.kimi.com/blog/agent-swarm](https://www.kimi.com/blog/agent-swarm))
 2. Kimi K2.5技术博客 - "Kimi K2.5: Visual Agentic Intelligence" ([https://www.kimi.com/blog/kimi-k2-5](https://www.kimi.com/blog/kimi-k2-5))
 3. Kimi K2.6技术博客 - "Kimi K2.6: Advancing Open-Source Coding" ([https://www.kimi.com/blog/kimi-k2-6](https://www.kimi.com/blog/kimi-k2-6))
+4. Kimi K3技术博客 - "Kimi K3" ([https://www.kimi.com/blog/kimi-k3](https://www.kimi.com/blog/kimi-k3))

@@ -7,20 +7,13 @@ preview: false
 ---
 
 <SeoMeta
-  title="Interaction \u0026 input - Kimi Help Center"
+  title="Interaction & input - Kimi Help Center"
   description="Kimi Code CLI provides multiple interaction methods to help you collaborate with the AI efficiently."
 />
 
+# Interaction & input
+
 Kimi Code CLI provides multiple interaction methods to help you collaborate with the AI efficiently.
-
-## Agent mode vs. shell mode
-
-Kimi Code CLI has two input modes:
-
-- **Agent Mode** (default): Your input is sent to the AI for processing — the AI reads code, executes commands, modifies files, and more.
-- **Shell Mode**: Execute shell commands directly without leaving Kimi Code CLI.
-
-Press **Ctrl-X** to quickly switch between the two modes. Shell Mode also supports select slash commands such as `/help`, `/exit`, `/version`, etc.
 
 ## Thinking mode
 

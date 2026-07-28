@@ -25,7 +25,7 @@ Kimi Code 权益支持在主流 Coding Agent 中使用——例如 Claude Code�
 
 ## 在 Claude Code 中使用
 
-[Claude Code](https://docs.anthropic.com/en/docs/claude-code) 是 Anthropic 推出的命令行编程助手。安装方式请参考 [Claude Code 官方文档](https://docs.anthropic.com/en/docs/claude-code/getting-started)。
+[Claude Code](https://code.claude.com/docs) 是 Anthropic 推出的命令行编程助手。安装方式请参考 [Claude Code 官方文档](https://code.claude.com/docs/en/getting-started)。
 
 <Callout type="info">
   安装完成后，需要跳过 Anthropic 默认的登录流程。在终端中执行以下命令：
@@ -35,9 +35,7 @@ Kimi Code 权益支持在主流 Coding Agent 中使用——例如 Claude Code�
   files={[
     {
       name: "skip-onboarding.sh",
-      language: "bash",
-      content:
-        'node --eval \'\nconst os = require("os"), fs = require("fs"), path = require("path");\nconst homeDir = os.homedir();\nconst filePath = path.join(homeDir, ".claude.json");\nif (fs.existsSync(filePath)) {\n    const content = JSON.parse(fs.readFileSync(filePath, "utf-8"));\n    fs.writeFileSync(filePath, JSON.stringify({ ...content, hasCompletedOnboarding: true }, null, 2), "utf-8");\n} else {\n    fs.writeFileSync(filePath, JSON.stringify({ hasCompletedOnboarding: true }), "utf-8");\n}\n\'',
+      content: "node --eval \"\n// enable third party model support and fast mode\nconst claudeJsonFilePath = path.join(os.homedir(), '.claude.json');\nif (fs.existsSync(claudeJsonFilePath)) {\n    const content = JSON.parse(fs.readFileSync(claudeJsonFilePath, 'utf-8'));\n    fs.writeFileSync(claudeJsonFilePath, JSON.stringify({ ...content, penguinModeOrgEnabled: true, hasCompletedOnboarding: true }, null, 2), 'utf-8');\n} else {\n    fs.writeFileSync(claudeJsonFilePath, JSON.stringify({ penguinModeOrgEnabled: true, hasCompletedOnboarding: true }), 'utf-8');\n}\n\n// delete old model id\nconst claudeSettingsJsonFilePath = path.join(os.homedir(), '.claude', 'settings.json');\nif (fs.existsSync(claudeSettingsJsonFilePath)) {\n    const content = JSON.parse(fs.readFileSync(claudeSettingsJsonFilePath, 'utf-8'));\n    if (typeof content === 'object' && typeof content.env === 'object') {\n        for (const element of [\n            'ANTHROPIC_MODEL',\n            'ANTHROPIC_SMALL_FAST_MODEL',\n            'CLAUDE_CODE_SUBAGENT_MODEL',\n            'ANTHROPIC_DEFAULT_FABLE_MODEL',\n            'ANTHROPIC_DEFAULT_FABLE_MODEL_NAME',\n            'ANTHROPIC_DEFAULT_OPUS_MODEL',\n            'ANTHROPIC_DEFAULT_OPUS_MODEL_NAME',\n            'ANTHROPIC_DEFAULT_SONNET_MODEL',\n            'ANTHROPIC_DEFAULT_SONNET_MODEL_NAME',\n            'ANTHROPIC_DEFAULT_HAIKU_MODEL',\n            'ANTHROPIC_DEFAULT_HAIKU_MODEL_NAME',\n        ]) {\n            delete content.env[element];\n        }\n        fs.writeFileSync(claudeSettingsJsonFilePath, JSON.stringify(content, null, 2), 'utf-8');\n    }\n}\n\"",
     },
   ]}
 />
@@ -77,6 +75,13 @@ Kimi Code 权益支持在主流 Coding Agent 中使用——例如 Claude Code�
   `Option+T`，Windows 和 Linux 为 `Alt+T`。
 </Callout>
 
+### 切换到高速版
+
+高速版输出速度约为普通版的 5–6 倍、**额度消耗约为普通版的 3 倍**，需订阅 [Allegretto](https://www.kimi.com/membership/pricing) 及以上档位会员。在 Claude Code 中有两种开启方式：
+
+- **方式一：`/fast on` 命令**——启动 Claude Code 后输入 `/fast on`，出现 `⚡ Fast mode ON` 提示即为开启成功。
+- **方式二：`/config` 命令**——输入 `/config` 打开配置面板，在 **Config** 标签下开启 **Fast mode**（以及 **Thinking mode**）即可。
+
 ## 在 Roo Code 中使用
 
 [Roo Code](https://github.com/RooCodeInc/Roo-Code) 是一款 VS Code 中的 AI 编程插件。
@@ -95,7 +100,7 @@ Kimi Code 权益支持在主流 Coding Agent 中使用——例如 Claude Code�
    | ---------- | -------------------------------- |
    | Entrypoint | `https://api.kimi.com/coding/v1` |
    | API Key    | 你的 API Key                     |
-   | Model      | `kimi-k2.5`                      |
+   | Model      | `kimi-for-coding` / `kimi-for-coding-highspeed`（普通版 / 高速版） |
 
 3. 保存配置后即可开始使用。
 
@@ -107,7 +112,4 @@ Kimi Code 权益支持在主流 Coding Agent 中使用——例如 Claude Code�
 
 ## 详细教程
 
-- [在 JetBrains IDE 中使用](https://www.kimi.com/code/docs/third-party-tools/jetbrains.html)
-- [在 Zed 中使用](https://www.kimi.com/code/docs/third-party-tools/zed.html)
-- [Zsh 插件集成](https://www.kimi.com/code/docs/third-party-tools/zsh.html)
 - [在第三方 Coding Agent（Claude Code、Roo Code）中使用](https://www.kimi.com/code/docs/third-party-tools/other-coding-agents.html)

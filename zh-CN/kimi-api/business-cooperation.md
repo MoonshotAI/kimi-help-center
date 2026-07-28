@@ -2,19 +2,29 @@
 title: "商务合作与联系销售"
 slug: "api-business-cooperation"
 order: 12
-extract_headings: false
+extract_headings: true
 preview: true
-preview_content: "Kimi API 商务合作与企业服务联系方式。"
+preview_content: "Kimi 开放平台商务合作、企业服务与 Kimi Business 联系方式。"
 ---
 
 <SeoMeta
-  title="Kimi API 商务合作与企业方案 - Kimi 帮助中心"
-  description="了解 Kimi API 企业定制方案、大客户优惠政策与商务合作方式。联系我们获取专属报价和技术支持服务。"
+  title="Kimi 开放平台商务合作与企业方案 - Kimi 帮助中心"
+  description="了解 Kimi 开放平台企业定制方案、大客户优惠政策、Kimi Business 企业会员与商务合作方式。联系我们获取专属报价和技术支持服务。"
 />
 
 # 商务合作与联系销售
 
-Kimi API 为企业客户提供多种合作方案，满足不同规模和场景的业务需求。
+Kimi 开放平台为企业客户提供多种合作方案，满足不同规模和场景的业务需求。
+
+## 是否有针对企业客户的专属产品和服务？
+
+### Kimi API 企业服务
+
+Kimi 销售团队可为企业调用 Kimi API 提供更多资源与支持，请前往 [https://platform.kimi.com/contact-sales](https://platform.kimi.com/contact-sales) 填写表单联系销售。
+
+### Kimi Business 企业会员
+
+Kimi 智能助手现已推出 Kimi Business 企业会员权益，请前往 [https://www.kimi.com/membership/pricing](https://www.kimi.com/membership/pricing) 线上下单。
 
 ## 如何联系销售团队？
 

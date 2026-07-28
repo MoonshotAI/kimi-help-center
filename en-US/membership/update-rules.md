@@ -7,28 +7,31 @@ preview: false
 ---
 
 <SeoMeta
-  title="Credit update \u0026 usage rules - Kimi Help Center"
-  description="Kimi upgrades membership benefits to a unified credit system. All features share one credit pool, and credits are consumed based on actual usage."
+  title="Credit update & usage rules - Kimi Help Center"
+  description="All Kimi membership features share a single credit pool. Credits are consumed based on actual usage."
 />
 
 # Credit update & usage rules
 
 <Callout type="info">
-Kimi upgrades membership benefits to a unified credit system. All features share one credit pool, and credits are consumed based on actual usage.
+All Kimi membership features (Agent, Deep Research, Slides, Docs, Sheets, Kimi Code, Kimi Work, Kimi Claw, etc.) share a single credit pool. Credits are consumed based on actual usage.
 </Callout>
 
-## What are unified credits?
-Instead of separate quotas for each feature, your membership gives you a single credit pool that works everywhere:
+## How does the shared credit pool work?
+Kimi membership features share a single credit pool that works everywhere. Agent features and other Kimi features all draw from it:
 | Feature | Description |
 |---------|-------------|
 | **Agent tasks** | Websites, documents, slides, spreadsheets, deep research |
-| **Kimi Code** | AI-powered coding assistant |
+| **Kimi Code** | AI-powered coding assistant for developers |
+| **Kimi Work** | Kimi desktop app |
 | **Kimi Claw** | Your personal cloud-deployed AI assistant |
-| **Kimi Chat** | Conversations with the latest models |
 | **Other features** | Image generation and more |
 
+> **K2.6**: In Chat, K2.6 is free for all users and does not consume credits; when used as a K2.6 Agent inside Kimi Work, it still consumes membership credits.
+> **Kimi Code**: Draws from the same shared credit pool, but has its own 5-hour / weekly rate limit that applies only to Kimi Code.
+
 <Callout type="tip">
-This means you can allocate credits however you like — spend more on coding one month, more on research the next.
+This means you can allocate credits however you like across the shared pool — spend more on research one month, more on documents the next. In Chat, K2.6 does not consume credits.
 </Callout>
 
 ## How are credits calculated?
@@ -49,14 +52,12 @@ Higher-tier plans come with proportionally larger credit pools.
 | **Expiration** | Unused credits expire at the end of each cycle — they do not roll over or convert to cash |
 | **Limits** | Individual tasks may be subject to 5-hour and 7-day concurrency limits as shown in the UI |
 
-## Usage priority
-When multiple credit types exist, they are consumed in this order:
-1. **Bonus credits** — Earned from trials, promotions, or referral rewards
-2. **Plan credits** — Included with your membership tier
 ## When credits run out
 - Any task already in progress will finish normally
 - New tasks will show an "insufficient credits" prompt
+
 **Your options**:
+
 - Wait for your credits to refresh at the next billing cycle
 - Upgrade to a higher-tier plan for a larger monthly allowance
 ## How exactly do credits refresh?
