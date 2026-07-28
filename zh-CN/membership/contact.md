@@ -1,7 +1,7 @@
 ---
 title: "会员问题联系方式"
 slug: "membership-contact"
-order: 10
+order: 11
 extract_headings: false
 preview: true
 preview_content: "会员专属问题的联系方式与反馈渠道。"
@@ -11,6 +11,7 @@ preview_content: "会员专属问题的联系方式与反馈渠道。"
   title="如何联系 Kimi 客服？ - Kimi 帮助中心"
   description="查看 Kimi 客服的联系方式和服务时间。遇到会员、支付、功能等问题时，通过在线客服或反馈渠道获取及时帮助。"
 />
+
 # Kimi会员问题联系方式
 
 遇到会员相关问题时，你可以通过以下渠道获取帮助。

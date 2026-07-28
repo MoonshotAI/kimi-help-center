@@ -9,21 +9,12 @@ preview_content: "Kimi Code 的交互模式、斜杠命令与审批机制说明�
 
 <SeoMeta
   title="Kimi Code CLI 交互方式与命令参考 - Kimi 帮助中心"
-  description="掌握 Kimi Code CLI 的 Agent/Shell 双模式切换、Thinking 模式、多行输入、图片粘贴、斜杠命令和审批确认机制等交互功能。"
+  description="掌握 Kimi Code CLI 的 Thinking 模式、多行输入、图片粘贴、斜杠命令和审批确认机制等交互功能。"
 />
 
 # 交互与输入
 
 Kimi Code CLI 提供了多种交互方式，帮助你高效地与 AI 协作。
-
-## Agent 模式与 Shell 模式
-
-Kimi Code CLI 有两种输入模式：
-
-- **Agent 模式**（默认）：输入的内容会发送给 AI 处理，AI 会阅读代码、执行命令、修改文件等。
-- **Shell 模式**：直接执行 Shell 命令，无需离开 Kimi Code CLI。
-
-使用 **Ctrl-X** 在两种模式之间快速切换。Shell 模式下也支持部分斜杠命令，如 `/help`、`/exit`、`/version` 等。
 
 ## Thinking 模式
 

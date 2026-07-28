@@ -14,7 +14,7 @@ preview_content: "Generate polished presentations from text or documents with Ki
 
 # Kimi Slides
 
-Kimi Slides is an intelligent presentation generation tool launched by Kimi, powered by the K2.6 large model. It automatically optimizes layout and design to deliver a more professional visual presentation. Simply enter a one-sentence topic, paste a piece of text, or upload a document, and Kimi Slides will select the most suitable visual storytelling approach based on the content type, automatically generating a complete presentation with clear structure and professional design within minutes.
+Kimi Slides is an intelligent presentation generation tool launched by Kimi, powered by the K3 large model. It automatically optimizes layout and design to deliver a more professional visual presentation. Simply enter a one-sentence topic, paste a piece of text, or upload a document, and Kimi Slides will select the most suitable visual storytelling approach based on the content type, automatically generating a complete presentation with clear structure and professional design within minutes.
 
 Kimi Slides supports multi-format input including PDF, Word, PPTX, Excel, TXT, and images. It has also significantly enhanced image replication and custom template capabilities, supporting one-click restoration of reference images and creation based on user-uploaded templates, making the output more aligned with personalized needs.
 
@@ -40,9 +40,9 @@ Kimi Slides supports multi-format input including PDF, Word, PPTX, Excel, TXT, a
 - After generation, click to preview and edit online, with full freedom for manual refinement.
 3. Ready to Use, Free to Try
 - Download the generated file as an editable PPTX, or preview and present it online.
-- A monthly free credit quota lets you experience the full feature set without any payment.
+- A monthly free credits lets you experience the full feature set without any payment.
 4. Multiple Modes for choosing
-- Adaptive：deep research, structured delivery
+- Adaptive:deep research, structured delivery
 - Visual: powered by nano banana pro
 
 ## Where to Access Kimi Slides

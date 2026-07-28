@@ -1,7 +1,7 @@
 ---
 title: "用户如何自助开发票"
 slug: "membership-invoice"
-order: 9
+order: 10
 extract_headings: false
 preview: true
 preview_content: "Kimi 会员自助开具电子发票的操作步骤与注意事项。"

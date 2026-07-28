@@ -1,5 +1,5 @@
 ---
-title: "为什么做出来的网页不能用？"
+title: "Kimi Websites 全栈能力说明"
 slug: "websites-why-not-working"
 order: 2
 extract_headings: false
@@ -13,6 +13,7 @@ preview_content: "Kimi Websites 全栈能力说明与当前限制。"
 />
 
 # Kimi Websites 全栈能力说明
+
 ## 网站全栈能力升级
 
 一个完整的网站通常包含**前端界面、后端服务和数据存储**三部分。Kimi Websites 已升级为全栈建站能力，支持从前端页面到后端数据库的完整网站生成与部署。
@@ -30,7 +31,7 @@ preview_content: "Kimi Websites 全栈能力说明与当前限制。"
 
 - 完整的任务执行文件（含前后端代码）
 - 可在线预览和发布的全栈网站
-- 可下载的 Zip 包（位于 `/mnt/okcomputer/output/` 目录）
+- 可下载的 Zip 包（位于 `/mnt/agents/output/app/` 目录）
 
 ## 适用场景
 
@@ -50,5 +51,5 @@ preview_content: "Kimi Websites 全栈能力说明与当前限制。"
 以下场景暂不支持，后续版本将陆续开放：
 
 - 第三方支付接口对接（如微信支付、支付宝）
-- 第三方 OAuth 登录（如微信、GitHub，当前仅支持 Kimi 账号和账号密码登录）
+- 第三方 OAuth 登录（如微信、GitHub，当前仅支持 Kimi 账号登录或基于数据库的账号密码登录）
 - 复杂的服务端 API 集成（如对接外部 SaaS 服务）

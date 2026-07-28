@@ -1,8 +1,8 @@
 ---
 title: "Invoices"
 slug: "membership-invoice"
-order: 9
-extract_headings: true
+order: 10
+extract_headings: false
 preview: false
 ---
 
@@ -11,9 +11,11 @@ preview: false
   description="Kimi supports self-service invoice generation for your membership payments."
 />
 
+# Invoices
+
 Kimi supports self-service invoice generation for your membership payments.
 
-## How to get an invoice？
+## How to get an invoice?
 
 Invoices are automatically sent to the email address registered with your payment provider (Airwallex, Stripe, Apple, or Google).
 

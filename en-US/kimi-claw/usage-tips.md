@@ -8,7 +8,7 @@ preview: false
 
 <SeoMeta
   title="Usage tips - Kimi Help Center"
-  description="Kimi Claw isn't just a Q\u0026A tool — it's a moldable assistant. Set the rules and it adopts a new personality. Teach it a method and it forms a habit. Give it a..."
+  description="Kimi Claw isn't just a Q&A tool — it's a moldable assistant. Set the rules and it adopts a new personality. Teach it a method and it forms a habit. Give it a..."
 />
 
 # Usage tips

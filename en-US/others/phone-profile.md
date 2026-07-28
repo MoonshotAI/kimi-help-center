@@ -1,15 +1,17 @@
 ---
 title: "Account & profile settings"
 slug: "phone-profile"
-order: 3
+order: 6
 extract_headings: true
 preview: false
 ---
 
 <SeoMeta
-  title="Account \u0026 profile settings - Kimi Help Center"
-  description="Yes. Navigate to:"
+  title="Account & profile settings - Kimi Help Center"
+  description="Learn how to set up your profile, preferences, and account management features in the Kimi App, and tailor your AI assistant experience to your needs."
 />
+
+# Account & profile settings
 
 ## Can I change my linked email or sign-in method?
 Yes. Navigate to:

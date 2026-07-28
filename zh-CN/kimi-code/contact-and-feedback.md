@@ -35,12 +35,13 @@ preview_content: "Kimi Code 的联系方式与反馈渠道。"
 - **环境信息**：操作系统、Kimi Code CLI 版本（可通过 `kimi --version` 查看）
 - **错误日志**：如果有报错信息，请完整粘贴
 
-### 方式四：加入飞书交流群
-扫码加入飞书交流群
+### 方式四：加入企业微信交流群
+扫码加入企业微信交流群
 
+<!-- 二维码有效期至 2027-07-23，到期前需更换 -->
 <Frames
   src="./images/contact-and-feedback/contact-and-feedback-01.png"
-  alt="飞书群二维码"
+  alt="Kimi Code 用户群二维码"
 />
 
 ## 常见问题自助排查

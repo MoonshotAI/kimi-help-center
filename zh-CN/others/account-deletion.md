@@ -1,7 +1,7 @@
 ---
 title: "账号注销与数据删除"
 slug: "account-deletion"
-order: 1
+order: 9
 extract_headings: true
 preview: true
 preview_content: "Kimi 账号注销的操作步骤与数据删除说明。"
@@ -29,3 +29,7 @@ preview_content: "Kimi 账号注销的操作步骤与数据删除说明。"
 ## 误删的聊天记录还能找回吗？
 
 不能。点击删除即视为放弃找回权限，后续无法协助恢复。详细说明请参阅 [Kimi 隐私政策](https://www.kimi.com/user/agreement/userPrivacy?version=v2)。
+
+## 注销后我的数据如何处理？
+
+注销审核通过后，你的对话记录、上传文件、记忆空间数据等将进入删除流程，处理完成后不再与你的账号关联。根据《网络安全法》《个人信息保护法》等法律法规的要求，部分信息需在法定最短期限内保留，仅用于执法核查等法定用途，到期后按规定删除或匿名化处理。建议你在操作前备份需要保留的内容。

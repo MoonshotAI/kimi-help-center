@@ -1,8 +1,8 @@
 ---
 title: "Cancel subscription"
 slug: "membership-cancel-subscription"
-order: 7
-extract_headings: false
+order: 8
+extract_headings: true
 preview: false
 ---
 
@@ -10,6 +10,8 @@ preview: false
   title="Cancel subscription - Kimi Help Center"
   description="You can cancel auto-renewal at any time. After cancellation, your membership benefits remain active until the end of the current billing cycle."
 />
+
+# Cancel subscription
 
 You can cancel auto-renewal at any time. After cancellation, your membership benefits remain active until the end of the current billing cycle.
 

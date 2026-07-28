@@ -1,15 +1,17 @@
 ---
 title: "Kimi chat common issues"
 slug: "chat-issues"
-order: 4
+order: 3
 extract_headings: true
 preview: false
 ---
 
 <SeoMeta
   title="Kimi chat common issues - Kimi Help Center"
-  description="This may be caused by:"
+  description="Having trouble with Kimi chats? This article summarizes troubleshooting steps for common chat issues, including interrupted replies, abnormal content, and loading failures, to help you resolve them quickly."
 />
+
+# Kimi chat common issues
 
 ## Can't send messages / red circle appears?
 
@@ -20,19 +22,17 @@ This may be caused by:
 
 ## Conversation exceeds 200,000 words?
 
-The single-conversation context limit is approximately 128K tokens (~200,000 words). Once this limit is reached, the model can no longer accept new input.
+K2.6's single-conversation context is approximately 128K tokens (~200,000 words). Once this limit is reached, the model can no longer read in new content. What to do depends on why you hit the limit:
 
-<Callout type="tip">
-**Recommended actions**:
-
-1. **Start a new conversation**: Copy the key conclusions or outline from the original conversation into a new one to continue.
-2. **Generate a handoff document**: Ask Kimi to "summarize and generate a handoff document," then paste it into a new conversation as the initial context — this saves tokens while preserving information.
-
-**Note**: Deleting messages within the same conversation does **not** free up the context window. Start a new conversation instead.
-</Callout>
+- **A single file you sent is too large and hits the limit on the first turn**: split the file into smaller parts and send them in batches.
+- **A multi-turn conversation gradually builds up to the limit**: first summarize the key conclusions so far (you can also ask Kimi to "summarize and generate a handoff document"), then paste that into a new conversation as the initial context to continue.
 
 <Callout type="info">
-Thinking models consume more tokens for reasoning, resulting in a smaller effective context limit. When working with long documents, prefer K2 over K2-Thinking.
+**Tips**:
+- More fundamentally, using [Memory](/features/memory-space) and [Projects](/features/project) helps you avoid hitting the limit — Memory automatically retains key information, and a Project keeps your reference files, instructions, and memory together so every new conversation carries the context.
+- Deleting earlier messages in the same conversation does not free up the context window — just start a new conversation instead.
+- Thinking consumes tokens; to save credits, set **Thinking strength** to **Standard**.
+- For very long documents, K3 offers a 1M-token context (available with the top-tier membership); when composing, select **Conversation length: Extra long**.
 </Callout>
 
 ## Seeing "let's talk about something else" ?
@@ -59,3 +59,21 @@ The Kimi chat window itself does not generate downloadable Office files:
 |-----------|-------------------|
 | **Slides** | Go to [Kimi Slides](https://www.kimi.com/slides) — supports online generation and download |
 | **Word/Excel** | Use **Agent** mode |
+
+## How do I delete a single conversation?
+
+In the Kimi app or on the web, find the conversation and tap delete. Once deleted, it will no longer appear on your device, and the related data will enter the processing workflow in accordance with Section 5 of the [Kimi Privacy Policy](https://www.kimi.com/user/agreement/userPrivacy?version=v2).
+
+## After I delete a conversation, is the share link still accessible?
+
+No. A share link's accessibility is tied directly to its conversation: once the conversation is deleted, any external share links generated from it become invalid at the same time, others can no longer access the content through them, and the platform retains no accessible copy of the link.
+
+## What should I do if I uploaded sensitive information by mistake?
+
+Delete the conversation in the app immediately. If it involves highly sensitive information such as an ID card, bank card, or legal document, contact customer support at [support@moonshot.ai](mailto:support@moonshot.ai) after deleting it, and note the type of sensitive information (e.g. “ID card”, “bank card”, “legal document”) in the email subject line so we can prioritize your request.
+
+## Is any data retained after deletion?
+
+As required by the Cybersecurity Law and other applicable laws and regulations, the platform must retain certain network logs (such as operation timestamps and account identifiers) for a specified period. These logs are used solely for security compliance and regulatory audits, and will not be used for any other purpose without your consent.
+
+If you need to cancel your account and delete all associated data, see [Account deletion & data removal](/others/account-deletion).

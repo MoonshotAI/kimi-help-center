@@ -11,6 +11,8 @@ preview: false
   description="Connect Kimi Claw to Telegram so you can chat with it from any device — no browser required."
 />
 
+# Telegram bot
+
 Connect Kimi Claw to Telegram so you can chat with it from any device — no browser required.
 
 ## Step-by-step setup

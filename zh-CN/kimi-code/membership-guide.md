@@ -15,7 +15,7 @@ preview_content: "Kimi Code 会员权益、API Key 管理与设备登录指南�
 # Kimi Code 概览
 
 ## Kimi Code 是什么
-Kimi Code 是 [Kimi 会员权益](https://www.kimi.com/membership/pricing?from=kfc_docs_overview)中面向编程场景的智能编程服务。
+Kimi Code 是 [Kimi 会员权益](https://www.kimi.com/membership/pricing)中面向编程场景的智能编程服务。
 
 你可以把它理解为一个 AI 编程助手：它可以在开发工具中帮你阅读代码、修改文件、执行命令，并协助完成开发任务。
 
@@ -33,6 +33,7 @@ Kimi Code 主要有三种使用方式：
 ## 核心优势
 
 - **底层模型持续升级**：紧跟 Kimi 最新旗舰模型，持续获得前沿代码理解、推理与生成能力
+- **普通版 / 高速版双档**：同一模型提供两档速度，高速版输出速度约为普通版的 5–6 倍，可按需切换
 - **广泛兼容**：完美适配 Kimi Code CLI、VS Code、Claude Code 等各类开发工具
 - **极速响应**：最高输出速度可达 100 Tokens/s
 - **高频并发**：每 5 小时支持约 300–1200 次请求，最高并发 30
@@ -98,7 +99,7 @@ Kimi Code CLI 是一个运行在终端中的 AI Agent，帮助你完成软件开
 
 > 若安装后未显示扩展，请重启 VS Code 或在命令面板中执行 "Developer: Reload Window" (Mac: Cmd+Shift+P, Windows/Linux: Ctrl+Shift+P)。
 
-其他编辑器如 JetBrains、Zed 可通过 CLI 的 ACP 协议接入使用，详见 [JetBrains 配置](https://www.kimi.com/code/docs/third-party-tools/jetbrains.html) 和 [Zed 配置](https://www.kimi.com/code/docs/third-party-tools/zed.html)。
+其他编辑器如 JetBrains、Zed 可通过 CLI 的 ACP 协议接入使用。
 
 
 ### 方式三：第三方工具接入
@@ -149,6 +150,35 @@ Kimi 会员可在 [Kimi Code 控制台](https://www.kimi.com/code/console) 创�
 
 > **注意**：使用时请保持工具的真实身份标识，篡改客户端标识（User-Agent）将被视为违规，可能导致会员权益暂停。
 
+
+## 如何切换模型
+
+**高速版模型现已上线。** Kimi Code 提供**普通版**与**高速版**两档，两者基于同一模型、编码能力完全一致，共用同一个 Base URL、API Key 与会员权益；高速版**输出速度约为普通版的 5–6 倍**，适合追求即时响应、快速迭代的场景，一键切换即可。两档主要区别如下：
+
+| 对比项 | 普通版 | 高速版 |
+| --- | --- | --- |
+| 模型 ID | `kimi-for-coding` | `kimi-for-coding-highspeed` |
+| 输出速度 | 基准速度 | 约为普通版的 5–6 倍 |
+| 额度消耗 | 基准 | 约为普通版的 3 倍 |
+| 编码能力 | 完整能力 | 与普通版一致 |
+| 适用场景 | 日常编码任务 | 即时响应、快速迭代 |
+| 会员要求 | 所有 Kimi Code 会员可用 | 需 [Allegretto](https://www.kimi.com/membership/pricing) 及以上档位会员 |
+
+切换到目标模型的方式：
+
+- **官方 Kimi Code CLI**：在会话中输入 `/model`，直接在普通版与高速版之间切换，无需修改配置。
+- **Kimi Code for VS Code**：在输入栏下拉菜单中选择目标模型；若高速版尚未出现，重启 VS Code 或重新安装插件即可。
+- **第三方工具**：把工具里的 Model ID 配置为目标模型即可，其余配置不变，具体位置见 [在第三方 Coding Agent 中使用](/kimi-code/third-party-agents)。
+
+<Callout type="info">
+- **模型 ID 固定**：两个 ID 均为固定标识，后端随模型升级自动更新，无需改动客户端配置。
+- **务必填对**：高速版 ID 必须为 `kimi-for-coding-highspeed`；若填错或写成其他值，请求会由普通版兜底承接——不报错，但也不会加速。
+- **权限不足报 401**：无高速版权限时调用会返回 `401`，需升级至 Allegretto 及以上档位会员。
+</Callout>
+
+<Callout type="tip">
+**为什么整体耗时没感觉快 5–6 倍？** 「5–6 倍」指的是**模型输出速度**（生成文字 / 代码的速度）。一次编码任务的总耗时由「模型输出 + 工具调用（读写文件、执行命令、联网检索等）+ 脚本执行」共同构成——工具调用与脚本执行的耗时取决于你的项目和命令本身，高速版并不改变这部分。若整体感觉未达 5–6 倍，通常是这一轮工具调用 / 脚本执行占了较大比重，而非模型生成变慢。
+</Callout>
 
 ## 平台对比
 

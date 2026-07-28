@@ -11,6 +11,8 @@ preview: false
   description="You can adjust your Kimi membership at any time. Here's how upgrades and downgrades work."
 />
 
+# Plan changes
+
 You can adjust your Kimi membership at any time. Here's how upgrades and downgrades work.
 
 ## How to calculate upgrade price?

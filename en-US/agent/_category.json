@@ -1,7 +1,11 @@
 {
   "title": "Agent Mode",
   "description": "Agent mode overview, Agent Swarm, features and limitations",
+  "seo": {
+    "title": "Agent Mode",
+    "description": "Agent mode overview, Agent Swarm, features and limitations"
+  },
   "icon": "agent",
-  "order": 2,
+  "order": 3,
   "note": "extract_headings in each md front matter controls whether ## headings appear as expandable items on the list page"
 }

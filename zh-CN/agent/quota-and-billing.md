@@ -4,20 +4,21 @@ slug: "agent-quota-and-billing"
 order: 4
 extract_headings: true
 preview: true
-preview_content: "Agent 额度计费规则、统一额度池与 Kimi Code 权益说明。"
+preview_content: "Agent 额度计费规则。"
 ---
 
 <SeoMeta
   title="Kimi Agent 额度与计费规则说明 - Kimi 帮助中心"
   description="了解 Kimi Agent 模式的额度消耗规则、计费方式与套餐包含的 Agent 用量。掌握额度查看方法，合理分配使用量，避免意外触顶。"
 />
+
 # Agent 额度与计费
 
-Agent 模式使用 Kimi 统一额度进行计费。所有会员功能（Agent、深度研究、PPT、文档、表格、Kimi Code、Kimi Claw 等）共享同一个额度池，额度按实际 token 消耗扣除。
+Agent 模式使用 Kimi 统一额度进行计费。所有会员功能（Agent、深度研究、PPT、文档、表格、Kimi Code、Kimi Work、Kimi Claw 等）共享一个额度池，额度按实际 token 消耗扣除。
 
 ## 计费方式
 
-- **统一额度**：所有会员功能共享一个额度池，你可以自由分配使用
+- **共享额度池**：所有会员功能共享一个额度池，你可以自由分配使用。其中 Kimi Code 另有 5 小时 / 周使用限额，仅作用于 Kimi Code，不影响其他会员功能
 - **按实际消耗**：额度消耗取决于任务的复杂度和持续时间（即 token 用量），简单任务消耗少，复杂任务消耗多
 - **额度刷新**：额度按月刷新，与订阅周期一致
 - **使用优先级**：优先消耗获赠额度（如试用赠送、活动奖励），其次消耗套餐额度

@@ -12,6 +12,8 @@ preview_content: "Deploy a local OpenClaw instance with one click in the Kimi de
   description="Learn how to deploy a local OpenClaw instance with one click in the Kimi desktop app, including downloading the client, deploying locally, and customizing your assistant's name."
   ogType="article"
 />
+ 
+# Kimi Claw Desktop overview
 
 OpenClaw is an AI assistant with a unique personality and long-term memory. In the Kimi desktop app, you can deploy a local OpenClaw instance with a single click and start chatting with it right away.
 
@@ -22,7 +24,8 @@ If you don't have a local OpenClaw yet, go to the Kimi Claw page in the Kimi des
 One-click deployment handles all of the following for you:
 
 - **Automatic deployment** — Kimi deploys OpenClaw on your machine automatically. If you already have another OpenClaw installed locally, Kimi can clone its persona, memory, and skills with your permission — making migration seamless.
-- **Automatic model configuration** — Kimi pre-configures the Kimi model, links your Kimi Code membership credits, and sets up Kimi Web Search for internet access. No API setup required.
+- **Automatic model configuration** — Kimi pre-configures the **Kimi K2.6 model**, links your **Kimi membership** credits/benefits, and sets up Kimi Web Search for internet access. No API setup required.
+- To switch to the **Kimi K3** model, change the model configuration in Kimi Claw settings, or see [Switch to the Kimi K3 model](overview#switch-to-k3).
 - **Membership requirement** — One-click deployment requires an Allegretto plan or above.
 - **Instance limit** — Each account supports a maximum of 1 Kimi Claw Desktop at a time. If you switch machines and deploy on a new one, you will be prompted to unlink the previous instance first.
 

@@ -1,7 +1,11 @@
 {
   "title": "深度研究",
   "description": "产品介绍、问题反馈",
+  "seo": {
+    "title": "深度研究",
+    "description": "产品介绍、问题反馈"
+  },
   "icon": "deep-research",
-  "order": 6,
+  "order": 8,
   "note": "每篇 md 的 front matter 中 extract_headings: true/false 控制是否在列表页展开 ## 标题"
 }

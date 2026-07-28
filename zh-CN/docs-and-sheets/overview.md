@@ -11,6 +11,7 @@ preview_content: "Kimi Docs & Sheets 文档和表格的能力介绍与使用入�
   title="Kimi 文档与表格功能介绍 - Kimi 帮助中心"
   description="了解 Kimi 的智能文档和表格生成功能。AI 自动创建结构化文档、数据表格和分析报告，支持 Word、Excel 等多种格式导出。"
 />
+
 # Kimi Docs & Kimi Sheets：办公能力升级
 
 2026 年 1 月 27 日，Moonshot AI 正式发布了 Kimi K2.5，Kimi Agent 的办公能力迎来重要升级——开始“精通 Office”。
@@ -48,7 +49,7 @@ Kimi 可以像版面设计师一样，帮你策划视觉专题，自动编排图
 />
 
 #### 访问专属页面
-**专属入口**：首先切换 Agent 文档模式，点击对话框底部的“文档”按钮，调用文档生成能力。
+**专属入口**：首先切换文档模式，点击对话框底部的“文档”按钮，调用文档生成能力。
 
 <Frames
   src="./images/overview/overview-02.png"
@@ -56,7 +57,7 @@ Kimi 可以像版面设计师一样，帮你策划视觉专题，自动编排图
 />
 
 1. **打开浏览器**：使用 Chrome、Safari、Edge、Firefox 等主流浏览器
-2. **打开官方访问地址**：Kimi Docs 专属页面：https://www.kimi.com/docs，支持中文/英文两种界面
+2. **打开官方访问地址**：Kimi Docs 专属页面：[https://www.kimi.com/docs](https://www.kimi.com/docs) ，支持中文/英文两种界面
 3. **登录账号**：使用 Kimi 账号登录（支持手机号、邮箱注册）
 4. **输入文档任务**：Kimi Docs 提供三种主要生成方式：
    1. **文字输入**：在对话框中输入任务，用自然语言描述想要创作的文档
@@ -82,12 +83,12 @@ Kimi 可以像版面设计师一样，帮你策划视觉专题，自动编排图
   alt="image"
 />
 
-iOS/Android/鸿蒙均有官方 App（应用名“Kimi”），在输入框上方，点击工具栏（Taskbar）→ 切换至文档（Docs）Agent 模式，内含多模态生成工具与 Agent 功能，可进行文档生成需求。
+iOS/Android/鸿蒙均有官方 App（应用名“Kimi”），在输入框上方，点击工具栏（Taskbar）→ 切换至文档（Docs）模式，内含多模态生成工具与 Agent 功能，可进行文档生成需求。
 
 #### 通用 Agent 模式
 在通用 Agent 模式下，输入文档任务需求
 
-在官网或移动设备，切换到 K2.6 Agent 模式，并输入生成文档相关的任务指令，Kimi 会调用阅读、撰写执行工具。
+在官网或移动设备，选择 K3 模型，并输入生成文档相关的任务指令，Kimi 会调用阅读、撰写执行工具。
 
 ## Kimi Sheets 表格功能
 

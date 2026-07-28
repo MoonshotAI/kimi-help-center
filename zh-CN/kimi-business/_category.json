@@ -1,0 +1,11 @@
+{
+  "title": "Kimi Business",
+  "description": "企业版权益、定价、成员管理、工作空间与常见问题",
+  "seo": {
+    "title": "Kimi Business",
+    "description": "企业版权益、定价、成员管理、工作空间与常见问题"
+  },
+  "icon": "okcomputer",
+  "order": 13,
+  "note": "每篇 md 的 front matter 中 extract_headings: true/false 控制是否在列表页展开 ## 标题"
+}

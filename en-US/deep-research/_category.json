@@ -1,7 +1,11 @@
 {
   "title": "Deep Research",
   "description": "In-depth research, search tips, report generation, download and save",
+  "seo": {
+    "title": "Deep Research",
+    "description": "In-depth research, search tips, report generation, download and save"
+  },
   "icon": "deep-research",
-  "order": 6,
+  "order": 8,
   "note": "extract_headings in each md front matter controls whether ## headings appear as expandable items on the list page"
 }

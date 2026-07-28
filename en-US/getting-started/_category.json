@@ -1,6 +1,10 @@
 {
   "title": "Getting Started",
   "description": "Chat basics, model selection, web search, memory space, and presets",
+  "seo": {
+    "title": "Getting Started",
+    "description": "Chat basics, model selection, web search, memory space, and presets"
+  },
   "icon": "getting-started",
   "order": 1,
   "note": "extract_headings in each md front matter controls whether ## headings appear as expandable items on the list page"

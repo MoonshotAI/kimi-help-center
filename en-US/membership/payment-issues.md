@@ -1,8 +1,8 @@
 ---
 title: "Payment issues"
 slug: "membership-payment-issues"
-order: 8
-extract_headings: false
+order: 9
+extract_headings: true
 preview: false
 ---
 
@@ -10,6 +10,8 @@ preview: false
   title="Payment issues - Kimi Help Center"
   description="Running into trouble with billing? Here are the most common scenarios and how to resolve them."
 />
+
+# Payment issues
 
 Running into trouble with billing? Here are the most common scenarios and how to resolve them.
 

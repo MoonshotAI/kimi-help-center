@@ -14,6 +14,12 @@ preview_content: "Kimi Code VS Code 插件的安装、登录与使用入门。"
 
 # Kimi Code for VS Code 快速开始
 
+<Callout type="warning">
+**VS Code 插件适配中**
+
+Kimi Code for VS Code 目前仅对旧版 Python CLI 用户开放新增安装。已安装插件的老用户升级新版 CLI 后仍可继续使用，其他 TS 版本 CLI 用户暂不支持安装。
+</Callout>
+
 <Frames
   src="./images/vscode-getting-started/kimi-code-showcase.jpeg"
   alt="在 VS Code 中安装 Kimi Code 扩展插件"

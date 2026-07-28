@@ -2,7 +2,7 @@
 title: "File transfer"
 slug: "file-transfer"
 order: 9
-extract_headings: false
+extract_headings: true
 preview: false
 ---
 
@@ -10,6 +10,8 @@ preview: false
   title="File transfer - Kimi Help Center"
   description="Kimi Claw supports sending and receiving files."
 />
+
+# File transfer
 
 Kimi Claw supports sending and receiving files.
 

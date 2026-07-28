@@ -2,15 +2,16 @@
 title: "API 计费说明"
 slug: "api-pricing"
 order: 3
-extract_headings: false
+extract_headings: true
 preview: true
-preview_content: "Kimi API 计费逻辑、Token 价格与成本优化建议。"
+preview_content: "Kimi API 计费逻辑、Token 价格、Kimi K3 计费与成本优化建议。"
 ---
 
 <SeoMeta
   title="Kimi API 定价与计费说明 - Kimi 帮助中心"
-  description="查看 Kimi API 各模型的调用价格、Token 计费规则与账单说明。了解输入/输出 Token 定价，合理预估 API 使用成本。"
+  description="查看 Kimi API 各模型的调用价格、Token 计费规则、Kimi K3 计费方式与账单说明，合理预估 API 使用成本。"
 />
+
 # API 计费说明
 
 Kimi API 按 token 消耗量计费，不同模型和功能的价格有所不同。
@@ -31,6 +32,12 @@ Context Caching 功能允许你缓存常用的上下文内容（如系统提示�
 
 详细的 Context Caching 定价请参考官方文档。
 
+## Kimi K3 如何计费？
+
+Kimi K3 上下文长度为 1M tokens，计费不按上下文长度分段：所有用量均按量付费，输入（区分缓存命中与未命中）与输出分别按统一单价计费。
+
+详细的 Kimi K3 价格请参考 [Kimi K3 定价](https://platform.kimi.com/docs/pricing/chat-k3)。
+
 ## 计费详情
 
 完整的模型价格表和计费规则，请访问：
@@ -43,3 +50,4 @@ Context Caching 功能允许你缓存常用的上下文内容（如系统提示�
 - 使用 Context Caching 缓存重复的系统提示词和上下文。
 - 根据任务复杂度选择合适的模型，简单任务使用轻量模型即可。
 - 精简 prompt 设计，减少不必要的输入 token。
+- 如果对成本敏感，可以选择使用 `kimi-k2.6` 模型。

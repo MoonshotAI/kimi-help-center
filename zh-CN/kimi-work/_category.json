@@ -1,0 +1,11 @@
+{
+  "title": "Kimi Work",
+  "description": "产品介绍、目标模式、插件中心、典型应用场景与常见问题",
+  "seo": {
+    "title": "Kimi Work",
+    "description": "产品介绍、目标模式、插件中心、典型应用场景与常见问题"
+  },
+  "icon": "kimi-work",
+  "order": 4,
+  "note": "每篇 md 的 front matter 中 extract_headings: true/false 控制是否在列表页展开 ## 标题"
+}

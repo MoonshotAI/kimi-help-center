@@ -7,9 +7,11 @@ preview: false
 ---
 
 <SeoMeta
-  title="Memory loss \u0026 context - Kimi Help Center"
+  title="Memory loss & context - Kimi Help Center"
   description="OpenClaw automatically resets the conversation at 4:00 AM daily. This prevents overly long contexts from causing hallucinations or degraded response quality."
 />
+
+# Memory loss & context
 
 ## Why is yesterday's conversation gone?
 
@@ -23,7 +25,7 @@ If you need to adjust when the reset happens, you can modify the schedule in `co
 
 The daily 4 AM reset clears the active conversation context. If something wasn't saved to **Memory**, it's gone.
 
-**How to fix it：**
+**How to fix it:**
 - During a conversation, say _"Remember X to Memory"_ and Kimi Claw will write it to long-term storage.
 - Review stored memories via **Workspace → AGENTS.md → #MEMORY**.
 

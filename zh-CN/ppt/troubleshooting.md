@@ -2,7 +2,7 @@
 title: "PPT 常见问题与排查"
 slug: "ppt-troubleshooting"
 order: 3
-extract_headings: false
+extract_headings: true
 preview: true
 preview_content: "PPT 功能找不到、打不开或预览异常的排查方法与反馈指引。"
 ---
@@ -43,6 +43,7 @@ preview_content: "PPT 功能找不到、打不开或预览异常的排查方法�
   src="./images/ppt/pptcard.png"
   alt="image"
 />
+
 如果点击 PPT 卡片未能顺利进入编辑页，请尝试刷新页面后重新打开；如仍无法打开，可清除浏览器缓存后重试。 
 
 ### PPT 卡片未正常弹出

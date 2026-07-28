@@ -11,6 +11,7 @@ preview_content: "Kimi Code 常见使用场景与示例提示词。"
   title="Kimi Code CLI 常见使用案例 - Kimi 帮助中心"
   description="探索 Kimi Code CLI 的五类典型场景：实现新功能、修复 Bug、理解项目架构、自动化批量任务和通用调研分析，附实用提示词示例。"
 />
+
 # 常见使用案例
 
 以下是 Kimi Code CLI 在日常开发中的几个典型使用场景，每个场景附带了示例 prompt 供参考。

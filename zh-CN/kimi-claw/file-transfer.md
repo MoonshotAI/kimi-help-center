@@ -11,6 +11,7 @@ preview_content: "Kimi Claw 文件收发能力说明，包括工作空间与飞�
   title="Kimi Claw 如何传输和处理文件？ - Kimi 帮助中心"
   description="了解 Kimi Claw 支持的文件类型、传输方式和大小限制。掌握在各平台上向 Kimi Claw 发送文件并获取处理结果的方法。"
 />
+
 # Kimi Claw 文件收发
 
 Kimi Claw 支持文件的收发功能，你可以通过对话、工作空间以及飞书机器人等多种方式完成文件的传输。

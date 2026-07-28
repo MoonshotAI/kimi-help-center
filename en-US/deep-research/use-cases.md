@@ -2,14 +2,16 @@
 title: "Deep Research use cases & prompt library"
 slug: "deep-research-use-cases"
 order: 2
-extract_headings: false
+extract_headings: true
 preview: false
 ---
 
 <SeoMeta
-  title="Deep Research use cases \u0026 prompt library - Kimi Help Center"
-  description="I am a professional securities analyst. Please help me conduct an in-depth analysis of Pop Mart from a financial perspective. The analysis should include but..."
+  title="Deep Research use cases & prompt library - Kimi Help Center"
+  description="Explore typical use cases for Kimi Deep Research, including industry analysis, competitor research, market trends, and academic literature reviews, with practical prompt examples to help you get started quickly."
 />
+
+# Deep Research use cases & prompt library
 
 ## Use case overview
 
@@ -53,12 +55,12 @@ preview: false
     {
       name: "prompt.txt",
       language: "text",
-      content: "Conduct deep research on [Company Name]:\n1. Business model \u0026 core moat (competitive advantages, technology/channel edge, competitive landscape);\n2. Financial health (revenue structure, profitability, cash flow, key risk areas);\n3. Team \u0026 governance (founder background, equity structure, key talent);\n4. Market \u0026 policy (TAM/SAM/SOM, industry growth rate, regulatory environment);\n5. Risk identification (business, legal, exit barriers);\n6. Valuation reference (comparable companies, historical funding rounds, reasonable range).\nRequirements: Cite data sources, mark key conclusions with ⭐, list disputed points separately.",
+      content: "Conduct deep research on [Company Name]:\n1. Business model & core moat (competitive advantages, technology/channel edge, competitive landscape);\n2. Financial health (revenue structure, profitability, cash flow, key risk areas);\n3. Team & governance (founder background, equity structure, key talent);\n4. Market & policy (TAM/SAM/SOM, industry growth rate, regulatory environment);\n5. Risk identification (business, legal, exit barriers);\n6. Valuation reference (comparable companies, historical funding rounds, reasonable range).\nRequirements: Cite data sources, mark key conclusions with ⭐, list disputed points separately.",
     },
   ]}
 />
 
-[View result]（https://www.kimi.com/replay/19b36b81-4492-83de-8000-00004525716b）
+[View result](https://www.kimi.com/replay/19b36b81-4492-83de-8000-00004525716b)
 
 ## Legal & regulatory research
 

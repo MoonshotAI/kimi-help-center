@@ -2,7 +2,7 @@
 title: "Kimi Code 常见问题"
 slug: "faq"
 order: 4
-extract_headings: false
+extract_headings: true
 preview: true
 preview_content: "Kimi Code 常见问题"
 ---
@@ -14,11 +14,58 @@ preview_content: "Kimi Code 常见问题"
 
 # 常见问题
 
+## 从 Kimi-Cli 旧版迁移新版指南
+
+<Callout type="info">
+Kimi Code CLI 已完成重大版本升级，底层从 Python/uv 迁移至 Node.js，带来更简单的安装方式、更快的启动速度和全新的终端界面。旧版将逐渐停止维护，建议尽快升级至新版。
+</Callout>
+
+如果你正在从旧版迁移，按照以下步骤操作——一条命令就能把配置、MCP server 与会话历史一并迁移至新版。
+
+### 新版优势
+
+- **不再依赖 Python / uv**：基于 Node.js 重写，无需配置 Python 环境，安装更简单
+- **原生二进制，开箱即用**：启动更快，运行更轻量
+- **终端界面全面重设计**：交互体验更流畅
+- **数据可完整迁移**：配置、MCP、会话历史一键带走，无缝延续
+
+### 如何迁移
+
+迁移有两种方式。
+
+装好 kimi-code 之后**第一次运行 `kimi`** 时，它会自动检测 `~/.kimi/` 下是否存在 kimi-cli 的数据。一旦检测到，就会弹出迁移提示，你可以选择立即迁移、稍后再说，或不再提示。
+
+你也可以**随时手动运行**：
+
+<CodePreview
+  files={[
+    {
+      name: "command.sh",
+      language: "bash",
+      content: "kimi migrate",
+    },
+  ]}
+/>
+
+你可以选择是否同时迁移聊天会话。如果暂时不需要历史记录，选 **Config only**；否则选 **Config + N sessions** 一并迁移。结束后会显示结果摘要。
+
+### 迁移会发生什么
+
+**会被迁移的内容**：配置（`config.toml`）、MCP 服务配置、输入历史，以及你选择迁移的聊天会话。
+
+**不会被迁移的内容**：OAuth 登录凭证和 MCP 服务的授权都不会被复制，迁移后需要在 kimi-code 里重新执行 `/login` 和重新授权 MCP 服务。kimi-cli 的插件也不在迁移范围内。
+
+<Callout type="tip">
+迁移**不会改动或删除** `~/.kimi/` 下的任何旧数据。kimi-cli 仍可照常使用，两者互不影响。迁移也可以重复运行，已经迁移过的会话不会被重复导入。
+</Callout>
+
+迁移完成后，从 kimi-cli 导入的会话会带上 `[imported]` 标记，方便你与新建的会话区分。
+
 ## 安装与鉴权
 
 ### `/login` 时模型列表为空
 
-如果在运行 `/login`（或 `/setup`）命令时看到 "No models available for the selected platform" 错误，可能是以下原因：
+如果在运行 `/login` 命令时看到 "No models available for the selected platform" 错误，可能是以下原因：
 
 - **API 密钥无效或过期**：检查你输入的 API 密钥是否正确，以及是否仍有效。
 - **网络连接问题**：确认能正常访问 API 服务地址（如 `api.kimi.com` 或 `api.moonshot.cn`）。
@@ -29,7 +76,7 @@ preview_content: "Kimi Code 常见问题"
 
 | 平台 | Base URL | 计费方式 | Key 创建入口 |
 |------|---------|---------|-------------|
-| **Kimi Code** | Open AI 兼容： `https://api.kimi.com/coding/v1`<br> Anthropic 兼容：`https://api.kimi.com/coding/` | Kimi 会员订阅（含额度） | [Kimi Code 控制台](https://www.kimi.com/code/console) |
+| **Kimi Code** | Anthropic 兼容：`https://api.kimi.com/coding/` | Kimi 会员订阅（含额度） | [Kimi Code 控制台](https://www.kimi.com/code/console) |
 | **Kimi 开放平台** | `https://api.moonshot.cn/v1` | 按量付费 | [Kimi 开放平台官网](https://platform.kimi.com) |
 
 
@@ -39,27 +86,18 @@ API 密钥无效可能的原因：
 
 - **密钥输入错误**：检查是否有多余的空格或遗漏的字符。
 - **密钥已过期或被撤销**：在平台控制台确认密钥状态。
-- **环境变量覆盖**：检查是否有 `KIMI_API_KEY` 或 `OPENAI_API_KEY` 环境变量覆盖了配置文件中的密钥。可以运行 `echo $KIMI_API_KEY` 检查。
 
 ### 会员过期或配额用尽
 
-如果你使用 Kimi Code 平台，可以通过 `/usage` 命令查看当前的配额和会员状态。如果配额用尽或会员过期，需要在 [Kimi Code](https://kimi.com/coding) 续费或升级。
+如果你使用 Kimi Code 平台，可以通过 `/usage` 命令查看当前的配额和会员状态。如果配额用尽或会员过期，需要在 [Kimi Code](https://kimi.com/code) 续费或升级。
+
+## 订阅相关
+
+### 如何开发票或升级会员
+
+请前往 [Kimi 会员权益页面](https://www.kimi.com/membership/pricing#pricing-faq)，根据页面指引完成开票申请或会员升级操作。
 
 ## 交互问题
-
-### Shell 模式中 `cd` 命令无效
-
-在 Shell 模式中执行 `cd` 命令不会改变 Kimi Code CLI 的工作目录。这是因为每次 Shell 命令在独立的子进程中执行，目录切换只在该进程内生效。
-
-如果需要切换工作目录：
-
-- **退出并重新启动**：在目标目录中重新运行 `kimi` 命令。
-- **使用 `--work-dir` 参数**：启动时指定工作目录，如 `kimi --work-dir /path/to/project`。
-- **在命令中使用绝对路径**：直接使用绝对路径执行命令，如 `ls /path/to/dir`。
-
-### 工作目录被删除或移除
-
-如果在会话期间工作目录变得不可访问（外置硬盘拔出、目录被删除或文件系统卸载），Kimi Code CLI 会检测到这一情况并显示崩溃报告，包含会话 ID 和工作目录路径，之后干净退出。你可以通过 `kimi -r <session-id>` 在正确的目录中恢复会话。
 
 ### 粘贴图片失败
 
@@ -69,90 +107,6 @@ API 密钥无效可能的原因：
 
 - **切换到支持图片的模型**：使用支持 `image_in` 能力的模型。
 - **检查剪贴板内容**：确保剪贴板中确实有图片数据，而非图片文件的路径。
-
-## ACP 问题
-
-### IDE 无法连接到 Kimi Code CLI
-
-如果 IDE（如 Zed 或 JetBrains IDE）无法连接到 Kimi Code CLI，请检查以下几点：
-
-- **确认 Kimi Code CLI 已安装**：运行 `kimi --version` 确认安装成功。
-- **检查配置路径**：确保 IDE 配置中的 Kimi Code CLI 路径正确。通常可以使用 `kimi acp` 作为命令。
-- **检查 uv 路径**：如果使用 uv 安装，确保 `~/.local/bin` 在 PATH 中。可以使用绝对路径，如 `/Users/yourname/.local/bin/kimi acp`。
-- **查看日志**：检查 `~/.kimi/logs/kimi.log` 中的错误信息。
-
-## MCP 问题
-
-### MCP 服务启动失败
-
-添加 MCP 服务器后，如果工具未加载或报错，可能是以下原因：
-
-- **命令不存在**：对于 stdio 类型的服务器，确保命令（如 `npx`）在 PATH 中。可以使用绝对路径配置。
-- **配置格式错误**：检查 `~/.kimi/mcp.json` 是否为有效的 JSON 格式。运行 `kimi mcp list` 查看当前配置。
-
-调试步骤：
-
-<CodePreview
-  files={[
-    {
-      name: "command.sh",
-      language: "bash",
-      content: "# 查看已配置的服务器\nkimi mcp list\n\n# 测试服务器是否正常\nkimi mcp test <server-name>",
-    },
-  ]}
-/>
-
-### OAuth 授权失败
-
-对于需要 OAuth 授权的 MCP 服务器（如 Linear），如果授权失败：
-
-- **检查网络连接**：确保能访问授权服务器。
-- **重新授权**：运行 `kimi mcp auth <server-name>` 重新进行授权。
-- **重置授权**：如果授权信息损坏，可以运行 `kimi mcp reset-auth <server-name>` 清除后重试。
-
-### Header 格式错误
-
-添加 HTTP 类型的 MCP 服务器时，Header 格式应为 `KEY: VALUE`（冒号后有空格）。例如：
-
-<CodePreview
-  files={[
-    {
-      name: "command.sh",
-      language: "bash",
-      content: "# 正确\nkimi mcp add --transport http context7 https://mcp.context7.com/mcp --header \"CONTEXT7_API_KEY: your-key\"\n\n# 错误（缺少空格或使用等号）\nkimi mcp add --transport http context7 https://mcp.context7.com/mcp --header \"CONTEXT7_API_KEY=your-key\"",
-    },
-  ]}
-/>
-
-## Print/Wire 模式问题
-
-### JSONL 输入格式无效
-
-使用 `--input-format stream-json` 时，输入必须是有效的 JSONL（每行一个 JSON 对象）。常见问题：
-
-- **JSON 格式错误**：确保每行是完整的 JSON 对象，没有语法错误。
-- **编码问题**：确保输入使用 UTF-8 编码。
-- **换行符问题**：Windows 用户注意检查换行符是否为 `\n` 而非 `\r\n`。
-
-正确的输入格式示例：
-
-<CodePreview
-  files={[
-    {
-      name: "example.json",
-      language: "json",
-      content: '{"role": "user", "content": "你好"}',
-    },
-  ]}
-/>
-
-### Print 模式无输出
-
-如果 `--print` 模式下没有输出，可能是：
-
-- **未提供输入**：需要通过 `--prompt`（或 `--command`）或 stdin 提供输入。例如：`kimi --print --prompt "你好"`。
-- **输出被缓冲**：尝试使用 `--output-format stream-json` 获取流式输出。
-- **配置未完成**：确保已通过 `/login` 配置 API 密钥和模型。
 
 ## 更新与升级
 
@@ -165,43 +119,11 @@ macOS 的 Gatekeeper 安全机制会在首次运行新程序时进行检查，�
 
 ### 如何升级 Kimi Code CLI
 
-使用 uv 升级到最新版本：
+在 CLI 内运行 `kimi upgrade`，会自动检查最新版本并引导升级。也可以直接用包管理器：
 
-<CodePreview
-  files={[
-    {
-      name: "command.sh",
-      language: "bash",
-      content: "uv tool upgrade kimi-cli --no-cache",
-    },
-  ]}
-/>
-
-添加 `--no-cache` 参数可以确保获取最新版本。
-
-### 启动时弹出更新提醒
-
-当后台检查发现新版本时，Kimi Code CLI 会在 Shell 启动前显示一个阻断式更新提醒，列出当前版本和最新版本信息。你可以通过以下按键选择操作：
-
-- **Enter**：立即升级到最新版本
-- **q**：暂时跳过，下次启动时继续提醒
-- **s**：跳过该版本，不再提醒（直到有更新的版本发布）
-
-### 如何禁用更新提醒
-
-如果不希望 Kimi Code CLI 在后台检查更新，可以设置环境变量：
-
-<CodePreview
-  files={[
-    {
-      name: "command.sh",
-      language: "bash",
-      content: "export KIMI_CLI_NO_AUTO_UPDATE=1",
-    },
-  ]}
-/>
-
-可以将此行添加到你的 shell 配置文件（如 `~/.zshrc` 或 `~/.bashrc`）中。
+```sh
+npm install -g @moonshot-ai/kimi-code@latest
+```
 
 ## VS Code 扩展常见问题
 

@@ -1,0 +1,11 @@
+{
+  "title": "Kimi Business",
+  "description": "Enterprise plan benefits, pricing, team management, workspaces, and common questions",
+  "seo": {
+    "title": "Kimi Business",
+    "description": "Enterprise plan benefits, pricing, team management, workspaces, and common questions"
+  },
+  "icon": "okcomputer",
+  "order": 13,
+  "note": "extract_headings: true/false in each md front matter controls whether ## headings are shown as sub-items on list pages"
+}
