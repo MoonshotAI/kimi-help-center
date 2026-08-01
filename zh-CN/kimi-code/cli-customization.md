@@ -18,7 +18,7 @@ Kimi Code CLI 提供了丰富的定制化选项，让你可以根据自己的需
 
 ## 配置文件
 
-Kimi Code CLI 使用 `~/.kimi/config.toml` 作为全局配置文件，支持 TOML 和 JSON 两种格式。你可以在配置文件中设置：
+Kimi Code CLI 使用 `~/.kimi-code/config.toml` 作为全局配置文件，支持 TOML 和 JSON 两种格式。你可以在配置文件中设置：
 
 - **API 供应商和模型**：配置不同的模型提供商、API 地址和密钥。
 - **默认模型**：指定默认使用的模型。
@@ -43,7 +43,7 @@ Kimi Code CLI 使用 `~/.kimi/config.toml` 作为全局配置文件，支持 TOM
 
 你可以通过以下方式自定义 AI 的 system prompt：
 
-- **全局 system prompt**：在 `~/.kimi/AGENTS.md` 中编写，对所有项目生效。
+- **全局 system prompt**：在 `~/.kimi-code/AGENTS.md` 中编写，对所有项目生效。
 - **项目级 system prompt**：在项目根目录的 `AGENTS.md` 中编写，仅对当前项目生效。
 - **启动参数**：使用 `--system-prompt` 参数在启动时指定。
 
@@ -57,7 +57,7 @@ Kimi Code CLI 支持 Model Context Protocol（MCP），可以连接外部工具�
 - **内置 MCP 支持**：部分常用的 MCP 工具已内置，无需额外配置。
 - **自定义 MCP 服务器**：你可以开发自己的 MCP 服务器，为 AI 提供特定领域的能力。
 
-MCP 配置可以写在 `~/.kimi/config.toml` 或项目级别的配置文件中。
+MCP 配置可以写在 `~/.kimi-code/config.toml` 或项目级别的配置文件中。
 
 ## 环境变量
 

@@ -21,7 +21,6 @@ Kimi Code CLI 提供了多种交互方式，帮助你高效地与 AI 协作。
 Thinking 模式让 AI 在回答前进行更深入的思考，适合处理复杂问题。
 
 - 使用 `/model` 命令切换模型和 Thinking 模式。
-- 启动时可通过 `--thinking` 参数直接开启 Thinking 模式。
 
 ## 多行输入
 

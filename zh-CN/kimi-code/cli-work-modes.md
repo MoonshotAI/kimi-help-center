@@ -58,16 +58,6 @@ AI 完成方案后会通过 `ExitPlanMode` 提交审批。审批面板会显示�
 
 Thinking 模式让 AI 在回答前进行更深入的思考，适合处理复杂问题。
 
-你可以通过 `/model` 命令切换模型和 Thinking 模式。在选择模型后，如果模型支持 Thinking 模式，系统会询问是否开启。也可以在启动时通过 `--thinking` 参数启用：
-
-<CodePreview
-  files={[
-    {
-      name: "command.sh",
-      language: "bash",
-      content: "kimi --thinking",
-    },
-  ]}
-/>
+你可以通过 `/model` 命令切换模型和 Thinking 模式。在选择模型后，如果模型支持 Thinking 模式，系统会询问是否开启。
 
 > 提示：Thinking 模式需要当前模型支持。部分模型（如 `kimi-k2-thinking-turbo`）始终使用 Thinking 模式，无法关闭。
