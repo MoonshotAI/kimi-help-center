@@ -58,16 +58,6 @@ Use the `/plan` command to manage Plan mode:
 
 Thinking mode lets the AI think more deeply before responding, making it suitable for complex problems.
 
-You can use the `/model` command to switch models and Thinking mode. After you select a model, if the model supports Thinking mode, the system will ask whether to enable it. You can also enable it at startup with the `--thinking` option:
-
-<CodePreview
-  files={[
-    {
-      name: "command.sh",
-      language: "bash",
-      content: "kimi --thinking",
-    },
-  ]}
-/>
+You can use the `/model` command to switch models and Thinking mode. After you select a model, if the model supports Thinking mode, the system will ask whether to enable it.
 
 > Tip: Thinking mode must be supported by the current model. Some models, such as `kimi-k2-thinking-turbo`, always use Thinking mode and cannot turn it off.

@@ -20,7 +20,6 @@ Kimi Code CLI provides multiple interaction methods to help you collaborate with
 Thinking Mode enables the AI to perform deeper reasoning before responding — ideal for complex problems.
 
 - Use the `/model` command to switch models and toggle Thinking Mode.
-- You can also enable Thinking Mode at launch with the `--thinking` flag.
 
 ## Multi-line input
 

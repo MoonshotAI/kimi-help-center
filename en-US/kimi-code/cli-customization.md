@@ -17,7 +17,7 @@ Kimi Code CLI offers extensive customization options, allowing you to tailor the
 
 ## Configuration file
 
-Kimi Code CLI uses `~/.kimi/config.toml` as its global configuration file, supporting both TOML and JSON formats. You can configure:
+Kimi Code CLI uses `~/.kimi-code/config.toml` as its global configuration file, supporting both TOML and JSON formats. You can configure:
 
 - **API Providers and Models**: Set up different model providers, API endpoints, and keys.
 - **Default Model**: Specify the default model to use.
@@ -40,7 +40,7 @@ Use the `/init` command to have the AI automatically scan your project and gener
 
 You can customize the AI's system prompt in several ways:
 
-- **Global system prompt**: Write it in `~/.kimi/AGENTS.md` — applies to all projects.
+- **Global system prompt**: Write it in `~/.kimi-code/AGENTS.md` — applies to all projects.
 - **Project-level system prompt**: Write it in the project root's `AGENTS.md` — applies only to the current project.
 - **Launch parameter**: Use the `--system-prompt` flag to specify at startup.
 
@@ -54,7 +54,7 @@ Kimi Code CLI supports the Model Context Protocol (MCP), enabling connections to
 - **Built-in MCP Support**: Some commonly used MCP tools are built in and require no additional configuration.
 - **Custom MCP Servers**: You can develop your own MCP servers to provide domain-specific capabilities.
 
-MCP configuration can be placed in `~/.kimi/config.toml` or in project-level configuration files.
+MCP configuration can be placed in `~/.kimi-code/config.toml` or in project-level configuration files.
 
 ## Environment variables
 
